@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+    <script src="node_modules/vue.js"></script>
+</head>
+
+<style>
+    .ff{border: 1px solid #000;}
+</style>
+<body>
+
+<div id="div1" :class="ff" :style="ha">
+    <img :src="url" alt="" :width="a">
+</div>
+
+
+
+
+<script>
+
+    window.onload=function(){
+
+        var c=new Vue({
+            el:"#div1",
+            data:{
+              url:"https://file.iviewui.com/dist/fe8d29da1225d943e30f9ee1bddce78f.png", //图片路径
+              a:"200px", //宽度
+              ff:"ff", //class的写法
+              ha:{  //style数组写法
+                  background:"red"
+              }
+            }
+        })
+    }
+
+
+
+</script>
+</body>
+</html>

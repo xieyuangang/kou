@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/vue.js"></script>
+</head>
+<body>
+<div id="div1">
+    <input type="button" value="按钮"v-on:click="a=false">
+    <div style="width: 100px;height: 100px;background: #000"  v-show="a"></div>
+</div>
+<script>
+    window.onload=function () {
+        var  c=new Vue({
+            el:"#div1",  //.div1也可以
+            data:{
+               a:true
+            }
+        })
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义过滤器</title>
+    <script src="node_modules/vue.js"></script>
+</head>
+<body>
+
+<div id="div1">
+
+{{ a | toDou}}
+
+</div>
+
+<script>
+        Vue.filter('toDou',function(input){
+            return input<10?'0'+input:''+input; //判断给单数前面加个0
+        });
+        var vm=new Vue({
+            el:"#div1",
+            data:{
+                a:9
+            },
+            methods:{
+
+            }
+        })
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/vue.js"></script>
+</head>
+<body>
+  <div id="div1">
+      <input type="text" v-model="msg">
+      <input type="text" v-model="msg">
+      {{msg}}
+      <ul>
+          <li v-for="value in json">
+              {{value}} {{ $index }} {{$key}}
+          </li>
+          <hr/>
+          <li v-for="value in arr">
+              {{value}}
+          </li>
+      </ul>
+
+      <input type="button" value="按钮" v-on:click="ff">
+   </div>
+  <script>
+     window.onload=function () {
+      var  c=new Vue({
+           el:"#div1",  //.div1也可以
+          data:{
+               msg:"你好！",
+               arr:['小明','小红','小兰'],
+              json:{a:"还好",b:"scsa",c:"hh"}
+          },
+          methods:{
+               ff:function () {
+                   this.arr.push("哈哈") //本身的li下面添加
+               }
+          }
+      })
+     }
+  </script>
+</body>
+</html>

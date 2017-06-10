@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>循环数据</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<body>
+
+ <div id="div1">
+
+     <input type="button" value="aa" @click="add" >
+     <ul>
+         <li v-for="ite in arr"  track-by="$index">{{ite}}</li>
+     </ul>
+ </div>
+
+
+ <script>
+     var vm=new Vue({
+         el:"#div1",
+         data:{
+            arr:["ff","gg","hh","jj"]
+         },
+         methods:{
+             add:function () {
+                 this.arr.push("hhhhhhhh")
+             }
+         }
+     })
+
+ </script>
+</body>
+</html>

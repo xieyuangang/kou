@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>发送请求</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<body>
+<input type="button" value="按钮" @click="get">
+<script>
+    window.onload=function () {
+        var c=new Vue({
+            el:"body",
+            data:{},
+            methods:{
+                get:function () { //方法
+                    this.$http.get('get.php',{
+                         a:1,
+                         b:9
+                    }).then(function (res) { //路径
+                        alert(res.data);//成功的提示
+                    },function (res) {
+                        alert(res.status)//失败的提示
+                    });
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

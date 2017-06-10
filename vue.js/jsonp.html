@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跨域去文件</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<body>
+<input type="button" value="按钮" @click="get">
+<script>
+    window.onload=function (){
+        var c=new Vue({
+            el:"body",
+            data:{},
+            methods:{
+                get:function (){ //方法
+                    this.$http.jsonp('https://sug.so.360.cn/suggest?',{ // 请求地址
+                        word:"a" //数据
+                    }).then(function (res){ //路径
+                        alert(res.data.s);//成功的提示
+                    },function (res){
+                        alert(res.status)//失败的提示
+                    });
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

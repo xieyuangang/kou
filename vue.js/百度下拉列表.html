@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>百度下拉列表</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<style>
+    .gea {
+        background: #4def5c
+    }
+</style>
+<body>
+<div id="div1">
+    <input type="text" v-model="tt" @keyup="get($event)"  @keydown.down="jea()" @keydown.up.prevent="kos()">
+    <ul>
+        <li v-for="value in myData" :class="{gea:$index==now}" >{{value}}</li>
+    </ul>
+    <p v-show="myData.length==0">没有..........</p>
+</div>
+<script>
+    window.onload = function () {
+        var c = new Vue({
+            el: '#div1',
+            data: {
+                myData: [],//空数据
+                tt: "", //清空
+                now:-1 //自定义变量
+            },
+            methods: {
+                get: function (ev) {
+                    if(ev.keyCode==38 || ev.keyCode==40){return}//阻止请求
+
+                    if(ev.keyCode==13){ //回车搜索
+                        window.open(' https://www.baidu.com/s?wd='+this.tt); //搜索接口
+                        this.tt=""
+                    }
+                    this.$http.jsonp('https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su', {//jsonp地址  数据接口
+                        wd: this.tt  // 获取数据
+                    }, {
+                        jsonp: 'cb' //百度cd转译
+                    }).then(function (res) {
+                        this.myData = res.data.s //请求成功
+                    }, function (res) {
+                        this.myData = status.status //请求失败
+                    })
+                },
+                jea:function () {
+                    this.now++;//下键加加
+                    if(this.now==this.myData.length){this.now=-1}//判断超出他的长度后==-1
+                    this.tt=this.myData[this.now] //进行选中
+                },
+                kos:function () {
+                    this.now--;
+                    if(this.now==-2){this.now=this.myData.length-1}
+                    this.tt=this.myData[this.now] //进行选中
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>计算机属性</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<body>
+<div class="znsArea" style="width: 600px;height: 300px;margin: 0 auto;border: 1px solid #000;">
+    {{a}} {{b}}
+</div>
+
+<script>
+    window.onload = function () {
+        var URL = "weibo.php";
+        var vm= new Vue({
+            el: ".znsArea",
+            data: {   //vue的属性
+                a:6
+            },
+            computed: {  //计算机属性
+                b:{
+                    //业务逻辑代码
+                   //  return this.a+1;  //他的值是返回值
+                    get:function(){
+                        return this.a+2;
+                    },
+                    set:function(val){
+                        this.a=val;
+                    }
+                }
+            }
+        });
+
+        document.onclick=function () {
+            vm.b=15
+
+        }
+    };
+
+</script>
+
+
+</body>
+</html>

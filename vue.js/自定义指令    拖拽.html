@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义指令 拖拽</title>
+    <script src="node_modules/vue.js"></script>
+</head>
+<body>
+
+
+
+
+<div id="fa">
+       <div  v-drag  style="width: 200px;height: 200px;background: red;position:absolute;top:0;left:0;"></div>
+</div>
+
+
+<script>
+   Vue.directive("drag",function () {
+
+         var dd=this.el;
+         dd.onmousedown=function (ev) {
+             var divX=ev.clientX-dd.offsetLeft;
+             var divY=ev.clientY-dd.offsetTop;
+
+             document.onmousemove=function (ev) {
+                    var f=ev.clientX-divX;
+                    var l=ev.clientY-divY;
+                    dd.style.left=f+"px";
+                    dd.style.top=l+"px";
+             };
+             document.onmouseup=function () {
+                 document.onmousemove=null;
+                 document.onmouseup=null;
+             }
+         }
+   });
+
+    var vm=new Vue({
+        el:"#fa",
+        data:{
+
+        },
+        methods:{
+
+
+        }
+    })
+</script>
+</body>
+</html>

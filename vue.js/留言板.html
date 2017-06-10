@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/vue.js"></script>
+    <style>
+        .div1{width:400px;height:300px;border: 1px solid #999;margin: 0 auto;}
+    </style>
+</head>
+<body>
+<div class="div1" id="box">
+    <form action="" role="form">
+        <div>
+            <label for="username">
+                姓名：
+            </label>
+            <input type="text" id="username" v-model="username">
+        </div>
+
+        <div>
+            <label for="username">
+                年龄：
+            </label>
+            <input type="text" id="age" v-model="age">
+        </div>
+        <input type="button" value="添加" @click="add()">
+        <input type="reset" value="重置">
+    </form>
+
+    <table style="border: 1px solid red">
+        <caption>用户信息表</caption>
+        <tr>
+            <th>序号</th>
+            <th>名字</th>
+            <th>年龄</th>
+            <th>操作</th>
+        </tr>
+        <tr v-for="item in myData">
+            <td>{{$index+1}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.age}}</td>
+            <td>
+                <button @click="deleteMsg(nowIndex=$index)">删除</button>
+            </td>
+        </tr>
+        <tr v-show="myData.length!=0">
+            <td>
+                <button @click="deleteMsg(nowIndex=-2)">删除全部</button>
+            </td>
+        </tr>
+        <tr v-show="myData.length==0">
+            <td>
+                <p>暂无数据....</p>
+            </td>
+        </tr>
+    </table>
+    <div></div>
+</div>
+<script>
+    window.onload = function () {
+        var c = new Vue({
+            el: "#box",//找id
+            data: {
+                myData: [], //放数据的地方
+                username: "",//存放数据的地方
+                age: "",//存放数据的地方
+                nowInsex: -100  //定义一个变量
+            },
+            methods: {  //定义函数
+                add: function () {  //添加函数
+                    this.myData.push({
+                        name: this.username,//输入的数据
+                        age: this.age//输入的数据
+                    });
+                    this.username = "";//输入完后清空数据
+                    this.age = "";//输入完后清空数据
+                },
+                deleteMsg: function (n) {
+                    if (n == -2) {
+                        this.myData = [] //全部删除
+                    } else {
+                        this.myData.splice(n, 1)//单个删除
+                    }
+                }
+
+            }
+        })
+    }
+</script>
+</body>
+</html>

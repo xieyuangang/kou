@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>跨域去文件2</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<body>
+<input type="button" value="按钮" @click="get">
+
+<script>
+    window.onload=function (){
+        var c=new Vue({
+            el:"body",
+            data:{},
+            methods:{
+                get:function (){ //方法
+                    this.$http.jsonp('https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su',{ // 请求地址
+                        wd:"a"//数据
+                    },{
+                        jsonp:'cb' //转换  callback的名字   默认就是callback 如果是cd 就要转换
+                    }).then(function (res){ //路径
+                        alert(res.data.s);//成功的提示
+                    },function (res){
+                        alert(res.status)//失败的提示
+                    });
+                }
+            }
+        })
+    }
+</script>
+</body>
+</html>

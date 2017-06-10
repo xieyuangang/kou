@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>事件</title>
+    <script src="node_modules/vue.js"></script>
+</head>
+<body>
+
+<input type="button" value="按钮" id="input1" @keydown.13="fa()">
+
+
+
+<script>
+
+window.onload=function(){
+
+    var c=new Vue({
+       el:"#input1",
+        data:{
+
+
+        },
+        methods:{
+            fa:function () {
+                alert("aa")
+            }
+
+          /*fa:function (ev,d) {
+              alert(ev.clientX);
+              alert(23)
+          }*/
+        }
+    })
+}
+
+
+
+</script>
+</body>
+</html>

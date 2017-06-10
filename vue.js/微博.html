@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>微博</title>
+    <script src="node_modules/vue.js"></script>
+    <script src="vue-resource.js"></script>
+</head>
+<style>
+    .gea {
+        background: #4def5c
+    }
+</style>
+<body>
+<div id="div1">
+    <input type="text" v-model="tt" @keyup="get($event)"  @keydown.down="jea()" @keydown.up.prevent="kos()">
+    <ul>
+        <li v-for="value in myData" :class="{gea:$index==now}" >{{value}}</li>
+    </ul>
+    <p v-show="myData.length==0">没有..........</p>
+</div>
+<script>
+    window.onload = function () {
+        var c = new Vue({
+            el: '#div1',
+            data: {
+                myData: [],//空数据
+                tt: "", //清空
+                now:-1 //自定义变量
+            },
+            methods: {
+
+            }
+        })
+    }
+</script>
+</body>
+</html>
