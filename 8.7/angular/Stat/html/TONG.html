@@ -1,0 +1,27 @@
+<section>
+    <div class="title">
+        <p><b>选择日期</b><input id="rise"><b> 至</b><input id="stop"></p>
+        <p><input type="submit" value="筛选" style="float: right;margin-right: 10px;width:20%;" class="button"></p>
+
+        <div class="Ldata">
+             <p class="p"><b>2117年1月2号</b>至2017年3月4号，统计信息如下：</p>
+             <p class="p">使用红包数量 <b>10</b>个，抵扣金额 <b>32.00</b>元</p>
+             <p class="p">应收金额 <b>10.33</b>元，实际收款 <b>10.11</b>元</p>
+        </div>
+    </div>
+    <div class="list">
+        <div class="divL"><span>交易时间</span><span>应收金额</span><span>抵扣金额</span><span>实收金额</span></div>
+        <div class="listx">
+          <div class="divL" ng-repeat="x in names">
+                <span class="red">{{x.desc}}</span>
+                <span class="red">{{x.ganhuo_id}}</span>
+                <span class="red">{{x.type}}</span>
+                <span class="red"><img src="{{x.url}}" alt="" style="width:100%;height:100%"></span>
+            </div>
+            <span style="width:100px" ui-sref=".Page1"><a href="">Page-1</a></span>
+            <span style="width:100px" ui-sref=".Page2"><a href="">Page-2</a></span>
+            <div ui-view=""/>
+        </div>
+    </div>
+    <div id="datePlugin"></div>
+</section>

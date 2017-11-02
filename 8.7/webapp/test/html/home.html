@@ -1,0 +1,59 @@
+<section ng-controller="homeCtrl">
+	<div>
+		<div class="md">
+			<div class="regPhone" ng-show="bestpay">
+				<input type="tel" placeholder="请输入翼支付手机号码" ng-model="regPhone" maxlength="11"/>
+			</div>
+		
+			<div ng-show="inputMoney" ng-init="amount='';" class="inputMoney">
+				<table>
+					<tr>
+						<td><input type="number" placeholder="输入金额" ng-model="amount" id="amount"></td>
+						<td width="110"><input type="button" value="确认支付" class="buyBtn" ng-click="sure()" id="buyBtn"/></td>
+					</tr>
+				</table>
+			</div>
+			<div class="propt_home">收款单位：{{shopName}}</div>
+			<div class="No">烟草专卖证号：<span ng-if="license == 'null'">未提交烟草专卖许可证</span><span ng-if="license != 'null'">{{license}}</span></div>
+		</div>
+		<div id="ad">
+			<div>
+				<div class="adPrompt"><span style="font-size: 16px;">点击下列商品支付即可抽奖</span></div>
+				<div id="adCont">
+					<div>
+						<div ui-view=""></div>
+						<div class="notPrompt">
+							<a href="javacript:void(0)" ng-click="toNot()">您有未领取的奖品，点击查看</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="notPrompt">
+			<a href="javacript:void(0)" ng-click="toNot()">您有未领取的奖品，点击查看</a>
+		</div>
+	</div>
+	
+	<loading></loading>
+	
+	<form method="post" action="http://h5pay.jd.com/jdpay/customerPay" id="jdForm">
+	    <input type="hidden" name="version" id="version"/>
+	    <input type="hidden" name="merchant" id="merchant"/>
+	    <input type="hidden" name="device" id="device"/>
+	    <input type="hidden" name="tradeNum" id="tradeNum"/>
+	    <input type="hidden" name="tradeName" id="tradeName"/>
+	    <input type="hidden" name="tradeTime" id="tradeTime"/>
+	    <input type="hidden" name="currency" id="currency"/>
+	    <input type="hidden" name="amount" id="jdAmount"/>
+	    <input type="hidden" name="callbackUrl" id="callbackUrl"/>
+	    <input type="hidden" name="notifyUrl" id="notifyUrl"/>
+	    <input type="hidden" name="ip" id="ip"/>
+	    <input type="hidden" name="expireTime" id="expireTime"/>
+	    <input type="hidden" name="orderType" id="orderType"/>
+	    <input type="hidden" name="sign" id="sign"/>
+	    <input type="hidden" name="payMerchant" id="payMerchant"/>
+	    <input type="hidden" name="tradeType" id="tradeType"/>
+	    <input type="hidden" name="riskInfo" id="riskInfo" />
+	</form>
+	
+</section>

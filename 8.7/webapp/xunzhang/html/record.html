@@ -1,0 +1,53 @@
+<section ng-controller="recordCtrl" style="background: #f2f2f2;">
+
+    <header>
+        <table>
+            <tr>
+                <td width="60" ng-click="toBack()"><img src="{{url}}/xunzhang/images/back_icon.png"/>返回</td>
+                <td align="center" class="title">交易记录</td>
+                <td align="right" width="60"></td>
+            </tr>
+        </table>
+    </header>
+
+
+    <div class="time">
+        <table>
+            <tr>
+                <td id="timeResult"></td>
+                <td align="right" ng-click="showSelect()"><img src="{{url}}/xunzhang/images/time_icon.png"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="iscroll" style="margin-top: 5px;">
+
+        <ul class="recordList">
+            <li ng-repeat="r in records">
+                <table>
+                    <tr>
+                        <td width="68" rowspan="2">
+                        	<span class="goodsImg">
+                        		<span style="display: table-cell;vertical-align: middle;">
+                        			<span ng-if="r.imagesUrl == 'null'"><img src="{{url}}/xunzhang/images/star.png"/></span>
+                        			<span ng-if="r.imagesUrl != 'null'"><img src="{{r.imagesUrl}}"/></span>
+                        		</span>
+                        	</span>
+                        </td>
+                        <td>{{r.name}}</td>
+                        <td width="68" rowspan="2" class="num">
+                        	<span ng-if="r.type == 0">+</span>
+                        	<span ng-if="r.type == 1">-</span>
+                        	{{r.medalNum}}枚
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>{{r.transTime | cut}}</td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+
+    </div>
+
+</section>

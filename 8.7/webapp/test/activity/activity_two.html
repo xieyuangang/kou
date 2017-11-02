@@ -1,0 +1,60 @@
+<style type="text/css">
+	.contBox{ margin: 5px 10px; }
+	#smokeBox{ width: 100%;border-collapse: collapse;margin-top: 0px;}
+	#smokeBox td{ width: 25%;text-align: center;}
+	#smokeBox td img{ width: 80%;}
+	.promptTitle{ font-size: 16px;padding: 5px 0; }
+	.prize table{ width: 100%;line-height: 16px;}
+	.prize table td{ padding-bottom: 10px;font-size: 14px;}
+	.price{ margin-top: 10px;display: block;}
+	.price font{ font-size: 16px;}
+	.hdPro{ background-color: #FFF100;color: #B70705;font-size: 10px;padding: 0px 10px;height:16px;border-radius:8px;}
+	
+	.smokeUl{ padding: 0;margin: 0 0 10px 0;list-style: none;}
+	.smokeUl:after{ content:' ';display: block;clear: both;}
+	.smokeUl li{ width: 50%;float: left;text-align: center;margin-top: 10px;}
+	.smokeUl li img{ width: 40%;}
+</style>
+<div class="contBox">
+	<!-- <div class="goodsPrompt">点选支付<span style="font-size: 24px;color: #BF0000;">多买多中抽大奖</span></div> -->
+	<ul class="smokeUl">
+		<li ng-repeat="a in actgoods.slice().reverse()" ng-click="toActivity()">
+			<img src="{{a.imgUrl}}" /><br/>
+			<span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+			<!-- <span class="hdPro">活动售价</span> -->
+		</li>
+	</ul>
+	<!-- <table id="smokeBox">
+		<tr>
+			<td ng-repeat="a in actgoods.slice().reverse()" ng-click="toActivity()">
+				<img src="{{a.imgUrl}}" /><br/>
+				<span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+				<span class="hdPro">活动售价</span>
+			</td>
+		</tr>
+	</table> -->
+	<div class="promptTitle">活动奖品设置</div>
+	<ul class="prize">
+		<table>
+			<tr>
+				<td width="50" valign="top">特等奖</td>
+				<td valign="top">同购买产品整条价值的礼品一份</td>
+			</tr>
+			<tr>
+				<td valign="top">一等奖</td>
+				<td valign="top">电动剃须刀、瑞士军刀、双肩包三种之一</td>
+			</tr>
+			<tr>
+				<td valign="top">二等奖</td>
+				<td valign="top">同购买产品单包价值的礼品一份</td>
+			</tr>
+			<tr>
+				<td valign="top">鼓励奖</td>
+				<td valign="top">打火机一个或矿泉水一瓶</td>
+			</tr>
+			<tr>
+				<td valign="top" colspan="2">2017年4月24日至2017年6月23日</td>
+			</tr>
+		</table>
+	</ul>
+</div>

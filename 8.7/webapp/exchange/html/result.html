@@ -1,0 +1,80 @@
+
+<section id="result" ng-controller="resultCtrl">
+	<div>
+	    <header>
+	        <table>
+	            <tr>
+	                <td align="center">
+	                    <span class="shopName" ng-bind="shopName"></span>
+	                    <!-- <span class="evaluate">
+	                        <img src="{{url}}/exchange/images/star.png" class="star"/><span class="fs"><span ng-bind="commentAvgScore"></span>分</span>
+	                        <span><span ng-bind="commentSum"></span>人评价过</span>
+	                    </span> -->
+	                </td>
+	            </tr>
+	        </table>
+	    </header>
+	    
+	    <div class="payState">
+	    	<img src="{{urlImg}}" class="stateImg" />
+	    	<div class="stateMsg" ng-bind="stateMsg"></div>
+	    </div>
+	    
+	    <div class="settlementList" id="settlementList">
+	    	<div class="settlementTitle">支付清单</div>
+	    	<table>
+	    		<tr>
+	    			<td>消费积分</td>
+	    			<td align="right"><span ng-bind="amount"></span> 积分</td>
+	    		</tr>
+	    		<tr>
+	    			<td>积分总数</td>
+	    			<td align="right"><span ng-bind="point"></span> 积分</td>
+	    		</tr>
+	    	</table>
+	    </div>
+	    
+	   <!--  <div class="evaluateBox" id="evaluateBox">
+	        <div class="score">
+	            <table>
+	                <tr>
+	                    <td>评分：</td>
+	                    <td>
+	                        <img src="{{url}}/exchange/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/exchange/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/exchange/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/exchange/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/exchange/images/score.png" class="scoreImg"/>
+	                    </td>
+	                </tr>
+	            </table>
+	        </div>
+	    </div>
+	    <input type="button" value="点评" class="btn" id="btn" ng-click="evaluate()"/> -->
+	    <input type="button" value="重新支付" class="btn" id="repayment" ng-click="repayment()"/>
+
+		<ul class="hdList">
+			<li onclick="javascript:location.href='https://shop266638597.taobao.com/search.htm?spm=a1z10.3-c.w4002-16234901030.5.Jbe9tv&_ksTS=1494488184030_124&callback=jsonp125&mid=w-16234901030-0&wid=16234901030&path=%2Fsearch.htm&search=y&csy=1&csy=1&pv=6939376:156549741-18877585:44158624'" ng-show="alipayShow">
+				<img src="{{url}}/tourism/images/alipay_icon.png" />
+			</li>
+			<li onclick="javascript:location.href='https://weidian.com/?userid=1200642612&wfr=c&ifr=shopdetail'" ng-show="wxShow">
+				<img src="{{url}}/tourism/images/wx_icon.png" />
+			</li>
+			<li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=722C0EB8FC7709BCD4E0AACAA4C167F9'">
+				<img src="{{url}}/tourism/images/shop_icon_1.png" />
+			</li>
+			<li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=4927FC0B2F040836D9C67403918A6668'">
+				<img src="{{url}}/tourism/images/shop_icon_2.png" />
+			</li>
+			<li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=9FB4C1AB3592744F79A9AD1465DDD161'">
+				<img src="{{url}}/tourism/images/shop_icon_3.png" />
+			</li>
+			<li onclick="javascript:location.href='/page1'">
+				<img src="{{url}}/tourism/images/shop_icon_4.png" />
+			</li>
+			<li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=1E54BEB1228A4586CF438BD4059AB073'">
+				<img src="{{url}}/tourism/images/shop_icon_5.jpg" />
+			</li>
+		</ul>
+    </div>
+</section>

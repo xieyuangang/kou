@@ -1,0 +1,61 @@
+<section ng-controller="orderCtrl" style="background: #f2f2f2;">
+
+    <header>
+        <table>
+            <tr>
+                <td width="60" ng-click="toBack()"><img src="{{url}}/xunzhang/images/back_icon.png"/>返回</td>
+                <td align="center" class="title">确认订单</td>
+                <td align="right" width="60"></td>
+            </tr>
+        </table>
+    </header>
+
+    <div class="addBtn" ng-show="addBtn">
+        <input type="button" value="添加地址" ng-click="toAddress()"/>
+    </div>
+
+    <div class="addressBox" ng-show="addressBox">
+        <table ng-click="toAddressList()">
+            <tr>
+                <td></td>
+                <td class="name">收货人：<span ng-bind="contacts"></span></td>
+                <td class="cell"><span ng-bind="cellphone"></span></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td class="addressImg"><img src="{{url}}/xunzhang/images/address_icon_1.png"/></td>
+                <td colspan="2" class="detail">收货地址：<span ng-bind="detailAddress"></span></td>
+                <td class="toImg"><img src="{{url}}/xunzhang/images/address_icon_2.png"/></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="titleBox">勋章兑换</div>
+
+    <div class="goodsBox">
+        <table>
+            <tr>
+                <td rowspan="2" class="goodsImg"><img src="{{urlImg}}"></td>
+                <td class="goodsName"><span ng-bind="name"></span></td>
+                <td rowspan="2">x1</td>
+            </tr>
+            <tr>
+                <td><span class="medal"><span ng-bind="scoreNum"></span>勋章</span><span class="money">￥<span ng-bind="price"></span></span></td>
+            </tr>
+        </table>
+    </div>
+    <div class="total">
+        <span>共1件商品</span>
+        <span>总计 <span ng-bind="scoreNum"></span> 枚勋章</span>
+    </div>
+
+    <div class="subBox">
+        <table>
+            <tr>
+                <td class="totalText">当前剩余勋章：<span ng-bind="balance"></span>枚</td>
+                <td width="120"><input type="button" value="确定兑换" ng-click="exchange()"></td>
+            </tr>
+        </table>
+    </div>
+
+</section>

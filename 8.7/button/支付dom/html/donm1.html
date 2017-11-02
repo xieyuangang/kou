@@ -1,0 +1,21 @@
+<style>
+    .body{width:100%;height: 100%; background: url(img/be.png);background-size:100% 100%;}
+    .container-fluid{position: fixed;left: 0;bottom:0;}
+    .X{background: url(img/ba.png);background-size:100% 100%;padding:20px 0;height:300px;position: relative; }
+    .Sele:after{content:"★";position: absolute;top:-5px;right:0;color: red;font-size: 20px;}
+</style>
+<div class="body" ng-controller="indeX" ng-style="myObj">
+    <div>
+        <div class="container-fluid" style="width: 100%;">
+            <div class="row X" >
+                <h4 style="width:30%;text-align: center;background:#FCEBD1;  position:absolute;top:-4%;left: 50%;transform: translate(-50%, -50%);color: red;">活动烟品</h4>
+                <div class="col-xs-4"  ng-class="{Sele:a.isHover}" ng-click="clickStatus(a)"   ng-repeat="a in json" hideName={{a.lou}}>
+                    <img ng-src={{a.img}} class="img-rounded" alt="" style="width: 80%;height:80px;margin: 0 auto;display: block;">
+                    <div> <p style="width:100%;height:10px;"><span class="pull-left">{{a.name}}</span></p><p style="width: 100%;height:10px;"><span class="pull-right" style="color:red; ">￥<b>{{a.ke}}</b></span></p></div>
+                </div>
+            </div>
+            <p style="text-align: center">不参加活动可以直接去付款</p>
+            <button type="button" class="btn btn-danger btn-lg btn-block" style="margin-bottom: 20px;" ng-click="goPay()">去支付</button>
+        </div>
+    </div>
+</div>

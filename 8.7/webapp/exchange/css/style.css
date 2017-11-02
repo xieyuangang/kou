@@ -1,0 +1,39 @@
+body , html{ padding: 0;margin: 0;width: 100%;height: 100%;background: #f2f2f2;}
+table { border-collapse: collapse;}
+ul , li{ padding: 0;margin: 0;list-style: none;}
+
+.container{ margin: 0 10px;}
+
+header{ width: 100%;background: #c60c1b;padding: 12px 0;}
+header table{ width: 100%;height: 26px;color:#fff;font-size: 15px;}
+header table .more{ font-size: 14px;text-align: right;}
+header table img{ width: 15px;display: block;}
+header table .back{ width: 25px;border-right: 1px solid #fff;}
+header table .title{ padding-left: 10px;}
+
+footer{ background: #fff;border-top: 1px solid #bfbfbf;}
+footer .staTitle{ height: 30px;font-size: 14px;line-height: 30px;padding: 0 10px;}
+footer .staBox{ border-top: 1px solid #f2f2f2;border-bottom: 1px solid #f2f2f2;padding: 6px 0;}
+footer .staBox table{ width: 100%;text-align: center;font-size: 13px;line-height: 22px;}
+footer .totalPoint{ width: 100%;height: 45px;font-size: 14px;}
+
+.color{ color:#999999;}
+.borderRight{ border-right: 1px solid #f2f2f2}
+
+#wapper li{ height: 40px;border-bottom: 1px solid #f2f2f2;background: #fff;}
+#wapper li table{ width: 100%;height: 40px;font-size: 13px;text-align:center;}
+
+.timeBox{ width: 100%;font-size: 13px;color: #999999;line-height: 25px;overflow: hidden;}
+.timeBox img{ height: 15px}
+.date{ position: absolute;top: 0;left: 0;position: absolute;opacity: 0;width: 100%;height: 100%;}
+
+#pullUp{ width:100%;height:50px;border-top:1px solid #eeeeee;line-height:50px;text-align:center;background:#fff;font-size: 13px;display: none;}
+#pullUp img{ display:none;width:16px;height:16px;position:relative;top:3px;margin-right:10px;}
+
+.inpiutl{opacity:0;position: absolute;top: 0px;right: 0px;}
+.currPointTimeBox{ display: inline-block;position: relative;float: right;}
+.ppl{width:100%;background:#fff;margin: 0;height:40px;padding-top: 8px;padding-left: 3px;padding-right: 8px;box-sizing: border-box;}
+.pl{width:100%;background:#fff;margin:0;height:35px;border-bottom:1px solid #eee;box-sizing: border-box;padding-left: 4px;padding-right: 2px;}
+.pl span{width:24%;display: inline-block;text-align:center;}
+ .container table tr td{width:24%}
+ .Button{width: 70%;line-height:25px;background:#FFF;color:#999;font-size:14px;border: none;display:block;margin: 0 auto;border-radius:3px;margin-bottom:10px;}

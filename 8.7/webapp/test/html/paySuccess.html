@@ -1,0 +1,7 @@
+<section ng-controller="paySuccess">
+	<div class="pay_title"><span ng-bind="title"></span></div>
+	<div class="pay_prompt" ng-show="prompt">恭喜您，本次{{text}}{{money}}元！<br/>实际支付{{amount}}元！</div>
+	<div class="pay_btn">
+		<input type="button" value="确定" ng-click="back()"/>
+	</div>
+</section>

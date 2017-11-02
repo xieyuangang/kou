@@ -1,0 +1,44 @@
+	<section ng-controller="shareCtrl">
+        <div class="box">
+            <header ng-bind="shopName"></header>
+            <div class="imgsBox" ui-sref="images" ng-click="toImages()">
+                <div id="imgs">
+                    <ul>
+                        <li ng-repeat="i in imgList"><img src="{{i}}" /></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="container address">
+	            <table>
+	            	<tr>
+	            		<td width="70">店铺地址：</td>
+	            		<td><span ng-bind="area"></span><span ng-bind="detailAddress"></span></td>
+	            	</tr>
+	            </table>
+            </div>
+        </div>
+        <div class="box">
+            <div class="container contact">
+                <table>
+                    <tr>
+                        <td>联系人：<span ng-bind="contactMan"></span></td>
+                        <td align="right">联系电话：<span ng-bind="contactWay"></span></td>
+                    </tr>
+                </table>
+                <div class="cont" ng-bind="content">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="container evaluate">
+                <div class="evaTitle">网友点评(<span ng-bind="total"></span>)</div>
+                <ul id="evaluate"></ul>
+                <div class="more" ui-sref="evaluate">
+                    	查看更多评价
+                </div>
+            </div>
+        </div>
+    </section>

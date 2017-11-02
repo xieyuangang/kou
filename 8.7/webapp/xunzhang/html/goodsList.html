@@ -1,0 +1,42 @@
+<section ng-controller="goodsListCtrl">
+
+    <header>
+        <table>
+            <tr>
+                <td width="60" ng-click="toBack()"><img src="{{url}}/xunzhang/images/back_icon.png"/>返回</td>
+                <td align="center" class="title" style="font-size: 14px;">剩余<span ng-bind="balance"></span>枚勋章</td>
+                <td align="right" width="60" ng-click="toRecord()">明细</td>
+            </tr>
+        </table>
+    </header>
+
+    <div class="iscroll" id="iscroll">
+        <ul class="goodsList">
+            <li ng-repeat="g in goodsList">
+
+                <table>
+                    <tr>
+                        <td rowspan="2" class="goodsImg">
+                            <img src="{{g.url}}" />
+                        </td>
+                        <td class="goodsName" valign="bottom">
+                            {{g.name}}
+                        </td>
+                        <td rowspan="2">
+                            <input type="button" value="兑换" class="goodsBtn" ng-click="toOrder()"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div><span class="medal">{{g.scoreNum}}勋章</span><span class="money">￥{{g.price}}</span></div>
+                            <div class="stock">库存：{{g.stockNum}}</div>
+                        </td>
+                    </tr>
+                </table>
+
+            </li>
+
+        </ul>
+    </div>
+
+</section>

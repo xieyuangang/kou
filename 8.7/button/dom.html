@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>多选找参数</title>
+    <script src="jquery-3.1.0.min.js"></script>
+</head>
+<body>
+
+ <ul>
+     <li><div><input type="checkbox" name="fruit"></div><span>1</span><span>anj</span></li>
+     <li><div><input type="checkbox" name="fruit"></div><span>2</span><span>anj</span></li>
+     <li><div><input type="checkbox" name="fruit"></div><span>3</span><span>anj</span></li>
+     <li><div><input type="checkbox" name="fruit"></div><span>4</span><span>anj</span></li>
+     <li><div><input type="checkbox" name="fruit"></div><span>5</span><span>anj</span></li>
+ </ul>
+
+ <input type="button" value="提交">
+ <script>
+  $(function () {
+      $("input:button").click(function() {//点击事件
+          var fruit = "";//定义空变量
+          $("input:checkbox[name='fruit']:checked").each(function() {//循环input
+              //fruit += $(this).val() + " ";
+              fruit+=$(this).parent().next().html()+"";//查找当前input的兄弟元素span的值
+          });
+          console.log("已选择水果："+fruit)//fruit值
+      });
+  })
+ </script>
+</body>
+</html>

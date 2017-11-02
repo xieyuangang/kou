@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>店铺资质审核</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="../css/font_eolqem241z66flxr.css" media="all"/>
+    <link rel="stylesheet" href="../css/news.css" media="all"/>
+</head>
+<body class="childrenBody">
+<blockquote class="layui-elem-quote news_search">
+    <form action="" class="layui-form layui-form-pane">
+        <div class="layui-inline">
+            <label class="layui-form-label">行业</label>
+            <div class="layui-input-inline">
+               <!-- <select name="modules" lay-verify="required" lay-search="">
+                    <option value="">烟草</option>
+                    <option value="1">旅游</option>
+                    <option value="2">通讯</option>
+                    <option value="3">微商</option>
+                </select>-->
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">行业账号</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入账号"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">店铺名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="店铺名称"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">烟草专卖证号</label>
+            <div class="layui-input-block">
+                <input type="text" name="title" lay-verify="title" autocomplete="off" placeholder="烟草专卖证号"
+                       class="layui-input">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">注册状态</label>
+            <div class="layui-input-inline">
+                <select name="modules" lay-verify="required" lay-search="">
+                    <option value="">注册</option>
+                    <option value="1">未实名</option>
+                    <option value="2">实名未绑卡</option>
+                    <option value="3">绑卡完成</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-inline">
+            <a class="layui-btn layui-btn-danger batchDel">查询</a>
+        </div>
+    </form>
+</blockquote>
+<div class="layui-form links_list">
+    <table class="layui-table">
+        <colgroup></colgroup>
+        <thead>
+        <tr>
+            <!--<th><input type="checkbox" name="" lay-skin="primary" lay-filter="allChoose" id="allChoose"></th>-->
+            <th style="text-align:left;">序号</th>
+            <th>行业账号</th>
+            <th>店铺名称</th>
+            <th>烟草专卖号</th>
+            <th>烟草专卖地址</th>
+            <th>营业执照地址</th>
+        </tr>
+        </thead>
+        <tbody class="links_content">  <tr>
+            <td>1</td>
+            <td align="left">56464646</td>
+            <td>safas</td>
+            <td>546416</td>
+            <td>5646</td>
+            <td>564635</td>
+        </tr></tbody>
+    </table>
+</div>
+
+<!-- <div class="layui-inline">
+           <label class="layui-form-label">起止时间</label>
+           <div class="layui-input-inline">
+               <input type="text" name="date" id="startDate" lay-verify="date" placeholder="yyyy-mm-dd" autocomplete="off"
+                      class="layui-input" onclick="layui.laydate({elem: this})">
+           </div>
+       </div>
+       <div class="layui-inline">
+           <label class="layui-form-label">截止时间</label>
+           <div class="layui-input-inline">
+               <input type="text" name="date" id="endDate" lay-verify="date" placeholder="yyyy-mm-dd" autocomplete="off"
+                      class="layui-input" onclick="layui.laydate({elem: this})">
+           </div>
+       </div> -->
+
+
+
+<div class="X-IDPhoto">
+    <div class="just"><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4267222417,1017407570&fm=200&gp=0.jpg" height="280" width="100%" alt=""><p>身份证正面</p></div>
+    <div class="back"><img src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4267222417,1017407570&fm=200&gp=0.jpg" height="280" width="100%" alt=""><p>身份证背面</p></div>
+</div>
+<form action="" class="layui-form layui-form-pane">
+    <div class="layui-form-item layui-form-text" style="width:50%;float: left;position: relative">
+        <label class="layui-form-label">文本域</label>
+        <div class="layui-input-block">
+            <textarea placeholder="请输入内容" class="layui-textarea"></textarea>
+        </div>
+        <button class="layui-btn" style="position: absolute;right: -110px;bottom:0;">不通过</button>
+        <button class="layui-btn" style="position: absolute;right: -180px;bottom:0;">通过</button>
+    </div>
+</form>
+
+
+
+
+
+
+<script type="text/javascript" src="../layui/layui.js"></script>
+<script>
+    layui.use(['form', 'layedit', 'laydate'], function () {});
+</script>
+</body>
+</html>

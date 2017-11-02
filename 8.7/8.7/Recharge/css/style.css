@@ -1,0 +1,90 @@
+*{ padding: 0;margin: 0;}
+body , html , section, ul,li{ width: 100%;overflow:auto;background: #FFF;font-family: -webkit-pictograph;color: #666;list-style: none;}
+a{text-decoration:none;color: #fff;}
+b{font-weight: 400;}
+::-webkit-scrollbar{width:1px;}
+.textR{text-align: right}
+.textC{text-align: center}
+/*头部*/
+/*.head{width: 100%;height: 3rem;background:#199A7E;box-sizing: border-box;padding: 0 0.5rem;position: fixed;top:0;z-index: 100}
+.head div{float:left;width: 33.3%;line-height: 3rem;color: #fff;}
+.head div span{display: inline-block;font-size:0.9rem;}
+.head div h3{font-size:1.1rem;font-weight: 400;}*/
+/*内容*/
+.content1{margin-top:10px;width: 100%;box-sizing: border-box;overflow: auto;}
+/*input输入*/
+.content1 .inputTop{border-bottom:1px solid #E4E4E4;}
+.content1 .inputTop{box-sizing: border-box;padding:0 10px;}
+.content1 .inputTop p{font-size:14px;line-height:30px;position: relative;}
+.content1 .inputTop p a{float: right;}
+
+.content1 .inputTop p input{width:100%;height: 40px;border: 1px solid #E4E4E4;border-radius:4px;padding: 0 10px;box-sizing: border-box;outline:none;-webkit-appearance: none;}
+.content1 .inputTop p .move{position: absolute;bottom:5px;right:5px;font-size:12px;color: red;}
+.content1 .inputTop .address{padding:7px 0 4px 0;margin-right:15px; }
+.content1 .inputTop .address span{margin-right:15px;}
+.content1 .list{box-sizing: border-box;padding: 15px 0 15px 15px;max-height:200px;overflow: auto;}
+.content1 .list li{border: 1px solid #E4E4E4;padding:10px 0;width:26%;float: left;margin-right:6%;margin-bottom:10px;height: 50px;}
+.content1 .list li span{display:block;text-align: center;}
+.content1 .list li span{display:block;text-align: center;}
+.content1 .list li span.text{font-weight: 600;}
+/*流量*/
+.Rbottom{width: 90%;margin: 0 auto;border-top:1px solid #E4E4E4;}
+.Rbottom p{line-height: 2.5rem;}
+.Rbottom .flow {width: 100%;box-sizing: border-box;  padding: 0 10px;}
+.Rbottom .flow .imgs{width:18%;}
+.Rbottom .flow .imgs span{display: block;width:100%;text-align: center;white-space:nowrap}
+/*遮罩*/
+.Mask{position: fixed;top:0;left:0;width: 100%;height: 100%;background: rgba(0,0,0,0.5);z-index: 1000;display:none; }
+.Mask .MaskBt{position: absolute;bottom:0;left:0;width: 100%;background:#fff;box-sizing: border-box;}
+.Mask .MaskBt p{line-height:3rem;border-bottom: 1px solid #E4E4E4;padding: 0 10px;position: relative;}
+.Mask .MaskBt p span{margin-left:10%;font-size: 1.2rem;font-weight: 500;word-break:keep-all;}
+.Mask .MaskBt h3{text-align: center;width:100%;font-weight: 500;font-size: 2.3rem;color: #333;line-height: 7rem;}
+.Mask .MaskBt ul{box-sizing: border-box;padding: 0 10px;margin-bottom:90px}
+.Mask .MaskBt ul li{line-height:35px;font-size: 14px;}
+.Mask .MaskBt ul li .Right{float: right;width:80%;word-break:keep-all;text-align: right;}
+.Mask .MaskBt .Button{float:left;word-break:keep-all;width:25%;line-height:48px;background:#199A7E;color:#fff;font-size:12px;border: none;border-radius: 0 5px  5px 0;outline:none;}
+.Mask .MaskBt .ButtonS{float:left;background:rgba(125, 126, 126, 0.56); width:70%;line-height:48px;border: none;display:block;border-radius: 5px 0 0 5px;color:#fff;outline:none;padding:0 0 0 10px }
+input::-webkit-input-placeholder{color: #fff;opacity:1;}
+
+/*流量列表*/
+.flowButton{box-sizing: border-box;border-top: 4px solid #eee;width: 100%;padding:10px 10px;}
+.flowButton li{border-bottom:3px solid #eee;}
+.flowButton li div{float: left;}
+.flowButton li div p span{font-size:16px;color:#999;margin-right:10px}
+.flowButton li div p{line-height:30px;font-size:14px}
+.flowButton li div p span.local{font-size: 12px;color:#fff;background:#1296DB;padding:6px 10px;border-radius:4px;}
+.flowButton li div button{padding:8px 20px;font-size:12px;color: #fff;background: #1296DB;border: none;border-radius:4px;float: right;margin-top:10px;outline:none;}
+/*充值记录   日历*/
+.calendar{padding:10px 10px;border-bottom: 1px solid #E4E4E4;height:30px}
+.calendar p span{display: block;line-height:30px;height: 30px;position: relative;}
+.calendar p span i{color:#FF7861;font-size:18px;position:absolute;top:0;right:10px; z-index:10;}
+/*充值记录   列表*/
+.calendarList{padding: 0.8rem 0.6rem;}
+.calendarList li{margin-bottom: 1rem;}
+.calendarList li div{float: left;}
+.calendarList li div span{display: block;line-height: 1.4rem;}
+.calendarList li div h4{line-height: 2.3rem;font-size:1rem}
+.calendarList li div .Result{font-size: 0.8rem;line-height:1rem;}
+
+
+.contentY{display: none}
+.calendarListY{padding: 0.8rem 0.6rem;}
+.calendarListY li{margin-bottom: 1rem;}
+.calendarListY li div{float: left;}
+.calendarListY li div span{display: block;line-height: 1.4rem;}
+.calendarListY li div h4{line-height: 2.3rem;font-size:1rem}
+.calendarListY li div .Result{font-size: 0.8rem;line-height:1rem;}
+/* 流量遮罩*/
+.MaskL{position: fixed;top:0;left: 0;background: rgba(0,0,0,0.5);width: 100%;height: 100%;display: none;}
+.MaskL div{width: 80%;background: #fff;border-radius: 0.3rem;margin: 100% auto;height: 9rem}
+.MaskL div p{width: 100%;height: 1rem}
+.MaskL div input{width: 80%;border-radius: 0.3rem;margin:0 auto;height:3rem;border:none;outline:none;background:#199A7E;display: block;padding: 0 0 0 0.3rem;color: #fff;}
+.MaskL div button{width: 60%;border-radius: 0.3rem;margin:3% auto;height:3rem;border:none;outline:none;display: block;background: #63a35c;color: #fff;font-size:1.2rem }
+
+/* 加载中*/
+.dropload-up,.dropload-down{position: relative;height: 0;overflow: hidden;font-size: 12px;-webkit-transform:translateZ(0);transform:translateZ(0);}
+.dropload-down{height: 50px;}
+.dropload-refresh,.dropload-update,.dropload-load,.dropload-noData{height: 50px;line-height: 50px;text-align: center;}
+.dropload-load .loadin{display: inline-block;height: 15px;width: 15px;border-radius: 100%;margin: 6px;border: 2px solid #666;border-bottom-color: transparent;vertical-align: middle;-webkit-animation: rotate 0.75s linear infinite;animation: rotate 0.75s linear infinite;}
+@-webkit-keyframes rotate {0% { -webkit-transform: rotate(0deg); }50% { -webkit-transform: rotate(180deg); }100% { -webkit-transform: rotate(360deg); }}
+@keyframes rotate {0%{transform: rotate(0deg);}50% {transform: rotate(180deg);}100% {transform: rotate(360deg);}}

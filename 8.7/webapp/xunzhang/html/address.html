@@ -1,0 +1,52 @@
+<section ng-controller="addressCtrl" style="background: #f2f2f2;">
+
+    <header>
+        <table>
+            <tr>
+                <td width="60" ng-click="toBack()"><img src="{{url}}/xunzhang/images/back_icon.png"/>返回</td>
+                <td align="center" class="title">填写地址</td>
+                <td align="right" width="60"></td>
+            </tr>
+        </table>
+    </header>
+
+    <div class="form">
+        <ul>
+            <li>
+                <table>
+                    <tr>
+                        <td width="100">联系人</td>
+                        <td><input type="text" placeholder="联系人" ng-model="contacts"></td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <td width="100">联系人电话</td>
+                        <td><input type="tel" placeholder="联系人电话" ng-model="cellphone"></td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <td width="100">区域信息</td>
+                        <td ng-click="getArea()" align="right"><span ng-bind="area" id="areaResult"></span></td>
+                    </tr>
+                </table>
+            </li>
+            <li>
+                <table>
+                    <tr>
+                        <td width="100">详细地址</td>
+                        <td><input type="text" placeholder="详细地址" ng-model="detailAddress"></td>
+                    </tr>
+                </table>
+            </li>
+        </ul>
+    </div>
+
+    <input type="button" value="确定" class="subBtn" ng-click="sure()"/>
+
+</section>

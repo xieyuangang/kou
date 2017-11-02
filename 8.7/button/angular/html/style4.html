@@ -1,0 +1,20 @@
+<style>
+    .red{color: #ff6a53;}
+</style>
+<div  ng-class="{red:status}"  ng-controller="homo"><!--通过真假改变属性 -->
+    你好
+    <!--<div ng-include="'html/style2.html'"></div>-->
+    <button ng-click="chang($event)">点击</button><!--$event当前属性-->
+    <p ng-style="max">{{status}}</p> <!-- ng-style="max"  style属性-->
+
+
+
+    <ul ng-switch on="status"><!--控制下面的真假哪个显示隐藏 status是上面的变量-->
+        <li ng-switch-when="true">真的</li>
+        <li ng-switch-when="false">假的的</li>
+    </ul>
+
+
+    <img ng-src="{{ste}}" > <!--这个要加括号不然他是字符串不会执行-->
+
+</div>

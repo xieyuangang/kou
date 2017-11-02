@@ -1,0 +1,45 @@
+<section ng-controller="deductibleCtrl" style="background:#FF0000;">
+	<div style="margin: 2.5%;height: 95%;background: #F2F2F2;padding: 10px;overflow: hidden;">
+		<div class="totalMoney">
+			本次应付金额：<span ng-bind="totalMoney"></span>元<br/>
+			积分抵扣金额：<span ng-bind="dkMoney"></span>元
+		</div>
+		<div class="real">
+			实际支付金额：<span ng-bind="realMoney"></span>元
+		</div>
+		<div class="deductible_btns">
+			<input type="button" value="马上支付" ng-click="addOrder()"/>
+			<input type="button" value="暂不支付" ng-click="notPay()"/>
+		</div>
+		
+		<div class="pointBox">
+			当前银联熊猫积分余额：<span ng-bind="point"></span><br/>
+			本次抵扣后银联熊猫积分余额：<span ng-bind="dkhPoint"></span><br/>
+			100银联熊猫积分可抵扣1元
+		</div>
+		<!-- <div class="deductible_box">
+			<div class="container">
+				<div class="point_balance">积分余额：<span ng-bind="point"></span></div>
+				<div class="deductible_point">可用积分<span ng-bind="kyPoint"></span>积分抵￥<span ng-bind="dkMoney"></span></div>
+				<div class="deductible_pay">实际支付金额：￥<span ng-bind="realMoney"></span></div>
+			</div>
+		</div> -->
+		
+		<form action="https://wechat.ikkpay.com/saoma/createOrder.do"  id="from" method="post">
+			<input type="hidden" class="form-control" placeholder="商户号" name="merchantCode" id="merchantCode"/>
+			<!-- <input type="hidden" class="form-control" placeholder="商户用户ID" name="outUserId" id="outUserId"/> -->
+			<input type="hidden" class="form-control" placeholder="商户订单号" name="outOrderId" id="outOrderId"/>
+			<input type="hidden" class="form-control" placeholder="支付金额" name="totalAmount" id="totalAmount1"/>
+			<input type="hidden" class="form-control" placeholder="商品名称" name="goodsName" id="goodsName"/>
+			<input type="hidden" class="form-control" placeholder="商品描述" name="goodsDescription" id="goodsDescription1"/>
+			<input type="hidden" class="form-control" placeholder="商户订单时间" name="merchantOrderTime" id="merchantOrderTime"/>
+			<input type="hidden" class="form-control" placeholder="最晚支付时间" name="latestPayTime" id="latestPayTime"/>
+			<input type="hidden" class="form-control" placeholder="前台成功通知地址" name="merUrl" id="merUrl"/>
+			<input type="hidden" class="form-control" placeholder="后台通知地址" name="notifyUrl" id="notifyUrl"/>
+			<input type="hidden" class="form-control" placeholder="随机字符串" name="randomStr" id="randomStr"/>
+			<input type="hidden" class="form-control" placeholder="支付方式" name="payWay" id="payWay"/>
+			<input type="hidden" class="form-control" placeholder="扩展字段" name="ext" id="ext"/>
+			<input type="hidden" class="form-control" placeholder="随机字符串" name="sign" id="sign"/>
+		</form>
+	</div>
+</section>

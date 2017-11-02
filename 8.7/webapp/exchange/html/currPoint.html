@@ -1,0 +1,50 @@
+	<section ng-controller="currPointCtrl">
+       <!--  <header>
+            <div class="container">
+                <table>
+                    <tr>
+                        <td class="back" onclick="javascript:backClickListener.back()"><img src="{{url}}/exchange/images/back_icon.png" /></td>
+                        <td class="title"></td>
+                        <td class="more" ng-click="toMore()">查看更多</td>
+                    </tr>
+                </table>
+            </div>
+        </header> -->
+
+        <div id="wapper">
+            <ul>
+                <li ng-repeat="r in rows">
+                    <div class="container">
+                        <table>
+                            <tr>
+                                <td width="100">{{r.exchangeDate | handleExchangeDate}}</td>
+                                <td align="center">{{r.cellphone | handlePhone}}</td>
+                                <td width="70" align="right">{{r.integralPoint}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    <button class="Button" ng-click="toMore()">查看更多</button>
+        <footer>
+            <div class="staTitle">今日累计</div>
+            <div class="staBox">
+                <table class="sta">
+                    <tr>
+                        <td width="50%" class="borderRight"><span class="color">交易笔数</span><br/><span ng-bind="tradeNum"> 笔</span></td>
+                        <td width="50%"><span class="color">收取积分</span><br/><span ng-bind="integralPointDay">积分</span></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="container">
+                <table class="totalPoint">
+                    <tr>
+                        <td align="left" class="color">账户总积分</td>
+                        <td align="right" ng-bind="integralPointTotal"> 积分</td>
+                    </tr>
+                </table>
+            </div>
+
+        </footer>
+    </section>

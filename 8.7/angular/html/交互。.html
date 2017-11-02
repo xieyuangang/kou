@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="../angular-1.6.5/angular.js"></script>
+</head>
+<body ng-app="mainApp">
+    <div ng-controller="kokoo">
+
+          <div ng-repeat="student in students">
+              <span>{{student.Name}}</span>
+              <span>{{student.RollNo}}</span>
+              <span>{{student.Percentage}}</span>
+          </div>
+
+    </div>
+
+
+    <script>
+        var mainApp=angular.module("mainApp",[]);
+        mainApp.controller("kokoo",function ($scope,$http) {
+            var url="../tsconfig.json";
+            $http.get(url).success( function(response) {
+                $scope.students = response;
+             })
+        })
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<section class="infogroup" ng-controller="homo">
+
+    <h4>法人证件</h4>
+    <div class="row relatedCard">
+        <div class="col-md-4 txtcenter">
+            <p>身份证正面</p>
+            <div><img ng-src="showImg/{{dealer.idCardFace}}" class="idCardFace" enlarge-pic/></div>
+            <span class="btn btn-file btn btn-xs btn-primary btn-editable picEdit"><i class="fa fa-edit"></i> 点击编辑
+                 <input type="file" file-model="idCardFace" img-view-id="idCardFace" />
+            </span>
+        </div>
+        <div class="col-md-4 txtcenter">
+            <p>身份证反面</p>
+            <div><img ng-src="showImg/{{dealer.idCardBack}}" class="idCardBack" enlarge-pic/></div>
+            <span class="btn btn-file btn btn-xs btn-primary btn-editable picEdit"><i class="fa fa-edit"></i> 点击编辑
+                 <input type="file" file-model="idCardBack" img-view-id="idCardBack" />
+            </span>
+        </div>
+        <div class="col-md-4 txtcenter">
+            <p>身份证反面</p>
+            <div><img ng-src="showImg/{{dealer.idCardBacks}}" class="idCardBacks" enlarge-pic/></div>
+            <span class="btn btn-file btn btn-xs btn-primary btn-editable picEdit"><i class="fa fa-edit"></i> 点击编辑
+                 <input type="file" file-model="idCardBacks" img-view-id="idCardBacks" />
+            </span>
+        </div>
+    </div>
+
+    <button ng-click="Submit()">提交</button>
+
+
+
+
+</section>

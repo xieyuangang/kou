@@ -1,0 +1,33 @@
+<section ng-controller="couponPayCtrl">
+	<div class="couponBox">
+		<div class="container">
+			<div class="title">收款方<span ng-bind="shopName"></span></div>
+			<div class="couponMsgBox">
+				<div style="margin: 0 20px">
+					<table>
+						<tr>
+							<td width="50%" class="gray">本次消费</td>
+							<td width="50%"></td>
+						</tr>
+						<tr>
+							<td width="50%" class="gray">应支付</td>
+							<td width="50%"><span ng-bind="totalAmt"></span>元</td>
+						</tr>
+						<tr>
+							<td width="50%" class="gray">使用红包</td>
+							<td width="50%"><span ng-bind="actualUse"></span>个(满<span ng-bind="minPayAmount"></span>减<span ng-bind="eachPrice"></span>)</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div class="realPay">实际支付:<span ng-bind="actaulAmt"></span></div>
+		</div>
+		
+		<div class="couponBtn">
+			<input type="button" value="马上支付" ng-click="sub()"/>
+		</div>
+		
+	</div>
+	
+	<loading></loading>
+</section>

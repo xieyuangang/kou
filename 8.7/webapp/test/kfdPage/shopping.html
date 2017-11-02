@@ -1,0 +1,62 @@
+<section ng-controller="shoppingCtrl" ng-init="num='0';needPoint='0'">
+	<div class="container">
+		<div class="row userMsg">
+			<div class="col-sm-6 col-xs-6">
+				用户：{{cellPhone}}
+			</div>
+			<div class="col-sm-6 col-xs-6 text-right">
+				积分：<font color="red">{{point}}</font>
+			</div>
+		</div>
+	
+		<div class="row" style="padding-top: 10px;">
+			<div class="col-sm-6 col-xs-6 listBox_shopping" ng-repeat="g in goodsList">
+				<div class="box">
+					<div style="text-align: center;">
+						<img src="{{g.imgUrl}}" class="sImg">
+					</div>
+					<div class="name">{{g.goodName}} {{g.unit}}</div>
+					<div class="point">
+						<img src="{{ctx}}/hm/images/point_icon_2.png" class="pointImg">{{g.point}}积分
+						<span class="raw">￥{{g.unitPrice}}</span>
+					</div>
+					<div class="dhBtn">
+						<button type="button" class="btn btn-default dh" ng-click="pointChange()">订货</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="dialog">
+		<div class="ceng" onclick="document.getElementById('dialog').style.display='none'"></div>
+		<div class="shoppingDetail">
+			<div class="cont">
+				<div class="imgAndName">
+					<div class="row">
+						<div class="col-sm-5 col-xs-5 paddingN">
+							<div class="dImgBox">
+								<img src="{{imgUrl}}" class="dImg">
+							</div>
+						</div>
+						<div class="col-sm-7 col-xs-7 paddingN detailName">
+							{{goodName}}
+						</div>
+					</div>
+				</div>
+				<div class="chooseNum">
+					<div class="row marginN">
+						<div class="col-sm-3 col-xs-3 paddingN" style="line-height: 30px;">选择数量</div>
+						<div class="col-sm-5 col-xs-5 paddingN">
+							<input type="button" class="jian" ng-click="jian()">
+							<input type="tel" class="num" ng-model="num">
+							<input type="button" class="jia" ng-click="jia()">
+						</div>
+						<div class="col-sm-4 col-xs-4 paddingN needPoint" style="line-height: 30px;">需要{{needPoint}}积分</div>
+					</div>
+				</div>
+				<input type="button" value="订货" class="sub" ng-click="sub()" disabled="disabled">
+			</div>
+		</div>
+	</div>
+</section>

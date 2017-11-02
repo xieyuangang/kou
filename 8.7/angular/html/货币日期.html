@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../angular-1.6.5/angular.js"></script>
+    <script type="text/javascript" src="../angular-1.6.5/i18n/angular-locale_da-dk.js"></script>
+</head>
+<body ng-app="mainApp">
+<div ng-controller="StudentController">
+    {{fees | currency }}<br/>
+    {{addressBar | date}}<br/>
+    {{rollno | number }}<br/>
+
+</div>
+<script type="text/javascript">
+    var mainApp = angular.module("mainApp", []);
+    mainApp.controller("StudentController", function ($scope) {
+        $scope.fees = 100;
+        $scopr.admissiondate = new Date();
+        $scope.rollno = 123.5
+    })
+</script>
+</body>
+</html>

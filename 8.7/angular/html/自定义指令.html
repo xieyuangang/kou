@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="../angular-1.6.5/angular.js"></script>
+</head>
+<body ng-app="mainApp">
+<div ng-controller="StudentController">
+    <Student name="Mahesh"></Student>
+    <Student name="Piyush"></Student>
+</div>
+<script type="text/javascript">
+    var mainApp = angular.module("mainApp", []);
+    mainApp.directive("student", function () {
+        var directive = {};
+        directive.restrict = "E";
+        directive.template = "Student: <b>{{student.name}}</b> , 编号: <b>{{student.rollno}}</b>";
+        directive.scope = {
+            student: "=name"
+        };
+        directive.compile = function (element, attributes) {
+            element.css("color", "red");
+            var linkFunction = function ($scope, element, attributes) {
+                element.html("Student: <b>" + $scope.student.name + "</b> , 编号: <b>" + $scope.student.rollno + "</b><br/>");
+                element.css("background-color", "#eee");
+            };
+            return linkFunction;
+        };
+        return directive;
+    });
+
+    mainApp.controller("StudentController", function ($scope) {
+        $scope.Mahesh = {};
+        $scope.Mahesh.name = "你好你是谁";
+        $scope.Mahesh.rollno = 30;
+
+        $scope.Piyush = {};
+        $scope.Piyush.name = "我是vds";
+        $scope.Piyush.rollno = 20;
+
+    })
+
+
+</script>
+</body>
+</html>

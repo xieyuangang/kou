@@ -1,0 +1,49 @@
+html , body { padding: 0;margin: 0;background: #f2f2f2;}
+ul , li{ padding: 0;margin: 0;list-style: none;}
+
+.box{ background: #fff;display: block;}
+
+header{ margin: 0 10px;border-bottom: 1px solid #6F6F6F;line-height: 44px;text-align: center;}
+
+.imgsBox{ margin: 0 10px;height: 150px;overflow: hidden;padding: 10px 0;position: relative;}
+.imgsBox ul:after{ content: " ";display: block;clear: both;}
+.imgsBox li{ float: left;height: 150px;}
+.imgsBox li img{ width: 320px;height: 100%;}
+#imgs{ position: absolute;left: 0;top: 0;}
+
+.container{ margin: 0 10px;}
+
+.address{ font-size: 13px;margin-top: 5px;}
+.address table{ width: 100%;height: 44px;border-collapse: collapse;}
+
+.contact , .evaluate{ margin-top: 5px;font-size: 13px;}
+.contact table{ width: 100%;border-collapse: collapse;border-bottom: 1px solid #6F6F6F;height: 44px;}
+.contact .cont{ line-height: 20px;padding: 5px 0;}
+
+.evaTitle{ line-height: 44px;}
+.evaluate li{ border: 1px solid #6F6F6F;margin-bottom: 5px;}
+.evaluate table{ font-size: 12px;width: 100%;}
+.evaluate table .avatar{ width: 50px;display: block;}
+.evaluate .more{ text-align: right;line-height: 40px;}
+
+.score{ width: 30px;}
+
+
+.images li{
+	width: 130px;
+	height: 130px;
+	background-color: #fff;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+	display: table;
+}
+
+.images li table{ width: 100%;height: 100%;border-collapse: collapse;}
+.images li table td{ height: 130px;}
+
+.images li img{ max-width: 90%;max-height: 90%;}
+
+.bigImg{ width: 0;height: 0;position: fixed;top: 50%;left: 50%;text-align: center;background: rgba(60,60,60,.8);z-index: 101;opacity:0;display: none;}
+.bigImg img{ max-width: 90%;max-height: 90%;}

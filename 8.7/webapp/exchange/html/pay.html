@@ -1,0 +1,63 @@
+	<section ng-controller="payCtrl" ng-init="amount='';">
+        <header>
+            <table>
+                <tr>
+                    <td align="right"><img src="{{url}}/pay/images/pay_icon_1.png" /></td>
+                    <td>
+                        <span class="shopName"><span ng-bind="shopName"></span></span>
+                        <!--<span class="evaluate">评分：<span ng-bind="commentAvgScore"></span>分</span>-->
+                    </td>
+                </tr>
+            </table>
+        </header>
+        
+        <div class="account">
+        	<table>
+        		<tr>
+        			<td width="60%">积分账号：<span ng-bind="account"></span></td>
+        			<td width="40%">积分：<span ng-bind="point"></span></td>
+        		</tr>
+        	</table>
+        </div>
+
+        <div class="input">
+            <span class="inputPrompt">积分</span>
+            <span class="amountBox">￥<span ng-bind="amount" class="amount"></span></span>
+        </div>
+        
+        <div class="ad">
+
+        </div>
+
+        <div class="keyboard">
+            <div class="prompt">由红码支付提供支付服务</div>
+            <table>
+                <tr>
+                    <td width="25%" ng-click="inputNum('1')">1</td>
+                    <td width="25%" ng-click="inputNum('2')">2</td>
+                    <td width="25%" ng-click="inputNum('3')">3</td>
+                    <td width="25%"><img src="{{url}}/pay/images/pay_icon_del.png" class="del" ng-click="del()"/></td>
+                </tr>
+                <tr>
+                    <td ng-click="inputNum('4')">4</td>
+                    <td ng-click="inputNum('5')">5</td>
+                    <td ng-click="inputNum('6')">6</td>
+                    <td rowspan="3" class="surePay" ng-click="surePay()">确认<br/>支付</td>
+                </tr>
+                <tr>
+                    <td ng-click="inputNum('7')">7</td>
+                    <td ng-click="inputNum('8')">8</td>
+                    <td ng-click="inputNum('9')">9</td>
+                </tr>
+                <tr>
+                    <td colspan="2" ng-click="inputNum(0)">0</td>
+                    <td ng-click="inputNum('.')">.</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <script type="text/javascript">
+        $(function(){
+            $(".ad").height($(window).height() - 398);
+        });
+    </script>

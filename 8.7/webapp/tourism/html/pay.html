@@ -1,0 +1,40 @@
+	<section ng-controller="payCtrl" init="amount='';total='0.00';">
+		<div class="container" style="margin: 0 30px">
+			<header>
+	            <table>
+	                <tr>
+	                    <td>
+	                    	<span class="shopTs">收款商户：</span>
+	                        <span class="shopName"><span ng-bind="shopName"></span></span>
+	                    </td>
+	                </tr>
+	            </table>
+	        </header>
+	        
+	        <input type="number" placeholder="请输入消费金额" class="amountInp" ng-model="amount"/>
+	        
+	        <div class="amountBox">
+	        	<table>
+	        		<tr>
+	        			<td>积分：</td>
+	        			<td align="right" style="padding-right: 15px;">现有积分<span ng-bind="personAllIntegralNum"></span></td>
+	        		</tr>
+	        		<tr>
+	        			<td>积分活动：</td>
+	        			<td align="right" style="padding-right: 15px;" ng-bind="prompt"></td>
+	        		</tr>
+	        		<tr>
+	        			<td>订单合计：</td>
+	        			<td align="right" style="padding-right: 15px;" class="amount" ng-bind="total">￥0.00</td>
+	        		</tr>
+	        	</table>
+	        </div>
+	        
+	        <input type="button" value="确认支付" class="payBtn" ng-click="surePay()"/>
+		</div>
+    </section>
+    <script type="text/javascript">
+        $(function(){
+            $(".ad").height($(window).height() - 398);
+        });
+    </script>

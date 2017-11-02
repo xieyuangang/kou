@@ -1,0 +1,57 @@
+<section id="sharescroll" ng-controller="shareCtrl">
+	<ul class="hdList">
+	   	<li onclick="javascript:location.href='https://shop266638597.taobao.com/search.htm?spm=a1z10.3-c.w4002-16234901030.5.Jbe9tv&_ksTS=1494488184030_124&callback=jsonp125&mid=w-16234901030-0&wid=16234901030&path=%2Fsearch.htm&search=y&csy=1&csy=1&pv=6939376:156549741-18877585:44158624'" ng-show="alipayShow">
+	    	<img src="{{url}}/tourism/images/alipay_icon.png" />
+	    </li>
+	    <li onclick="javascript:location.href='https://weidian.com/?userid=1200642612&wfr=c&ifr=shopdetail'" ng-show="wxShow">
+	    	<img src="{{url}}/tourism/images/wx_icon.png" />
+	    </li>
+	    <li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=722C0EB8FC7709BCD4E0AACAA4C167F9'">
+	    	<img src="{{url}}/tourism/images/shop_icon_1.png" />
+	    </li>
+	    <li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=4927FC0B2F040836D9C67403918A6668'">
+	    	<img src="{{url}}/tourism/images/shop_icon_2.png" />
+	    </li>
+	    <li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=9FB4C1AB3592744F79A9AD1465DDD161'">
+	    	<img src="{{url}}/tourism/images/shop_icon_3.png" />
+	    </li>
+	    <li onclick="javascript:location.href='/page1'">
+	    	<img src="{{url}}/tourism/images/shop_icon_4.png" />
+	    </li>
+	    <li onclick="javascript:location.href='http://test.jike8.com.cn/wxyh/wechatPay/integral/getMerchantQrCodeUrl?qrCode=1E54BEB1228A4586CF438BD4059AB073'">
+	    	<img src="{{url}}/tourism/images/shop_icon_5.jpg" />
+	    </li>
+	</ul>
+
+	<div class="getPointBox" id="getPointBox">
+    	<div class="box" ng-show="getPoint">
+    		<div class="close" ng-click="close()"></div>
+    		<div ng-show="receivePoint">
+    			<div class="prompt">恭喜您获得</div>
+	    		<div class="pointBox">
+	    			<span class="point" ng-bind="integralPoint"></span>积分
+	    		</div>
+	    		
+	    		<div class="btns">
+	    			<div class="cellphoneBox" ng-show="btn1">
+	    				<input type="tel" placeholder="请输入手机号" class="tel" ng-model="cellphone" maxlength="11"/>
+	    				<input type="button" value="领取" class="cBtn" ng-click="receive('phone')"/>
+	    			</div>
+	    			
+	    			<div class="cellphoneBox" ng-show="btn2">
+	    				<input type="button" value="领取" class="btn" ng-click="receive()"/>
+	    			</div>
+	    		</div>
+    		</div>
+    		<div ng-show="receiveSuccess">
+    			<div class="prompt">恭喜您成功领取</div>
+	    		<div class="pointBox">
+		    		<span class="point" style="font-size: 40px;" ng-bind="integralPoint"></span>积分
+		    	</div>
+		    	<div class="currentPoint">
+		    		当前总共有<span ng-bind="integralNum"></span>积分
+		    	</div>
+    		</div>
+    	</div>
+    </div>
+</section>

@@ -1,0 +1,36 @@
+<style>
+    .dropupff {
+        color: #55a532
+    }
+</style>
+<div ng-controller="homo">
+    <h3>排序功能</h3>
+    <p><input type="text" ng-model="search.id "></p><!--绑定搜索   search.id 按id搜索-->
+    <table border="1px">
+        <thead>
+        <tr>
+            <th ng-click="changOeder('id')" ng-class="{dropup:order==''}">id
+                <span ng-class="{dropupff:orderType=='id'}" style="font-size: 12px;margin:0 10px;">{{sort}}</span>
+            </th>
+            <th ng-click="changOeder('name')" ng-class="{dropup:order==''}">水果名称
+                <span ng-class="{dropupff:orderType=='name'}" style="font-size: 12px;margin:0 10px;">{{sort}}</span>
+            </th>
+            <th ng-click="changOeder('min')" ng-class="{dropup:order==''}">名
+                <span ng-class="{dropupff:orderType=='min'}" style="font-size: 12px;margin:0 10px;">{{sort}}</span>
+            </th>
+            <th ng-click="changOeder('Price')" ng-class="{dropup:order==''}">水果价格
+                <span ng-class="{dropupff:orderType=='Price'}" style="font-size: 12px;margin:0 10px;">{{sort}}</span>
+            </th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="a in prList | filter:search | orderBy:order + orderType">
+            <!--绑定搜索   filter:{id:search}  按id搜索   orderBy:order + orderType 降序-->
+            <td>{{a.id }}</td>
+            <td>{{a.name}}</td>
+            <td>{{a.min}}</td>
+            <td>{{a.Price | currency}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>

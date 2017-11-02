@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>统计</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="date/common.css">
+    <script src="jquery-3.1.0.min.js"></script>
+    <script src="style.js"></script>
+    <script src="date/date.js"></script>
+    <script src="date/iscroll.js"></script>
+</head>
+<body>
+<div class="title">
+    <p><b>选择日期</b><input  id="rise"><b> 至</b><input  id="stop"></p>
+    <p><input type="submit" value="筛选" style="float: right;margin-right: 10px;width:20%; " class="button"></p>
+    <div class="Ldata">
+       <!-- <p class="p"><b>2117年1月2号</b>至2017年3月4号，统计信息如下：</p>
+        <p class="p">使用红包数量 <b>10</b>个，抵扣金额 <b>32.00</b>元</p>
+        <p class="p">应收金额 <b>10.33</b>元，实际收款 <b>10.11</b>元</p>-->
+    </div>
+</div>
+<div class="list">
+    <div class="divL"><span>交易时间</span><span>应收金额</span><span>抵扣金额</span><span>实收金额</span></div>
+    <div class="listx">
+        <div class="divL"><span class="red">2</span><span class="receivable">60</span><span class="DeK">60</span><span class="Actual">60</span></div>
+        <div class="divL"><span class="red">2</span><span class="receivable">60</span><span class="DeK">60</span><span class="Actual">60</span></div>
+        <div class="divL"><span class="red">2</span><span class="receivable">60</span><span class="DeK">60</span><span class="Actual">60</span></div>
+        <div class="divL"><span class="red">2</span><span class="receivable">60</span><span class="DeK">60</span><span class="Actual">60</span></div>
+        <div class="divL"><span class="red">2</span><span class="receivable">60</span><span class="DeK">60</span><span class="Actual">60</span></div>
+        <div class="divL"><span class="red">2</span><span class="receivable">60</span><span class="DeK">60</span><span class="Actual">60</span></div>
+    </div>
+
+</div>
+<div id="datePlugin"></div>
+</body>
+</html>

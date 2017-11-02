@@ -1,0 +1,54 @@
+<style type="text/css">
+	.contBox{ margin: 5px 15px; }
+	.contBox table{ width: 100%;border-collapse: collapse;margin-top: 15px;}
+	.contBox table td{ width: 33.33%;text-align: center;}
+	.contBox table td img{ width: 70%;}
+	.promptTitle{ font-size: 17px;padding: 5px 0; }
+	.prize li{ list-style: none;line-height: 20px;}
+	.prize table{ width: 100%;line-height: 16px;}
+	.prize table td{ padding-bottom: 10px;font-size: 14px;}
+</style>
+<div class="contBox">
+	<div class="goodsPrompt"></div>
+	
+	<table id="smokeBox">
+		<tr>
+			<td ng-repeat="a in actgoods.slice().reverse()" ng-click="toActivity()">
+				<img src="{{a.imgUrl}}" /><br/>
+				<span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+			</td>
+		</tr>
+	</table>
+	
+	<ul class="prize">
+		<table>
+			<tr>
+				<td width="50" valign="top">特等奖</td>
+				<td valign="top">价值600元</td>
+			</tr>
+			<tr>
+				<td valign="top">一等奖</td>
+				<td valign="top">价值200元以上</td>
+			</tr>
+			<tr>
+				<td valign="top">二等奖</td>
+				<td valign="top">价值100以上</td>
+			</tr>
+			
+			<tr>
+				<td valign="top">三等奖</td>
+				<td valign="top">价值30以上</td>
+			</tr>
+			<tr>
+				<td valign="top">四等奖</td>
+				<td valign="top">价值10元以上</td>
+			</tr>
+			<tr>
+				<td valign="top" colspan="2" style="font-size:20px;">1-10元随机减红包快来抢</td>
+			</tr>
+			<tr>
+				<td valign="top" colspan="2">2017年6月28日至2017年10月28日</td>
+			</tr>
+		</table>
+	</ul>
+</div>

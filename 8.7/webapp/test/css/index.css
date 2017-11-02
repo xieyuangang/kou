@@ -1,0 +1,294 @@
+html,body,section{width: 100%;height: 100%;background: #F2F2F2;overflow: hidden;position: relative;}
+input{-webkit-appearance: none;}
+ul,li{padding: 0;margin: 0;}
+
+.bg{ background: url('../images/bj.png') no-repeat;background-size:100% 100%;}
+
+.colors{ background:#c00000;color:#fff;border:1px solid #c00000}
+.colors:active , .colors:focus , .colors:hover{ background:#c00000;color:#fff;}
+
+.cont{ width: 100%;height: 85%;overflow: hidden;}
+footer{ width: 100%;height: 15%;overflow: hidden;font-size: 11px;text-align: center;display: table;}
+footer ul{ display: table-cell;vertical-align: middle;}
+footer ul li{ padding: 3px 0;}
+
+.hd_title{ width: 100%;background: url("../images/title_bg.png") no-repeat;background-size:100% 100%;color: #fff;text-align: center;padding: 5px 0 8px 0;margin-top: 5px;position: absolute;top: 0;}
+.title_msg{ font-size: 12px;}
+.title_name{ font-size: 16px;}
+
+.imgBox{ width: 130px;height: 170px;background: #fff;margin:10px auto;text-align: center;overflow: hidden;}
+.imgBox img{ height: 80%;margin: 15% auto;display: inline;}
+
+.name{ font-size: 12px;text-align: center;}
+
+.btn{ background: url("../images/btn_bj.png") no-repeat;background-size:100% 100%;color: #fff;}
+.btn:focus{ color: #fff;}
+.disable{ background:#ccc;width: 70px;height:30px;border-radius:5px;border:none;color: #fff;}
+
+.homeBtn{ width: 75%;margin: auto;display: block;height: 50px;font-size: 18px;margin-top: 20px;}
+
+.zrsm{ text-align: center;position: absolute;bottom: 0;width: 100%;}
+.zrsm span{ position: relative;top: 2px;font-size: 16px;}
+#zrsm{ -webkit-appearance:checkBox;display: none;}
+.chekced{ width: 18px;height: 18px;background: url("../images/checkBox.png") no-repeat;background-size:100% 100%;text-align: center;display: inline-block;position: relative;top: 5px;}
+.chekced img{ position: absolute;top: 4px;left: 1px;}
+
+.table{ display: table;margin: 0;padding: 0;position: relative;}
+.tableCell{ display: table-cell;vertical-align: middle;text-align: center;}
+
+.fontSize18{ font-size: 18px;}
+.fontSize16{ font-size: 16px;}
+.fontSize15{ font-size: 15px;padding: 3px 0;}
+.fontSize14{ font-size: 14px;}
+.fontSize13{ font-size: 13px;}
+.fontSize12{ font-size: 12px;}
+
+.dhBtn{ width: 200px;background:url("../images/btn_bj.png") no-repeat;background-size:100% 100%;color: #fff;margin: 10px auto;border:none;padding: 15px 0;}
+.win_img_box{ padding: 10px 0 10px 0;}
+.win_img_box .xz{ height: 75px;}
+.win_img_box span{ background: rgb(255,255,255);font-size: 14px;padding: 2px 10px;margin-left: 5px;color: #FF1B13;}
+
+.xzNum{ font-size: 18px;font-weight: bold;color: #FE0D05;margin-top: 50px;}
+
+.xzSW{ height: 130px;}
+
+.swImg{ height: 150px;}
+.swdhBtn{ width: 150px;padding: 10px 0;margin: 10px auto;}
+
+.listBox{ width:90%;height: 300px;background: rgba(255,255,255,.5);border-radius:5px 5px 0 0;margin: auto;overflow: hidden;}
+.listBox ul li{ width: 90%;height: 70px;border-bottom: 1px dashed #fff;margin: auto;list-style: none;}
+.listBox li table{ width: 100%;border-collapse: collapse;height: 60px;margin: 5px 0;font-size: 12px;}
+.listBox li table img{ max-height: 50px;max-width: 60px;}
+.listBox .xz{ height: 24px;margin-left: 10px;}
+.listBox .sysl{ color: #FF1B13;font-size: 10px;}
+.listBox .btn{ width: 70px;}
+.goods_xzNum{ width: 90%;margin: auto;height: 40px;line-height: 40px;background: #F2141C;color: #fff;font-size: 18px;border-radius:0px 0px 5px 5px;}
+.prompt_goods{ width: 85%;height:70px;line-height: 70px;border-radius:5px;background: rgba(97,97,97,.5);color: #fff;font-size: 20px;font-weight: bold;position: absolute;top: 50%;margin-top: -35px;text-align: center;left:7.5%;display: none;}
+
+.dhSuccess_title{font-size: 18px;}
+.goodsName{ font-size: 25px;color: #EB1F1B;margin-top: 10px;}
+
+.goodsBox{ display: inline-block;padding: 20px;margin: 50px 0;}
+.goodsBox img{ height: 100px;}
+
+.yjBtn{ width: 60%;height: 50px;font-size: 18px;}
+
+.addressMsg{ width: 90%;border-collapse: collapse;text-align: left;margin: 0 5%;}
+.addressMsg input , .addressMsg select{ width: 90%;height: 30px;border: 1px solid #fff;border-radius:5px;background: rgb(255,255,255);padding: 0 5%;margin-bottom: 10px;}
+
+.codeBox{ margin: 20px 0;}
+.codeInput{ width: 40%;height: 30px;border: 1px solid #ccc;text-align: center;}
+.getCode{ height: 37px;padding: 0 20px;}
+
+.gotAddress{ width: 240px;background: #fff;border: 1px solid rgb(15,7,13);margin: auto;margin-top: 10px;margin-bottom: 20px;display: none;}
+.gotAddress ul li{ width: 230px;margin: 0 5px;font-size: 13px;border-bottom: 1px dotted rgb(198,198,198);list-style: none;height: 30px;overflow: hidden;line-height: 30px;}
+.gotAddress ul li div:nth-of-type(1){ width: 21px;float: left;}
+.gotAddress ul li div:nth-of-type(2){ width: 209px;float: left;text-align: left;}
+.gotAddress img{ width: 15px;margin-right: 6px;margin-top: -3px;}
+.gotAddress input[type='checkbox']{ display: none;}
+
+.subBtn{ width: 60%;height: 45px;}
+
+.successPrompt{ font-size: 20px;margin-top: 10px;}
+
+.successBox{background: rgba(255,255,255,.5);border-radius:5px;display: inline-block;padding: 20px;width: 100%;}
+.successBox img{ height: 130px;margin: 40px 0;}
+.successBox .goodsName{ font-size: 20px;}
+.successBox .prompt_success{ font-size: 16px;color: #F00C17;width: 60%;padding-bottom: 10px;border-bottom: 1px solid #F00C17;margin: auto;}
+.successBox .prompt_time{ font-size: 18px;margin-top: 10px;}
+
+.text_twoScans{ font-size: 16px;}
+
+.notReceive{ text-decoration: underline;color: #E41119;margin-top: 10px;}
+
+.jpdhText{ margin:0;margin-bottom: 10px;}
+
+.error_msg{ font-size: 18px;color: #F00C17;font-weight: bold;margin-bottom: 5px;}
+
+.sm{ text-decoration: underline;color: black;}
+
+header{ width:100%;height:50px;background-color: #c00000;color: #fff;line-height: 50px;padding: 0 10px;font-size: 16px;font-weight: bold;}
+
+.md{ padding: 20px 10px 10px 10px;margin-bottom: 10px;}
+.md:after{ content: " ";display: block;clear: both;}
+.propt_home{ font-size: 18px;color: #bf0040;padding: 10px 0;}
+.No{ font-size: 12px;color: #6F6F6F;}
+.goodsPrompt{font-size: 18px;padding-top: 5px;text-align: center;color: #c71b04}
+.ad{ width: 100%;margin-bottom: 10px;}
+.fImg{ width: 60%;}
+.positionR{ position: absolute;right: 0;}
+.dkbtn{ height: 36px;background-color: #EE8822}
+
+#ad{ background:#c71b04;width: 100%;border: 3px solid #f2ce6d;border-radius:45px 45px 0 0;}
+#ad .adPrompt{ font-size: 21px;color: #f2ce6d;text-align: center;line-height: 55px;}
+#ad #adCont{ margin: 0 15px;border: 3px solid #f2ce6d;border-radius:30px;background: #fff; }
+
+.notPrompt{ width: 100%;height: 44px;line-height: 44px;text-align: center;margin-top: 10px;display: none;}
+
+.bindBox , .chooseBtnBox{ width: 100%;height: 100%;position: absolute;top: 0;left: 0;display: none;}
+.bgCeng{width: 100%;height: 100%;background: rgba(75,75,75,.5);position: absolute;top: 0;left: 0;}
+.inputBox{ width: 90%;margin: 0 5%;background: #fff;border-radius:5px;position: absolute;top: 50%;padding: 20px 10px;font-size: 16px;margin-top: -107px;}
+.inputBox div:after{content:' ';display: block;clear: both;}
+.inputPhone{ width: 65%;margin-left: 2%;height: 45px;border: 1px solid #bfbfbf;border-radius:5px;float: left;}
+.inputCode{ width: 37%;margin-left: 2%;height: 45px;border: 1px solid #bfbfbf;border-radius:5px;float: left;}
+.getCodeBtn{ width: 25%;margin-left: 3%;height: 45px;border: 1px solid #bfbfbf;border-radius:5px;font-size: 12px;background: #fff; white-space: normal;float: left;}
+.sureBtn{ width: 100%;margin-top: 20px;text-align: center;}
+.sureBtn input{ width: 150px;height: 45px;background: #d70000;border: none;border-radius:5px;color: #fff;font-size: 20px;}
+
+.chooseBtnBox{ text-align: center;}
+.chooseBtnBox input { width: 70%;height: 45px;background: #FD0000;border:none;border-radius:5px;-webkit-border-radius:5px;color: #fff;font-size: 20px;}
+.chooseBtnBox input:nth-of-type(1){margin-bottom: 20px;}
+.dkPrompt{ font-size: 12px;color: #FD0000;width: 70%;margin: auto;margin-top: 10px;}
+
+footer{width: 100%;height: 80px;overflow: hidden;}
+.table{display: table;text-align: center;height: 80px;}
+.cell{ display: table-cell;vertical-align: middle;}
+.paddingN{ padding: 0;}
+.marginN{ margin: 0; }
+
+.phoneInput{ padding: 7px 8px;font-size: 12px;}
+.getCode{ font-size: 13px;padding: 7px 8px;}
+.phoneBox{ padding: 5px;}
+.userMsg{ line-height: 44px;}
+
+.listBox_shopping{ padding: 0 10px;margin-bottom: 10px;}
+.box{ background:#fff;}
+.sImg{ height:60px;margin: 5px 0;}
+.name{ font-size: 12px;padding: 0 10px;}
+.point{ font-size: 12px;color: #c00000;padding: 0 10px;margin-top: 5px;}
+.pointImg{ height:12px;margin-top: -2px;}
+.raw{ text-decoration: line-through; color: #ccc;margin-left: 5px;}
+.dhBtn{ padding: 5px 10px; text-align: right;}
+.dh{ padding: 3px 20px;font-size: 12px;border-color: #c00000;color: #c00000}
+.dh:focus{ border-color: #c00000;color: #c00000;background:#fff;}
+
+.ceng{ background:rgba(131,131,131,0.5);width:100%;height:100%;position: absolute;top: 0;left: 0;}
+.shoppingDetail{ background:#fff;height:300px;position: absolute;bottom: 0;width: 100%;}
+.sub{ width: 100%;height: 40px;background: #c00000;color: #fff;border: none;position: absolute;bottom:0;}
+.cont{ width: 100%;height: 100%;position: relative;}
+
+.dImgBox{ width: 80px;height: 80px;background: #fff;text-align: center;margin: auto;margin-top: -20px;}
+.dImg{ height:70px;margin: 5px 0;}
+.detailName{ font-size: 16px;font-weight: bold;line-height: 80px;}
+.chooseNum{ margin:0 10px;border-bottom: 1px solid #bfbfbf;padding: 20px 0;}
+.needPoint{ color: #c00000;text-align: right;}
+.jian{ width: 30px;height: 30px;background: url('../images/jian.png') no-repeat;border: 1px solid #d9d9d9;background-size:100% 90%;float: left;background-position: 0 1px;}
+.num{ width: 50px;border: 1px solid #d9d9d9;float: left;height: 30px;text-align: center;}
+.jia{ width: 30px;height: 30px;background: url('../images/jia.png') no-repeat;border: 1px solid #d9d9d9;background-size:100% 90%;float: left;background-position: 0 1px;}
+
+.moreRow{ margin-bottom: 10px;}
+.moreRow .row{background:#fff;color:#3E3E3E;height: 50px;line-height: 50px;}
+.more_cont{ text-align: right;}
+
+.inputBox_more{ background:#fff;padding:20px 10px;}
+
+.datetimeBox{ background:#fff;height:40px;line-height: 40px;font-size: 13px;color: #7D7D7D;margin-bottom: 10px;}
+
+.listBox{ background:#fff;overflow: hidden;}
+.listBox li{ list-style: none;width: 100%;padding: 5px 10px;border-bottom: 1px solid #E7E7E7;}
+.listBox li table{ width: 100%;border-collapse: collapse;}
+.smallFont{ font-size: 13px;color: #B7B7B7;}
+.listBox .money{ font-size: 15px;color: #4C4C4C;}
+
+.detail_title{ font-size: 14px;}
+.detail_cont{ font-size: 12px;color: #B7B7B7}
+
+.successBox{ background: #fff;margin-bottom: 10px;padding-bottom: 20px;}
+.success_shopName{ text-align: center;font-size: 18px;line-height: 60px;border-bottom: 1px solid #CFCFCF;}
+.success_money{ text-align: center;font-size: 30px;font-weight: bold;line-height: 60px;}
+.success_type{ text-align: center;font-size: 20px;line-height: 30px;}
+.success_checkMe{ text-align: center;line-height: 60px;}
+.success_checkMe span{ background: #C00000;color: #fff;font-size: 14px;padding: 6px 12px;border-radius:5px;-webkit-border-radius:5px;}
+.success_cont{ padding: 0 20px;overflow: hidden;}
+.success_cont .row{ padding: 5px 0;}
+
+.draw{width: 100%;height: 120px;background: url('../images/draw_bg.png') no-repeat;background-size:100% 100%;padding-top: 10px;}
+.draw .shave{ width: 223px;height: 100px;margin: auto;}
+.draw .shaveContent{ width: 100%;height: 100px;position: absolute;background: url('../images/shaveBefore.jpg') no-repeat;background-size:100% 100%;display: table;text-align: center;}
+.draw .cell{ font-size: 16px;color: #E64614;display: table-cell;vertical-align: middle;}
+.toAward{ position: absolute;bottom: 5px;right: 10px;display: none;}
+
+#dialog{display: none;}
+
+.timeSelect{ position: absolute;top: 0;left:0;width:100%;height: 100%;opacity:0;}
+
+#ad{ overflow: hidden;}
+
+.codeBox{ width:80%;margin: 10%;background:#fff;border-radius:10px;}
+.code_header{ padding: 20px 0;border-bottom: 1px dotted #ccc;font-size: 16px;}
+.code_cont{ text-align: center;padding: 40px 0;}
+#qrcode{ margin: auto;width: 160px;height: 160px;}
+
+.promptBox{ position:absolute;bottom:0;width:100%;text-align:center;padding:50px 0;display: none;}
+.promptText{ background:rgba(1,1,1,.5);padding:6px 12px;color:#fff;border-radius:5px;}
+
+.totalMoney{ font-size: 20px;padding: 30px;border-bottom: 1px solid black;line-height: 40px;}
+.real{ font-size: 20px;padding: 10px 30px;}
+.deductible_box{ background: #fff;padding: 15px 0;font-size: 16px;}
+.deductible_point{color: #de231d;margin-top: 5px;margin-bottom: 15px;}
+.deductible_pay{ text-align: right;font-size: 20px;color: #de231d;padding-top: 20px;padding-bottom: 5px;border-top:1px solid #bfbfbf;}
+
+.deductible_btns{ width: 100%;margin-top: 20px;}
+.deductible_btns input{ width: 42.5%;height: 45px;color: #fff;color: #fff;background: #5B9BD5;border: 1px solid #41719C;margin-left: 5%;border-radius:5px;font-size: 18px;}
+
+.inputMoney{ border:1px solid #bf0040;border-radius:5px;padding: 3px;}
+.inputMoney table{ width: 100%;border-collapse: collapse;height: 35px;}
+.inputMoney table input{ width: 100%;height: 100%;border: none;background: #F2F2F2;text-align: center;outline: none;}
+.inputMoney .buyBtn{ font-size: 15px;color: #fff;background:#C00000;border:none;border-radius:5px;}
+
+.pointBox{ background: #fff;padding: 15px;margin: 40px 0;line-height: 30px;}
+
+.activityBtn{ text-align: center;width: 100%;margin-top: 40%;}
+.activityBtn input{ width: 60%;height: 50px;font-size: 20px;color: #fff;background: #de231d;border: none;border-radius:5px;}
+
+.pay_title{ font-size: 30px;text-align: center;padding: 20% 0;}
+.pay_prompt{ font-size: 20px;text-align: center;color: #de231d}
+.pay_btn{ position: absolute;width: 100%;bottom: 20%;text-align: center;}
+.pay_btn input{ width: 40%;height: 50px;font-size: 20px;color: #fff;background: #de231d;border:none;border-radius:5px;}
+
+.totelBox{ height: 40px;background-color: #fff;margin-top: 10px;}
+.totelBox table{ width: 100%;height: 40px;font-size: 13px;}
+
+.inputMoneyBox{ text-align: center;margin-top: 30%;}
+.inputMoneyBox .text{ font-size: 20px;margin-bottom: 10px;}
+.inputMoneyBox input{ width: 60%;border: 1px solid #bfbfbf;background:#fff;border-radius:5px;height: 40px;text-align: center;font-size: 18px;}
+.inputMoneyBox .prompt{ color: #de231d;font-size: 16px;margin-top: 10px;}
+
+.loading{ width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: rgba(255,255,255,.5);z-index:101;display: none;}
+.loading img{ position: absolute;top: 50%;left: 50%;margin-left: -12px;margin-top: -12px;}
+
+#shaveBox{ display: none}
+
+.wait{ width: 100%;height: 100%;position: absolute;top: 0;left: 0;background: rgba(255,255,255,.7);}
+.waitCont{ width: 100%;text-align: center;line-height: 30px;font-size: 20px;position: absolute;top: 50%;left: 0;margin-top: -15px;}
+
+.couponBox{ width:100%;background:#fff;padding: 20px 0;}
+.couponBox .container{ margin: 0 20px;}
+.couponBox ��title{font-size: 18px;text-align: center;}
+.couponBox .couponMsgBox{ border-bottom: 1px solid #666666;margin-top: 60px;}
+.couponBox table{ width: 100%;font-size: 15px;}
+.couponBox table td{ padding-top: 20px;}
+.couponBox table .gray{ color: #bfbfbf;}
+.couponBox .realPay{ width: 100%;height: 70px;line-height: 70px;font-size: 20px;text-align: center;}
+
+.couponBtn{ margin:0 50px;margin-top: 120px;}
+.couponBtn input{ width: 100%;height: 50px;border:none;background-color: #de231c;color: #fff;font-size: 20px;border-radius: 5px;}
+
+.regPhone{ margin: 0 0 10px 0;height: 45px;border: 1px solid #bf0040;border-radius:5px;text-align: center;overflow: hidden;}
+.regPhone input{ width: 90%;height: 45px;border: none;background: none;outline: none;}
+
+.successIcon{ text-align: center;}
+.successIcon i{ font-size: 30px;color: #28d459;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,53 @@
+<section ng-controller="detailListCtrl">
+	<div class="datetimeBox">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-6">
+					<select class="timeSelect" ng-change="select(v)" ng-model="timeSelect"></select>
+					<span id="timeText"></span>
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</div>
+				<div class="col-sm-6 col-xs-6 text-right">
+					查看月账单
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="listBox" id="listBox">
+		<ul>
+			<li ng-repeat="l in list">
+				<table>
+					<tr>
+						<td class="smallFont" width="50">{{l.crtDate | date:'MM-dd'}}</td>
+						<td class="detail_title">
+							{{typeText}}
+						</td>
+						<td class="smallFont money" align="right">
+							+{{l.num | bt}}
+						</td>
+					</tr>
+					<tr>
+						<td class="smallFont">{{l.crtDate | date:'HH:mm'}}</td>
+						<td class="detail_cont">{{l.good.name}}</td>
+						<td class="smallFont" align="right">
+							<span ng-switch="l.orderState">
+								<span ng-switch-when="0">支付提交</span>
+								<span ng-switch-when="1">支付成功</span>
+								<span ng-switch-when="2">支付失败</span>
+								<span ng-switch-when="3">待支付</span>
+								<span ng-switch-when="4">退款提交</span>
+								<span ng-switch-when="5">退款成功</span>
+								<span ng-switch-when="6">退款失败</span>
+								<span ng-switch-when="7">退款已受理</span>
+								<span ng-switch-when="8">订单关闭</span>
+								<span ng-switch-when="9">订单失效</span>
+								<span ng-switch-when="10">订单取消</span>
+							</span>
+						</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</div>
+</section>

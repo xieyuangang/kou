@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图形表echarts</title>
+    <script src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="echarts.js"></script>
+</head>
+<body>
+<!-- 为 ECharts 准备一个具备大小（宽高）的 DOM -->
+<div class="Radio">
+    <label><input name="Fruit" type="radio" id="an" value="" checked/>按日期</label>
+    <label><input name="Fruit" type="radio" id="any" value=""/>按月分</label>
+</div>
+<div class="date" style="position: relative;border: 1px solid;width: 142px;">
+    <input type="date" id="dataS" style="opacity: 0"/>
+    <span style="position: absolute;left: 0;" id="dataA"></span>
+</div>
+<div id="main" style="width: 600px;height:400px;"></div>
+<script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('main'));
+    var data = new Date();  // 获取系统时间对象
+    var year = data.getFullYear();  //得到时间年
+    var month = data.getMonth() + 1; //得到月 计数是从0开始所以要加1
+    var date = data.getDate();  //号
+    var dataName = year + "年" + month + "月" + date + "日";
+    var dataNam = year + "年" + month + "月";
+    $("#dataA").html(dataName);
+    add('西瓜', '梨子', '苹果', 29, 2, 90);
+    $(".Radio label input").on("click", function () {
+        if (document.getElementById("an").checked) {
+            $("#dataA").html(dataName);
+            add('袜子', '鞋子', '裤子', 20, 92, 0)
+        }
+        if (document.getElementById("any").checked) {
+            $("#dataA").html(dataNam);
+            add('发送', '阿萨德', 'sssss', 28, 54, 74)
+        }
+    });
+
+    $("#dataS").bind("input porpertychange", function () {
+        var dataS = $("#dataS").val();
+        var a = dataS.split('-');
+        var b = a[0] + "年" + a[1] + "月" + a[2] + "日";
+        var c = a[0] + "年" + a[1] + "月";
+        if (document.getElementById("an").checked) {
+            $("#dataA").html(b);
+            add("羊毛衫", "雪纺衫", "裤子", 5, 20, 10)
+        }
+        if (document.getElementById("any").checked) {
+            $("#dataA").html(c);
+            add("裤子", "高跟鞋", "袜子", 5, 20, 5);
+        }
+        $(".Radio label input").on("click", function () {
+            if (document.getElementById("an").checked) {
+                $("#dataA").html(b);
+                add("裤子", "高跟鞋", "袜子", 5, 20, 5);
+            }
+            if (document.getElementById("any").checked) {
+                $("#dataA").html(c);
+                add("裤子", "高跟鞋", "袜子", 5, 20, 5);
+            }
+        });
+    });
+
+    function add(obj, ha, kui, one, two, three) {
+        // 指定图表的配置项和数据
+        var option = {
+           // backgroundColor:'red',
+           textStyle:{
+               fontStyle:'oblique',
+               fontWeight:800,
+               textBorderColor:'transparent'
+           },
+            title: {
+                text: 'XXXXXXXX',
+                show: true,
+                link: "http://blog.csdn.net/gooooooal/article/details/53334669",
+                target: 'self',
+                textStyle: {
+                    color: 'red'
+                },
+                subtext: '你好'
+            },
+            tooltip: {//鼠标悬浮弹窗提示
+                trigger: 'item',
+                show: true,//显示或者隐藏hover事件
+                showDelay: 0,
+                hideDelay: 0,
+                transitionDuration: 0,
+                backgroundColor: 'rgba(255,0,255,0.7)',
+                borderColor: '#f50',
+                borderRadius: 8,
+                borderWidth: 2,
+                padding: 10,    // [5, 10, 15, 20]
+             /*   formatter: function (params, ticket, callback) {
+                    // console.log(params);
+                    var res = params[1] + '<br/>' + "XX人数" + ' : ' + params[2];
+                    return res;
+                }*/
+            },
+            legend: {
+                // type:'scroll',
+                show: false,
+                data: ['销量']
+            },
+            xAxis: {
+                data: [obj, ha, kui]
+            },
+            toolbox: {
+                left: 'center',
+                feature: {
+                    dataZoom: {
+                        yAxisIndex: 'none'
+                    },
+                    dataView: {show: true, readOnly: false},//数据显示
+                    magicType: {show: true, type: ['line', 'bar']},
+                    restore: {show: true},
+                    saveAsImage: {show: true}
+                }
+            },
+            dataZoom: [{
+                startValue: '2014-06-01'
+            }, {
+                type: 'inside'
+            }],
+            visualMap: {//不同的值显示不同的颜色
+                top: 10,
+                right: 10,
+                pieces: [{
+                    gt: 0,
+                    lte: 50,
+                    color: '#096'
+                }, {
+                    gt: 50,
+                    lte: 100,
+                    color: '#ffde33'
+                }, {
+                    gt: 100,
+                    lte: 150,
+                    color: '#ff9933'
+                }],
+                outOfRange: {
+                    color: '#999'
+                }
+            },
+            yAxis: {},
+            graphic: [//水印
+                {
+                    type: 'image',
+                    id: 'logo',
+                    right: 20,
+                    top: 20,
+                    z: -10,
+                    bounding: 'raw',
+                    origin: [75, 75],
+                    style: {
+                        image: 'http://echarts.baidu.com/images/favicon.png',
+                        width: 150,
+                        height: 150,
+                        opacity: 0.4
+                    }
+                },
+                {
+                    type: 'group',
+                    rotation: Math.PI / 4,
+                    bounding: 'raw',
+                    right: 110,
+                    bottom: 110,
+                    z: 100,
+                    children: [
+                        {
+                            type: 'rect',
+                            left: 'center',
+                            top: 'center',
+                            z: 100,
+                            shape: {
+                                width: 400,
+                                height: 50
+                            },
+                            style: {
+                                fill: 'rgba(0,0,0,0.3)'
+                            }
+                        },
+                        {
+                            type: 'text',
+                            left: 'center',
+                            top: 'center',
+                            z: 100,
+                            style: {
+                                fill: '#000',
+                                text: 'ECHARTS BAR CHART',
+                                font: 'bold 26px Microsoft YaHei'
+                            }
+                        }
+                    ]
+                }
+            ],
+            axisPointer:{//标尺
+                show:true
+            },
+            series: [{
+                //name: '销量',
+                type: 'bar',
+                coordinateSystem: 'cartesian2d',
+                data: [one, two, three],
+                markPoint: {
+                    data: [
+                        {type: 'max', name: '最大值'},
+                        {type: 'min', name: '最小值'}
+                    ]
+                },
+                label: {
+                    normal: {
+                        show: true,
+                        position: 'top'
+                    }
+                },
+                markLine: {
+                    silent: true,
+                    data: [{
+                        yAxis: 50
+                    }, {
+                        yAxis: 100
+                    }]
+                }
+            }]
+
+        };
+        // 使用刚指定的配置项和数据显示图表。
+       /* var rotation = 0;
+        setInterval(function () {//水印转动
+            myChart.setOption({
+                graphic: {
+                    id: 'logo',
+                    rotation: (rotation += Math.PI / 360) % (Math.PI * 2)
+                }
+            });
+        }, 30);*/
+        myChart.setOption(option);
+    }
+</script>
+</body>
+</html>

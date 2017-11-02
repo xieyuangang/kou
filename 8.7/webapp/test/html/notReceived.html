@@ -1,0 +1,45 @@
+<section ng-controller="notReceivedCtrl" class="bg" ng-init="not=''">
+	<div class="cont table">
+		<div class="tableCell">
+			<div class="listBox" style="border-radius:5px;" id="listBox">
+				<ul>
+					<li ng-repeat="n in not">
+						<table>
+							<tr>
+								<td width="60" rowspan="3"><img src="{{n.award.imgUrl}}" /></td>
+								<td align="left" style="font-size: 15px;">{{n.award.name}}</td>
+								<td width="60" rowspan="3"><input type="button" value="领取" class="btn" ng-click="receive()"/></td>
+							</tr>
+						</table>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<ul>
+			<li>本页面含有烟草内容、敬请18岁以下人士回避</li>
+			<li>吸烟有害健康</li>
+			<li>客服电话：400-100-6501</li>
+		</ul>
+	</footer>
+	
+	<div class="bindBox" id="bindBox">
+		<div class="bgCeng" onclick="document.getElementById('bindBox').style.display='none'"></div>
+		<div class="inputBox">
+			<div style="margin-bottom: 10px;text-align: center;">请输入手机号领取奖品</div>
+			<div>
+				<span style="float: left;line-height: 45px;font-size: 14px">请输入手机号 </span>
+				<input type="tel" class="inputPhone" ng-model="phone"/>
+			</div>
+			<div style="margin-top: 20px;">
+				<span style="float: left;line-height: 45px;font-size: 14px">请输入验证码</span>
+				<input type="tel" class="inputCode" ng-model="vacode"/>
+				<input type="button" value="获取验证码" class="getCodeBtn" id="getCodeBtn" ng-click="getCodeBtn()" />
+			</div>
+			<div class="sureBtn">
+				<input type="button" value="确定" ng-click="bindPhone()"/>
+			</div>
+		</div>
+	</div>
+</section>

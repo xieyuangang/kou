@@ -1,0 +1,51 @@
+html,body,section{width: 100%;height: 100%;background: #F2F2F2;overflow: hidden;padding: 0;margin: 0;}
+input{-webkit-appearance: none;}
+ul , li { padding: 0;margin: 0;list-style: none;}
+
+header{ background: #c00000;height: 44px;color: #fff;}
+header table{ width: 100%;height: 44px;}
+header table img{ height: 15px;display: inline-block;position: relative;top: 3px;margin-right: 5px;}
+header table td{ padding: 0 10px;font-size: 13px;}
+header table .title{ font-size: 16px;}
+
+.list li{ background: #fff;border-bottom: 1px solid #F2F2F2;}
+.list li table{ width: 95%;margin: auto;font-size: 13px;height: 44px;}
+.list li img{ height: 20px;display: block;}
+
+.flow{ height: 100%;}
+
+#wrapper {  width:100%;float:left;position:relative;z-index:1;overflow:hidden;  }
+#scroller { height:100%;float:left;padding:0;  }
+#scroller ul {  display:block;float:left;width:100%;height:100%;padding:0;margin:0;text-align:left;}
+#scroller li {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    display:block;
+    float:left;
+    height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

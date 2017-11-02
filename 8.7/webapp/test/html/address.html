@@ -1,0 +1,71 @@
+<section ng-controller="addressCtrl" class="bg">
+	<div style="padding-bottom: 30px;height:100%;overflow: hidden;" id="iscroll">
+		<div style="text-align: center;">
+			<div style="text-align: center;font-size: 18px;margin-bottom: 10px;">商品领取</div>
+			<div class="fontSize14" style="margin-bottom: 10px;">请填写您的邮寄地址</div>
+			<table class="addressMsg">
+				<tr>
+					<td>省份：</td>
+					<td>
+						<select ng-model="province" ng-change="changeP()" id="province">
+							<option ng-repeat="p in provinces" value="{{p.id}}">{{p.name}}</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>地市：</td>
+					<td>
+						<select ng-model="city" ng-change="changeC()" id="city">
+							<option ng-repeat="c in citys" value="{{c.id}}">{{c.name}}</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>区县：</td>
+					<td>
+						<select ng-model="area" ng-change="changeA()" id="area">
+							<option ng-repeat="a in areas" value="{{a.id}}">{{a.name}}</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>地址：</td>
+					<td>
+						<input type="text" ng-model="detailAddress"/>
+					</td>
+				</tr>
+				<tr>
+					<td>收件人：</td>
+					<td>
+						<input type="text" ng-model="userName"/>
+					</td>
+				</tr>
+				<tr>
+					<td>联系电话：</td>
+					<td>
+						<input type="tel" ng-model="telphone"/>
+					</td>
+				</tr>
+			</table>
+			
+			<div class="codeBox">
+				<input type="tel" placeholder="请输入验证码" class="codeInput" ng-model="code"/>
+				<input type="button" value="获取验证码" class="getCode btn" id="getCodeBtn" ng-click="getCode()"/>
+			</div>
+			
+			<div class="gotAddress">
+				<ul>
+					<li ng-repeat="a in adds">
+						<input type="checkbox" name="address" id="{{a.addressId}}" value="{{a.addressId}}">
+				   		<label for="{{a.addressId}}">
+				   			<div><img src="{{ctx}}/test/images/check-pic.png"></div>
+				   			<div>{{a.detailAddress}}</div>
+				   		</label>
+					</li>
+				</ul>
+			</div>
+			
+			<input type="button" value="提交" class="btn subBtn" ng-click="sub()"/>
+		</div>
+	</div>
+</section>

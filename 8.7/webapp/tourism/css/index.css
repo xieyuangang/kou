@@ -1,0 +1,69 @@
+*{ padding: 0;margin: 0;}
+body , html , section{ width: 100%;height: 100%;overflow: hidden;background: #ebebeb;}
+
+input{ -webkit-appearance: none;}
+
+.container{ margin: 0 15px;}
+
+header table{ margin-top: 50px;}
+header table span{ display: inline-block;margin: 5px 0;}
+header table .shopTs{ font-size: 16px;}
+header table .shopName{ font-size: 20px;}
+
+header table{ height: 80px;margin: auto;}
+header table img{ height: 32px;margin-right: 5px;}
+header table span{ display: inline-block;margin: 5px 0;}
+.shopName{ font-size: 15px;}
+.evaluate{ font-size: 12px;color: #a6a8ab;}
+.evaluate span{ display: inline;}
+.evaluate .star{ height: 12px;}
+.evaluate .fs{ color: #fa9f00;margin-right: 5px;}
+
+.amountInp{ width: calc(100% - 30px);height: 25px;padding: 15px;text-align: right;background: #fff;border: 1px solid #999596;border-radius:5px;font-size: 18px;}
+
+.amountBox{ width: 100%;padding: 15px 0;background: #fff;margin-top: 15px;}
+.amountBox table{ width: calc(100% - 20px);margin-left: 20px;border-collapse: collapse;}
+.amountBox table tr:NTH-OF-TYPE(1) td{border-bottom: 1px solid #999999;padding-bottom: 15px;}
+.amountBox table tr:NTH-OF-TYPE(2) td{border-bottom: 1px solid #999999;padding: 15px 0;}
+.amountBox table tr:NTH-OF-TYPE(3) td{padding-top: 15px;}
+
+.amount{ font-size: 20px;color: #FF6633;}
+
+.payBtn{ width: 100%;height: 45px;border-radius:5px;color: #fff;background: #FF6633;border: none;font-size: 24px;margin-top: 50px;}
+
+.ad{ overflow: hidden;}
+
+.evaluateBox{ background: #fff;border-top:1px solid #d2d0ce;border-bottom: 1px solid #d2d0ce;}
+.score{ border-bottom: 1px solid #ececec;}
+.score table{ width: 90%;margin: 0 5%;height: 57px;font-size: 15px;}
+.score table img{ height: 27px;margin-top: 5px;}
+.evaluateBox textarea{ width: 90%;margin: 5%;height: 100px;resize:none;border:none;outline: none;}
+
+.btn{ width: 90%;margin: 5%;border:none;background: #36B8D8;color: #fff;font-weight: bold;font-size: 16px;height: 42px;border-radius:5px;}
+
+.payState{ background-color: #fff;text-align: center;padding: 20px 0;}
+.stateImg{ margin-bottom: 20px;}
+.stateMsg{ font-size: 16px;color: #00CD78;}
+
+.settlementList{ background-color: #fff;padding: 20px;margin-top: 10px;}
+.settlementTitle{ font-size: 16px;padding: 5px 0;border-bottom: 1px dashed #C6C6C6;}
+.settlementList table{ font-size: 12px;width: 100%;}
+.settlementList table td{ padding-top: 10px;}
+
+.hdList{ list-style: none;}
+.hdList li{ background-color: #fff;text-align: center;padding:5px;margin-bottom: 5px;}
+.hdList li img{ width: 100%;display: block;}
+
+.getPointBox{ width: 100%;height: 100%;position: absolute;;top: 0;left: 0;z-index: 101;background: rgba(85,85,85,.3);display: none;}
+.getPointBox .box{ width: 280px;height: 272px;background: url('../images/point_bg.png') no-repeat;background-size:100% 100%;position: relative;top: 50%;left: 50%;margin-top: -146px;margin-left: -140px;display: inline-block;z-index:101;}
+.getPointBox .close{ width:  20px;height: 20px;background: url('../images/close_icon.png') no-repeat;background-size:100% 100%;position: absolute;top: 0px;right: 0px;}
+.getPointBox .prompt{ width: 180px;margin: auto;font-size: 15px;color:#ea2d19;text-align: left;margin-top: 50px;}
+.getPointBox .pointBox{ width: 180px;margin: auto;color: #fff;font-size: 16px;text-align: center;}
+.getPointBox .point{ font-size: 64px;position: relative;}
+.getPointBox .currentPoint{ width: 180px;font-size: 14px;color: #ea2d19;text-align: right;margin: auto;}
+.getPointBox .btns{ width: 240px;position: absolute;bottom: 20px;left: 20px; }
+.getPointBox .cellphoneBox{ width: 100%;height: 40px;background: #fff;border-radius:5px;}
+.getPointBox .tel{ width: 150px;height: 100%;border:none;border-right: 1px dashed #ea2d19;float: left;border-radius:5px 0 0 5px;outline: none;padding: 0 10px;}
+.getPointBox .cBtn{ width: 69px;height: 100%;border: none;background: #fff;float: left;border-radius:0 5px 5px 0;outline: none;}
+.getPointBox .btn{ width: 100%;height: 100%;background: #fff;border-radius:5px;margin: 0;color: black;font-weight: normal;}
+

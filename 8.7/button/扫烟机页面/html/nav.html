@@ -1,0 +1,33 @@
+<section ng-controller="map">
+    <div class="nav">
+        <input type="number" class="text" placeholder="请输入手机号码" ng-model="shou" required>
+        <div class='navs'>
+            <button ng-repeat="a in nane" class='button' att={{a.port_status}} exception={{a.statusStr}}
+                    ng-click="call()" ng-style="setColor(a.port_status)"><b>{{a.port}}</b>请点击取烟号机
+            </button>
+        </div>
+    </div>
+
+    <div class="zhaun" ng-show="kou" ng-click="callS()">
+        <div class="spinner">
+            <div class="spinner-container container1">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container2">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container3">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+        </div>
+    </div>
+</section>

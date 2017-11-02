@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>dom1</title>
+    <script src="../angular.js"></script>
+</head>
+<body ng-app="mainApp">
+<div ng-controller="studentController">
+    <form name="jdk" novalidate>
+        姓氏:<input name="min" type="text" ng-model="min" required>
+        <span style="color:red" ng-show="jdk.min.$dirty && jdk.min.$invalid">
+      <span ng-show="jdk.min.$error.required">姓氏不可为空.</span>
+   </span>
+
+        名字:<input name="nian" type="text" ng-model="nian" required>
+        <span style="color:red" ng-show="jdk.nian.$dirty && jdk.nian.$invalid">
+      <span ng-show="jdk.nian.$error.required">名字必填.</span>
+   </span>
+
+        Email: <input name="you" type="email" ng-model="you" length="100" required>
+        <span style="color:red" ng-show="jdk.you.$dirty && jdk.you.$invalid">
+      <span ng-show="jdk.you.$error.required">Email 必填.</span>
+	  <span ng-show="jdk.you.$error.you">无效的Email地址.</span>
+   </span>
+
+        <button
+                ng-disabled="studentForm.firstname.$dirty && studentForm.firstname.$invalid ||
+			  studentForm.lastname.$dirty && studentForm.lastname.$invalid ||
+			  studentForm.email.$dirty && studentForm.email.$invalid"
+                ng-click="submit()">提交</button>
+    </form>
+</div>
+<script>
+    var mainApp = angular.module("mainApp", []);
+    mainApp.controller('studentController', function ($scope) {
+        $scope.reset = function () {
+            $scope.min = "Zhuo";
+            $scope.nian = "Jar";
+            $scope.you = "yiibai.com@gmail.com";
+        };
+        $scope.reset();//先调用在框框里
+    });
+    //$dirty - 状态指示值已被改变
+    //$invalid- 指示值的状态是无效的
+    //$error- 指出确切的错误
+    //ng-disabled=""禁用
+</script>
+</body>
+</html>

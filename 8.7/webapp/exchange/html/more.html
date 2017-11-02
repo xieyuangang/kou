@@ -1,0 +1,66 @@
+<section ng-controller="moreCtrl">
+  <!--   <header>
+        <div class="container">
+            <table>
+                <tr>
+                    <td class="back" ng-click="back()"><img src="{{url}}/exchange/images/back_icon.png" /></td>
+                    <td class="title">积分清单</td>
+                </tr>
+            </table>
+        </div>
+    </header> -->
+
+    <div class="container">
+        <table class="timeBox">
+            <tr>
+                <td ng-bind="timeText"></td>
+                <td align="right" style="position: relative;">
+                    <input type="month" class="date" id="date"/>
+                    <img src="{{url}}/exchange/images/time_icon.png" />
+                </td>
+            </tr>
+        </table>
+     </div>
+
+    <div id="wapper">
+    	<div>
+    		<ul>
+	            <li ng-repeat="r in rows">
+	                <div class="container">
+	                    <table>
+	                        <tr>
+	                            <td width="70">{{r.exchangeDate | cutTime}}</td>
+	                            <td align="center">{{r.cellphone | handlePhone}}</td>
+	                            <td width="70" align="right">{{r.integralPoint}}</td>
+	                        </tr>
+	                    </table>
+	                </div>
+	            </li>
+	        </ul>
+	        <div id="pullUp">
+				<span class="pullUpIcon"><img src='{{url}}/exchange/images/loading.gif' id="loading"/></span><span class="pullUpLabel">上拉加载更多</span>
+			</div>
+    	</div>
+    </div>
+    
+    <footer>
+        <div class="staTitle">今日累计</div>
+        <div class="staBox">
+            <table class="sta">
+                <tr>
+                    <td width="50%" class="borderRight"><span class="color">交易笔数</span><br/><span ng-bind="tradeNum">0 笔</span></td>
+                    <td width="50%"><span class="color">收取积分</span><br/><span ng-bind="integralPointDay">0 积分</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="container">
+            <table class="totalPoint">
+                <tr>
+                    <td align="left" class="color">账户总积分</td>
+                    <td align="right" ng-bind="integralPointTotal">0 积分</td>
+                </tr>
+            </table>
+        </div>
+
+    </footer>
+</section>

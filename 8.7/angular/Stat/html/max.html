@@ -1,0 +1,21 @@
+<section>
+    <button ng-click="att()">点击</button>
+    <button ng-click="atts()">点击</button>
+    <div ng-show="kou">显示</div>
+
+
+    <form name="studentForm" novalidate>
+
+        Email: <input name="email" type="email" ng-model="email" length="100" required>
+        <span style="color:red" ng-show="studentForm.email.$dirty && studentForm.email.$invalid">
+      <span ng-show="studentForm.email.$error.required">Email 必填.</span>
+	  <span ng-show="studentForm.email.$error.email">无效的Email地址.</span>
+   </span>
+            <button
+                    ng-disabled="studentForm.email.$dirty && studentForm.email.$invalid"
+                    ng-click="submit()">提交
+            </button>
+    </form>
+    <button><a href="#sst">跳转</a></button>
+
+</section>

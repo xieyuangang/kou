@@ -1,0 +1,41 @@
+<section ng-controller="detailListCtrl">
+	<div class="datetimeBox">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-6">
+					<select class="timeSelect" ng-change="select(v)" ng-model="timeSelect"></select>
+					<span id="timeText"></span>
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</div>
+				<div class="col-sm-6 col-xs-6 text-right">
+					查看月账单
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="listBox" id="listBox">
+		<ul>
+			<li ng-repeat="l in list">
+				<table>
+					<tr>
+						<td class="smallFont" width="50">{{l.crtDate | date:'MM-dd'}}</td>
+						<td class="detail_title">
+							{{typeText}} - 兑换人{{l.cellPhone}}
+						</td>
+						<td class="smallFont money" align="right">
+							+{{l.retailPoint}}
+						</td>
+					</tr>
+					<tr>
+						<td class="smallFont">{{l.crtDate | date:'HH:mm'}}</td>
+						<td class="detail_cont">{{l.goodsName}}x{{l.num}}</td>
+						<td class="smallFont" align="right">
+							兑换成功
+						</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</div>
+</section>

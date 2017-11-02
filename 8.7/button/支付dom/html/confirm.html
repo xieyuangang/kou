@@ -1,0 +1,13 @@
+<style>
+ .imgs{margin:30px auto;width: 80px;height: 80px;}
+ .imgs img{width: 100%;height: 100%;}
+  h3{text-align: center;}
+  p{width:60%;margin: 0 auto;display: flex;}
+  p span{flex:1;text-align: center;background:#000;color:#fff;border: 1px solid #fff;  }
+</style>
+<div ng-controller="con">
+    <div class="imgs"><img ng-src={{a.img}} alt=""></div>
+    <h3>￥<b>{{a.price}}</b></h3>
+    <h3>{{a.state}}</h3>
+    <p><span>{{a.random[0]}}</span><span>{{a.random[1]}}</span><span>{{a.random[2]}}</span><span>{{a.random[3]}}</span></p>
+</div>

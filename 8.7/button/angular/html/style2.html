@@ -1,0 +1,27 @@
+<section ng-controller="homo">
+    {{123456789 | number:3 }}<br/>
+    {{123456789 | currency:'@@'}}<br/>
+    {{time}}<br/>
+    <h3>{{time |date:'yyyy-MM-dd  HH:mm:ss EEE'}}</h3>
+    {{time |date:'short'}}<br/>
+    {{time |date:'fullDate'}}<br/>
+    {{time |date:'longDate'}}<br/>
+    {{time |date:'mediumDate'}}<br/>
+  <h3>{{111111111111 |limitTo:6}}</h3>
+</section>
+
+<div ng-controller="modex1">   <!--数据共享-->
+  <input type="text" ng-model="data.name">
+  <br/>
+  <input type="text" ng-model="Data.masg">
+  <br/>
+  一:{{data.name}}
+  <br/>
+  一.1:{{Data.masg}}
+</div>
+
+<div ng-controller="modex2">   <!--数据共享-->
+  二:{{data.name}}
+  <br/>
+  一.2:{{Data.masg}}
+</div>

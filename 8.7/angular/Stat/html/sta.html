@@ -1,0 +1,47 @@
+<style type="text/css">
+    .active {
+        background-color: orange;
+    }
+</style>
+
+<section ng-controller="main">
+
+
+
+    <input type="tel" ng-model="number" class="button" ng-change="vast()"/>
+    <input type="button" value="确认" ng-click="vatt()" >
+    <span>{{result}}</span>
+    <br/>
+    <br/>
+
+    <ul ng-init='activeTab=1'><!--选项卡-->
+        <li ng-class='{active:activeTab==1}' ng-click='activeTab=1'>许嵩</li>
+        <li ng-class='{active:activeTab==2}' ng-click='activeTab=2'>周杰伦</li>
+        <li ng-class='{active:activeTab==3}' ng-click='activeTab=3'>林俊杰</li>
+        <li ng-class='{active:activeTab==4}' ng-click='activeTab=4'>陈奕迅</li>
+    </ul>
+    <div>
+        <div ng-if='activeTab==1'>断桥残雪、千百度、幻听、想象之中</div>
+        <div ng-if='activeTab==2'>红尘客栈、牛仔很忙、给我一首歌的时间、听妈妈的话</div>
+        <div ng-if='activeTab==3'>被风吹过的夏天、江南、一千年以后</div>
+        <div ng-if='activeTab==4'>十年、K歌之王、浮夸</div>
+    </div>
+</section>
+
+<section ng-controller="mainController">
+    <ul>
+        <li ng-repeat="pa in names" ng-click="toActivity()" ><img ng-src="{{pa.url}}" style="width: 100px;height: 100px"></li>
+        <p>----------------黄金分割线--------</p>
+        <li ng-repeat="pa in names1" ng-click="toActivity()"><img ng-src="{{pa.url}}" style="width: 100px;height: 100px"></li>
+        <p>----------------黄金分割线--------</p>
+        <li ng-repeat="pa in names2" ng-click="toActivity()"><img ng-src="{{pa.url}}" style="width: 100px;height: 100px"></li>
+        <p>----------------黄金分割线--------</p>
+        <li ng-repeat="pa in names3" ng-click="toActivity()"><img ng-src="{{pa.url}}" style="width: 100px;height: 100px"></li>
+        <p>----------------黄金分割线--------</p>
+    </ul>
+</section>
+
+
+
+
+

@@ -1,0 +1,66 @@
+	<section ng-controller="currPointCtrl">
+       <!-- <header>
+            <div class="container">
+                <table>
+                    <tr>
+                        <td class="back" onclick="javascript:backClickListener.back()"><img src="{{url}}/exchange/images/back_icon.png" /></td>
+                        <td class="title">统计信息</td>
+                    </tr>
+                </table>
+            </div>
+        </header> -->
+		<p class="ppl">
+                 <span><input type="radio" name="radioTime" value="0" checked="checked" ng-click="ha(0)"/>按日期</span>
+                  <span><input type="radio"  name="radioTime" vaulue="1" ng-click="ha(1)"/> 按月份</span>
+                   <span class="currPointTimeBox">
+                   	<span ng-bind="timeText"></span>
+                   	<input type="date" class="inpiutl" id="date"/>
+                   </span>
+                </p>
+             <p class="pl">
+                 <span>交易时间</span>
+                  <span style="text-align:right;">消费金额</span>
+                   <span style="text-align:right;">支付金额</span>
+                    <span style="text-align:right;">使用积分</span>
+                </p>	
+        <div id="wapper">
+            <ul>
+                <li ng-repeat="r in rows">
+                
+                    <div class="container">
+                        <table>
+                            <tr>
+                                <td>{{r.createTimeStr | cutCreateTime}}</td>
+                                <td align="center">{{r.totalAmtDouble}}</td>
+                                <td align="right">{{r.actualAmtDouble}}</td>
+                                <td align="right">{{r.score}}</td>
+                            </tr>
+                        </table>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+        <footer>
+            <div class="staTitle">统计信息 <spa ng-bind="tradeNum"></spa></div>
+            <div class="staBox">
+                <table class="sta">
+                    <tr>
+                        <td width="33.33%" class="borderRight"><span class="color">消费总额</span><br/><span ng-bind="totalAmtCount"> 笔</span></td>
+                        <td width="33.33%"  class="borderRight"><span class="color">收款总额</span><br/><span ng-bind="actualAmtCount">积分</span></td>
+                        <td width="33.33%"><span class="color">收取积分总额</span><br/><span ng-bind="integralTotal">积分</span></td>
+                    </tr>
+                </table>
+            </div>
+           <!--  <div class="container">
+                <table class="totalPoint">
+                    <tr>
+                        <td align="left" class="color">账户总积分</td>
+                        <td align="right" ng-bind="integralPointTotal"> 积分</td>
+                    </tr>
+                </table>
+            </div> -->
+
+        </footer>
+    </section>

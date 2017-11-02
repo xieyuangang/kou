@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+    <!--<script type="text/javascript" src="../js/public.js"></script>-->
+    <script type="text/javascript" src="../js/index.js"></script>
+    <title>活动首页</title>
+    <script type="text/javascript">
+        //var code = '${code}';
+        var bankType = '${bankType}';
+        //var shopQRCode = '${shopQRCode}';
+        var shopName = '${shopName}';
+        var outTradeNo = '${outTradeNo}';
+        var license = '${license}';
+        localStorage.setItem("code", '${code}');
+        localStorage.setItem("staffMId", '${staffMId}');
+        localStorage.setItem("shopActCode", '${shopActCode}');
+        localStorage.setItem("shopQRCode", '${shopQRCode}');
+        localStorage.setItem("shopName", '${shopName}');//标题
+
+        var param = [];
+        $('.commodity').find("li").each(function (i) {
+            $(this).click(function () {
+                var smoke = $(this).attr("class");
+
+                for (var i = 0; i < param.length; i++) {
+                    if (param[i] == smoke) {
+                        param.splice(i, 1);
+                        return false;
+                    }
+                }
+                param.push(smoke);
+                localStorage.setItem('param', JSON.stringify(param));
+
+            })
+
+        });
+
+    </script>
+</head>
+<body class="bei">
+<section class="products">
+    <div class="nav">
+        <div>
+            <div style="float: right" id="Se"><b></b>
+                <p id="Selected" style="display: none"></p></div>
+        </div>
+        <h3 class="Title">活动商品</h3>
+        <div class="commodiTY">
+            <ul class="commodity">
+                <li class="X-xiao Sele">
+                    <img src="../img/yan.png" alt="">
+                    <h5>小熊猫烟dsfdsfdsfdsfdsf</h5>
+                    <p><b>￥30.99元/个</b></p>
+                </li>
+
+                <li class="X-xiao2">
+                    <img src="../img/yan.png" alt="">
+                    <h5>小熊猫烟</h5>
+                    <p><b>￥30.99</b></p>
+                </li>
+                <li class="X-xiao">
+                    <img src="../img/yan.png" alt="">
+                    <h5>小熊猫烟</h5>
+                    <p><b>￥30.99</b></p>
+                </li>
+                <li class="X-xiao1">
+                    <img src="../img/yan.png" alt="">
+                    <h5>小熊猫烟</h5>
+                    <p><b>￥30.99</b></p>
+                </li>
+                <li class="X-xiao2">
+                    <img src="../img/yan.png" alt="">
+                    <h5>小熊猫烟</h5>
+                    <p><b>￥30.99</b></p>
+                </li>
+            </ul>
+        </div>
+        <p class="Prompt">不参加活动可点击“ 去付款 ”直接付款</p>
+        <button id="pay" class="button">去付款</button>
+    </div>
+</section>
+
+<div class="Bomb">
+    <div>
+        <p>
+            <input type="number" placeholder="请输入手机号码" id="number">
+            <button class="Bname">确认</button>
+        </p>
+    </div>
+</div>
+</body>
+</html>
+
+
+

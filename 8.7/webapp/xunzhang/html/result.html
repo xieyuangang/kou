@@ -1,0 +1,30 @@
+<section ng-controller="resultCtrl" style="background: #f2f2f2;">
+
+    <header>
+        <table>
+            <tr>
+                <td width="60" ng-click="toBack()"><img src="{{url}}/xunzhang/images/back_icon.png"/>返回</td>
+                <td align="center" class="title"></td>
+                <td align="right" width="60"></td>
+            </tr>
+        </table>
+    </header> 
+
+    <div class="giftBox">
+    	<div class="gift_name"><span ng-bind="name"></span></div>
+    	<div class="gift_img">
+    		<img src="{{urlImg}}" />
+    	</div>
+    	<div class="gift_msg"><span ng-bind="prompt"></span></div>
+    	<div class="gift_footer">兑换的礼品将于十个工作日内送达指定的地址</div>
+    </div>
+
+	<div class="subBox">
+        <table>
+            <tr>
+                <td class="totalText">当前剩余勋章：<span ng-bind="balance"></span>枚</td>
+                <td width="120"><input type="button" value="继续兑换" ng-click="toGoodsList()"></td>
+            </tr>
+        </table>
+    </div>
+</section>

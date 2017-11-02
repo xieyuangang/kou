@@ -1,0 +1,48 @@
+<section ng-controller="pointDetailCtrl">
+	<div class="datetimeBox">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-6">
+					<select class="timeSelect" ng-change="select(v)" ng-model="timeSelect"></select>
+					<span id="timeText"></span>
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</div>
+				<div class="col-sm-6 col-xs-6 text-right">
+					查看月账单
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="listBox" id="listBox">
+		<ul>
+			<li ng-repeat="l in list">
+				<table>
+					<tr>
+						<td class="smallFont" width="50">{{l.crtDate | date:'MM-dd'}}</td>
+						<td class="detail_title">
+							<span ng-switch="l.bizType">
+								<span ng-switch-when="1">营销活动</span>
+								<span ng-switch-when="2">红码支付</span>
+								<span ng-switch-when="3">易兑</span>
+								<span ng-switch-when="4">消费者兑换</span>
+							</span>
+						</td>
+						<td class="smallFont money" align="right">
+							<span ng-switch="l.operType">
+								<span ng-switch-when="1">+</span>
+								<span ng-switch-when="2">-</span>
+							</span>
+							{{l.point}}
+						</td>
+					</tr>
+					<tr>
+						<td class="smallFont">{{l.crtDate | date:'HH:mm'}}</td>
+						<td class="detail_cont">{{l.content}}</td>
+						<td class="smallFont" align="right">交易完成</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</div>
+</section>

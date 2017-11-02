@@ -1,0 +1,153 @@
+<!doctype html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <title>无标题文档</title>
+    <style>
+        .cursors {
+            cursor: pointer
+        }
+    </style>
+    <script src="../../button/jquery-3.1.0.min.js"></script>
+    <script src="angular.js"></script>
+    <script>
+        var A = angular.module('myApp', []);
+        //购物车  加
+        A.directive('myAdds', function () {
+            return {
+                link: function (scope, element, attr) {
+                    element.click(function () {
+                        var This = this;
+                        angular.forEach(scope.dataList, function (data, index, array) {
+                            if (attr.items == data.items) {
+                                data.num = parseInt(data.num) + 1;
+                                scope.allPrices();
+                                scope.$apply() //刷新视图
+                            }
+                        });
+                    });
+                }
+            }
+        });
+        //购物车  减
+        A.directive('myMinus', function () {
+            return {
+                link: function (scope, element, attr) {
+                    element.click(function () {
+                        var This = this;
+                        angular.forEach(scope.dataList, function (data, index, array) {
+                            if (attr.items == data.items) {
+                                if (data.num <= 1) {
+                                    if (confirm('是否删除该产品')) {
+                                        data.num = 0;
+                                        $(This).siblings('input').val(0);
+                                        scope.allPrices();
+                                        scope.$apply();
+                                       //delete array[index];
+                                        scope.dataList.splice(index, 1);
+                                        $(This).parents('tr').remove();
+                                    }
+                                } else {
+                                    data.num = parseInt(data.num) - 1;
+                                }
+                                scope.allPrices();
+                                scope.$apply();
+                            }
+                        });
+                    });
+                }
+            }
+        });
+        //全选，全不选
+        A.directive('allOrcan', function () {
+            return function (scope, element, attr) {
+                element.click(function () {
+                    var isCheck = $(this).find('input').prop('checked');
+                    if (isCheck) {
+                        $('input[type=checkbox]').prop('checked', true);
+                    } else {
+                        $('input[type=checkbox]').not($('input[type=checkbox]').eq(0)).prop('checked', false);
+                    }
+                    angular.forEach(scope.dataList, function (data, index, array) {
+                        data.Bol = isCheck;
+                    });
+                    scope.allPrices();
+                    scope.$apply();
+                })
+            }
+        });
+        //单选
+        A.directive('oneCheck', function () {
+            return function (scope, element, attr) {
+                element.click(function () {
+                    var This = this;
+                    angular.forEach(scope.dataList, function (data, index, array) {
+                        if (attr.items == data.items) {
+                            var isCheck = $(This).prop('checked');
+                            data.Bol = isCheck;
+                            scope.allPrices();
+                            scope.$apply();
+                        }
+                    })
+                });
+            }
+        });
+        A.controller('myAngular', ['$scope', '$filter', function ($scope, $filter) {
+            $scope.dataList = [//初始化购物车的数据
+                {Bol: 'false', name: '洗衣机', num: '1', items: '0', oneprice: '900', price: ''},
+                {Bol: 'false', name: '热水器', num: '1', items: '1', oneprice: '110', price: ''},
+                {Bol: 'false', name: '空调', num: '1', items: '2', oneprice: '116', price: ''},
+                {Bol: 'false', name: '冰箱', num: '1', items: '3', oneprice: '2087', price: ''},
+                {Bol: 'false', name: '电磁炉', num: '1', items: '4', oneprice: '135', price: ''},
+                {Bol: 'false', name: '被子', num: '1', items: '5', oneprice: '50', price: ''},
+                {Bol: 'false', name: '本子', num: '1', items: '6', oneprice: '2', price: ''},
+                {Bol: 'false', name: '笔', num: '1', items: '7', oneprice: '115', price: ''},
+                {Bol: 'false', name: '杯子', num: '1', items: '8', oneprice: '12', price: ''},
+                {Bol: 'false', name: '书', num: '1', items: '9', oneprice: '5', price: ''},
+                {Bol: 'false', name: '零食', num: '1', items: '10', oneprice: '13', price: ''}
+            ];
+//总价格的计算
+            $scope.allPrices = function () {
+                $scope.allprice = 0;
+                angular.forEach($scope.dataList, function (data, index, array) {
+                    data.price = data.num * data.oneprice;
+                    if (data.Bol == true) {
+                        $scope.allprice += parseInt(data.price);
+                    }
+                });
+                return $scope.allprice;
+            };
+//按单价排序
+            $scope.CartSort = function (arg) {
+                angular.forEach($scope.dataList, function (data, index, array) {
+                    arguments.callee['CartSort(' + arg + ')'] = !arguments.callee['CartSort(' + arg + ')'];
+                    $scope.dataList = $filter('orderBy')($scope.dataList, arg, arguments.callee['CartSort(' + arg + ')'])
+                })
+            }
+        }])
+    </script>
+</head>
+<body ng-controller="myAngular">
+<table border="1">
+    <tr>
+        <td><label all-orcan><input type="checkbox">全选/取消全选 </label></td>
+        <td>名称</td>
+        <td>数量</td>
+        <td ng-click='CartSort("oneprice")'>单价</td>
+        <td>价格</td>
+    </tr>
+    <tr ng-repeat="data in dataList">
+        <td><input type="checkbox" one-check items={{data.items}}></td>
+        <td ng-cloak>{{data.name}}</td>
+        <td><input type="text" ng-cloak ng-model="data.num" items="{{data.items}}"
+                   style="width:50px;text-align:center;">
+            <button my-adds items="{{data.items}}" ng-class="{cursors:true}">+</button>
+            <button my-minus items="{{data.items}}" ng-class="{cursors:true}">-</button>
+        </td>
+        <td ng-cloak>{{data.oneprice}}</td>
+        <td ng-cloak>{{data.price}}</td>
+    </tr>
+</table>
+<div>总价格：{{allPrices()}}</div>
+</body>
+</html>

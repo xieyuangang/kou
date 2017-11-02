@@ -1,0 +1,64 @@
+<section ng-controller="detailListCtrl">
+	<div class="datetimeBox">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-xs-6">
+					<input type="date" ng-model="timeSelect" class="timeSelect"/>
+					<!-- <select class="timeSelect" ng-change="select(v)" ng-model="timeSelect"></select> -->
+					<span id="timeText"></span>
+					<span class="glyphicon glyphicon-chevron-down"></span>
+				</div>
+				<div class="col-sm-6 col-xs-6 text-right">
+					查看月账单
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="listBox" id="listBox">
+		<ul>
+			<li ng-repeat="l in list">
+				<table>
+					<tr>
+						<td class="smallFont" width="50">{{l.crtDate | date:'MM-dd'}}</td>
+						<td class="detail_title">
+							{{typeText}} - 来自：{{l.userPhone}}
+						</td>
+						<td class="smallFont money" align="right">
+							+{{l.amount}}
+						</td>
+					</tr>
+					<tr>
+						<td class="smallFont">{{l.crtDate | date:'HH:mm'}}</td>
+						<td class="detail_cont"></td>
+						<td class="smallFont" align="right">
+							<span ng-switch="l.orderState">
+								<span ng-switch-when="0">支付提交</span>
+								<span ng-switch-when="1">支付成功</span>
+								<span ng-switch-when="2">支付失败</span>
+								<span ng-switch-when="3">待支付</span>
+								<span ng-switch-when="4">退款提交</span>
+								<span ng-switch-when="5">退款成功</span>
+								<span ng-switch-when="6">退款失败</span>
+								<span ng-switch-when="7">退款已受理</span>
+								<span ng-switch-when="8">订单关闭</span>
+								<span ng-switch-when="9">订单失效</span>
+								<span ng-switch-when="10">订单取消</span>
+							</span>
+						</td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+	</div>
+	<div class="totelBox">
+		<div class="container">
+			<table>
+				<tr>
+					<td>今日成功总笔数：<span ng-bind="successCount" style="color:#0CC4D8;font-weight: bold;font-size: 15px;"></span></td>
+					<td align="right">总金额：<span ng-bind="successSum" style="color:#EC741C;font-weight: bold;font-size: 15px;""></span></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</section>

@@ -1,0 +1,91 @@
+<section ng-controller="detailController" class="detaill">
+	
+	   <div class="nav">
+	        
+	        <div class="text">
+	          <p class="txt"><i class="iconfont icon-xingzhuang60kaobei2"></i> 请选择参与活动的店铺:</p>
+	           <div class="dan">
+	            <span ng-repeat="l in list">
+	            <input type="checkbox" value="{{l.qrCode}}" ng-if="l.isJoin!=1"> {{l.name}}
+	                 <i ng-if="l.isJoin==1">(已经参加)</i>
+	            </span>
+	   
+	           </div>
+	        </div>	
+	        
+	         <div class="commodity">
+	          <p class="txt" style="line-height: 3rem;"><i class="iconfont icon-xingzhuang60kaobei2" style="color:#C71B04"></i> 请选择商品:</p>
+	             <div  class="nongfu">  
+	             <img src="{{url}}/homeDialog/images/shi.png" alt="">
+	             <p>农夫山泉</p>
+	             <p> 550ML/150瓶</p>
+	             </div>	
+                
+                <div  class="chewing">  
+	             <img src="{{url}}/homeDialog/images/tang.png" alt="">
+	             <p>绿箭口香糖</p>
+	             <p> 35粒装/15盒 </p>
+	             </div>	
+	             <div  class="tissue">  
+	             <img src="{{url}}/homeDialog/images/zhi.png" alt="">
+	             <p>心相印纸巾包</p>
+	             <p>4层/240小包</p>
+	             </div>	
+	             <div  class="lighter">  
+	             <img src="{{url}}/homeDialog/images/huo.png" alt="">
+	             <p>打火机</p>
+	             <p>普通/240个</p>
+	             </div>		          
+
+	         </div>
+	        
+	         <!--<div class="text">
+	          <p class="txt"><i class="iconfont icon-xingzhuang60kaobei2"></i> 请选择认购的抵扣券数量:</p>
+	           <div class="dan1">
+	              <p>店铺A：  
+                    <input id="wlmsinput" name="maktMaktx" list="wlmslist" value=""/>
+                        <datalist id="wlmslist">
+                            <c:forEach var="" items="">
+                                <option value="1">第一个</option>
+                                 <option value="2">第二个</option>
+                                  <option value="3">第三个</option>
+                                   <option value="4">第四个</option>
+                                    <option value="5">第五个</option>
+                            </c:forEach>
+                        </datalist>
+               </p>
+	              <p>店铺A：
+	              <input id="wlmsinput" name="maktMaktx" list="wlmslist" value=""/>
+                        <datalist id="wlmslist">
+                            <c:forEach var="" items="">
+                                <option value="1">第一个</option>
+                                 <option value="2">第二个</option>
+                                  <option value="3">第三个</option>
+                                   <option value="4">第四个</option>
+                                    <option value="5">第五个</option>
+                            </c:forEach>
+                        </datalist>   
+                     </p>
+	              <p>店铺A： 
+	               <input id="wlmsinput" name="maktMaktx" list="wlmslist" value=""/>
+                        <datalist id="wlmslist">
+                            <c:forEach var="" items="">
+                                <option value="1">第一个</option>
+                                 <option value="2">第二个</option>
+                                  <option value="3">第三个</option>
+                                   <option value="4">第四个</option>
+                                    <option value="5">第五个</option>
+                            </c:forEach>
+                        </datalist>
+	              </p>
+	           </div>
+	        </div> -->
+	   </div>
+	<button ng-click="sure()" class="tijiao"> 提交</button>
+</section>
+
+
+
+
+
+

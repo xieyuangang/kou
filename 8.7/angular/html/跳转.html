@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<script type="text/javascript" src="../angular-1.6.5/angular.js"></script>
+    <script type="text/javascript" src="../angular-1.6.5/angular-route.js"></script>-->
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular-route.min.js"></script>
+</head>
+<body>
+<div ng-app="mainApp">
+    <p><a href="#addStudent">添加学生</a></p>
+    <p><a href="#viewStudents">查看学生</a></p>
+    <div ng-view></div>
+</div>
+<script type="text/javascript">
+    var mainApp = angular.module("mainApp", ['ngRoute']);
+    mainApp.config(['$routeProvider',
+        function ($routeProvider) {
+            $routeProvider.
+            when("/addStudent", {
+                templateUrl: "../pay/dom1.html",
+                controller: 'AddStudentController'
+            }).
+        when("/viewStudents", {
+            templateUrl: "../pay/la.html",
+            controller: 'ViewStudentsController'
+        }).
+         otherwise({
+                    redirectTo: '/addStudent'
+         });
+    }]);
+    mainApp.controller("AddStudentController", function ($scope) {
+        $scope.message = "首页"
+    });
+    mainApp.controller("ViewStudentsController", function ($scope) {
+        $scope.message = "路由页面"
+    })
+</script>
+</body>
+</html>

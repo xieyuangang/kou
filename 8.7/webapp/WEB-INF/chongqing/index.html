@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp"  ng-init="ctx='${ctx}';custMd5='${custMd5 }';shopName='${shopName }';custId='${retail.custId }';title='红码';nickname='${nickname }';headimgurl='${headimgurl }';isActived='${isActived }';isTouchA='false';shopQRCode='${shopQRCode }';license='${license }'">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
+    <title ng-bind="title"></title>
+    <link href="../../test/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../../test/css/index.css" rel="stylesheet" />
+    <script type="text/javascript" src="../../test/js/angular.js"></script>
+    <script type="text/javascript" src="../../test/js/angular-ui-router.js"></script>
+    <script type="text/javascript"></script>
+    <script type="text/javascript" src="../../test/js/jquery.1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../test/js/iscroll.js"></script>
+    <script type="text/javascript" src="../../test/js/app.js"></script>
+    <script type="text/javascript" src="../../test/js/config.js?random=<%=Math.random()%>"></script>
+    <script type="text/javascript" src="../../test/js/factory.js?random=<%=Math.random()%>"></script>
+    <script type="text/javascript" src="../../test/js/directive.js"></script>
+    <script type="text/javascript" src="../../test/js/indexCtroller.js?random=<%=Math.random()%>"></script>
+    <script type="text/javascript" src="../../test/js/wScratchPad.js"></script>
+</head>
+<body>
+    <div ui-view="" style="height: 100%;"></div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+body{ margin: 0;padding: 0;font-family:"微软雅黑";}
+body,html{-webkit-text-size-adjust: none;width: 100%;height: 100%;background:#e2e2e2;}
+*{text-decoration: none;list-style: none;}
+ul,li,dl,dd,dt,p,ol,h1,h2,h3,h4,h5{font-size: 12px;font-weight: 100;padding: 0;margin: 0;}
+a{text-decoration:none;color:#666; }
+.wrap{margin: 0 auto;}
+.fl{float: left;}
+.fr{float: right;}
+.index{overflow: hidden;}
+.clr{clear:both; height:0; width:100%; font-size:1px; line-height:0; visibility:hidden; overflow:hidden;}
+.pointer{cursor:pointer;}
+a,input,button{ outline:none; }
+
+/*a:link {color:#0f0;text-decoration:none;}
+a:visited {color: #FFFF00; text-decoration:none;}
+a:hover {color: #00FF00; text-decoration:underline;}
+a:active {color: #0000FF; text-decoration:underline;}*/
+.wrapper{clear: both;width: 100%;}
+/*word-break:break-all 文字换行*/
+/*white-space:nowrap 文字不换行*/
+/*默认滚动条样式修改ie9 google Firefox 等高版本浏览器有效*/
+/*::selection {background: #D03333;color: white;text-shadow: none;}
+::-webkit-scrollbar-track-piece{width:10px;background-color:#f2f2f2}
+::-webkit-scrollbar{width:10px;height:6px}
+::-webkit-scrollbar-thumb{height:50px;background-color:rgba(0,0,0,.3);}
+::-webkit-scrollbar-thumb:hover{background:#cc0000}*/
+/*=========================头部======================*/
+header{width:100%;height: 45px;padding:0px 10px;box-sizing:border-box;background:#E01616;color: #fff;display: flex;border-bottom:1px solid #e2e2e2}
+header a{flex:1;color:#fff;display: block;height: 45px;line-height: 45px;}
+header span{flex: 1;text-align: center;display: block;height: 45px;line-height: 45px;}
+/*==================================头像========================*/
+section{width: 100%;background:#fff;}
+.x-top{width: 100%;background:#E01616;padding: 30px 10px 10px 10px;box-sizing:border-box;}
+.x-top .Hportrait{width:100px;height: 100px; overflow: hidden;margin: 0 auto;border-radius: 50%;box-shadow:0px 0px 6px 7px #fff;-webkit-box-shadow:0px 0px 6px 7px #fff; -moz-box-shadow:0px 0px 6px 7px #fff;}
+.x-top .Hportrait img{width: 100%;height: 100%;}
+.x-top .Uname{width: 100%;height: 40px;line-height: 40px;text-align: center;color: #fff;font-size:18px;}
+.x-top .Discount{width: 100%;display: flex;justify-content: center;}
+.x-top .Discount a{flex: 1;-webkit-box-shadow:0px 0px 3px 0px #fff; -moz-box-shadow:0px 0px 3px 0px #fff; box-shadow:0px 0px 3px 0px #fff;text-align: center;box-sizing: border-box;padding: 10px 10px;color:#fff; }
+.x-top .Discount a b{display: block}
+.x-top .Discount a span{display: block}
+/*==================================列表========================*/
+.lists::-webkit-scrollbar{width:1px;}
+.lists{overflow:auto;}
+.lists li{display: flex;justify-content: center; }
+.lists li div{padding:20px 5px;box-sizing: border-box;}
+.lists li div b{display: block;text-align: center}
+.lists li div span{line-height: 35px;text-align: center}
+.lists li div:nth-child(1){flex: 1;}
+.lists li div:nth-child(1){flex: 1;}
+.lists li div:nth-child(3){flex: 3;}
+.lists li div:nth-child(4){flex: 1;}
+
+.listsS::-webkit-scrollbar{width:1px;}
+.listsS{overflow:auto;}
+.listsS li{display: flex;justify-content: center; }
+.listsS li div{padding:20px 5px;box-sizing: border-box;}
+.listsS li div b{display: block;text-align: center}
+.listsS li div span{line-height: 35px;text-align: center}
+.listsS li div:nth-child(1){flex: 1;}
+.listsS li div:nth-child(1){flex: 1;}
+.listsS li div:nth-child(3){flex: 3;}
+.listsS li div:nth-child(4){flex: 1;}
+/*==================================加载========================*/
+.dropload-up,.dropload-down{position: relative;height: 0;overflow: hidden;font-size: 12px;-webkit-transform:translateZ(0);transform:translateZ(0);}
+.dropload-down{height: 50px;}
+.dropload-refresh,.dropload-update,.dropload-load,.dropload-noData{height: 50px;line-height: 50px;text-align: center;}
+.dropload-load .loadin{display: inline-block;height: 15px;width: 15px;border-radius: 100%;margin: 6px;border: 2px solid #666;border-bottom-color: transparent;vertical-align: middle;-webkit-animation: rotate 0.75s linear infinite;animation: rotate 0.75s linear infinite;}
+@-webkit-keyframes rotate {0% { -webkit-transform: rotate(0deg); }50% { -webkit-transform: rotate(180deg); }100% { -webkit-transform: rotate(360deg); }}
+@keyframes rotate {0%{transform: rotate(0deg);}50% {transform: rotate(180deg);}100% {transform: rotate(360deg);}}
+/*==================================验证========================*/
+.Verification{box-sizing: border-box;padding:0 10px;width: 100%;padding-bottom: 5px;}
+.Verification p{height:45px;position: relative;width: 100%;border-bottom:1px solid #e2e2e2; }
+.Verification p input{height:43px;border: none;width:78%;outline: none;}
+.Verification p span{position: absolute;right:0;top:10px;padding: 4px 8px;background: red;color: #fff;border-radius:3px; }
+.Verification button{width: 60%;height: 35px;background: red;color: #fff;outline: none;margin:20px auto;border: none;border-radius: 5px;display: block;}

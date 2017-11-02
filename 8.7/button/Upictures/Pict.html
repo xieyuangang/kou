@@ -1,0 +1,39 @@
+<div ng-controller="homo" style="padding:5px 10px;box-sizing: border-box; ">
+
+    <form>
+        <div class="form-group">
+            <label>店铺名字</label>
+            <input type="text" class="form-control" ng-model="shopName" placeholder="店铺名字">
+        </div>
+        <div class="form-group">
+            <label>商品名称</label>
+            <input type="text" class="form-control" ng-model="commodityName" placeholder="商品名称">
+        </div>
+        <div class="form-group">
+            <label>商品价格</label>
+            <input type="text" class="form-control" ng-model="commodityPrice" placeholder="商品价格">
+        </div>
+        <div class="form-group">
+            <label>商品数量</label>
+            <input type="number" class="form-control" ng-model="commodityNumber" placeholder="商品数量">
+        </div>
+        <div class="form-group row">
+            <!--<div class="col-xs-4  nameSt" style="position: relative;">
+                <label>请选择实物图片</label>
+                <i class="glyphicon glyphicon-remove Wrong" ng-click="ppt()"
+                   style="position: absolute;top:-5px;right:-5px;"></i>
+                <div style="width: 60px;height: 60px;background: red;position: relative;overflow: hidden">
+                    <div><img ng-src="showImg/{{dealer.idCardFace}}" class="idCardFace picture" enlarge-pic
+                              style="width: 60px;height: 60px;"/></div>
+                    <input type="file" file-model="idCardFace" img-view-id="idCardFace"
+                           style="opacity: 0;position: absolute;z-index: 9999;top: 0;width: 60px;height: 60px;"/>
+                </div>
+            </div>-->
+            <div id="zyupload" class="zyupload"></div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" ng-click="sub()">保存</button>
+        <button type="submit" class="btn btn-danger btn-lg" ng-click="cancel()">取消</button>
+    </form>
+
+
+</div>

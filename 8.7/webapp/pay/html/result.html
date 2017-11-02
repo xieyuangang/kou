@@ -1,0 +1,63 @@
+
+<section id="result" ng-controller="resultCtrl">
+	<div>
+	    <header>
+	        <table>
+	            <tr>
+	                <td align="center">
+	                    <span class="shopName" ng-bind="shopName"></span>
+	                    <span class="evaluate">
+	                        <img src="{{url}}/pay/images/star.png" class="star"/><span class="fs"><span ng-bind="commentAvgScore"></span>分</span>
+	                        <span><span ng-bind="commentSum"></span>人评价过</span>
+	                    </span>
+	                </td>
+	            </tr>
+	        </table>
+	    </header>
+	    
+	    <div class="payState">
+	    	<img src="{{urlImg}}" class="stateImg" />
+	    	<div class="stateMsg" ng-bind="stateMsg"></div>
+	    </div>
+	    
+	    <div class="settlementList">
+	    	<div class="settlementTitle">支付清单</div>
+	    	<table ng-init="amount=0;coupon=0;payAmount=0;">
+	    		<tr>
+	    			<td>消费金额</td>
+	    			<td align="right"><span ng-bind="amount"></span> 元</td>
+	    		</tr>
+	    		<tr>
+	    			<td>优惠券</td>
+	    			<td align="right"><span ng-bind="coupon"></span> 元</td>
+	    		</tr>
+	    		<tr>
+	    			<td>实际支付</td>
+	    			<td align="right"><span ng-bind="payAmount"></span> 元</td>
+	    		</tr>
+	    	</table>
+	    </div>
+	    
+	    <div class="evaluateBox">
+	        <div class="score">
+	            <table>
+	                <tr>
+	                    <td>评分：</td>
+	                    <td>
+	                        <img src="{{url}}/pay/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/pay/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/pay/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/pay/images/score.png" class="scoreImg"/>
+	                        <img src="{{url}}/pay/images/score.png" class="scoreImg"/>
+	                    </td>
+	                </tr>
+	            </table>
+	        </div>
+	    </div>
+	    <input type="button" value="点评" class="btn" id="btn" ng-click="evaluate()"/>
+	    
+	    <ul class="hdList">
+	    	<li>营销活动</li>
+	    </ul>
+    </div>
+</section>

@@ -1,0 +1,19 @@
+<section ng-controller="imagesCtrl">
+	<ul class="images">
+		<li ng-repeat="i in imgList" ng-click="showBig()">
+			<table class="imgTab">
+				<tr>
+					<td><img src="{{i}}"></td>
+				</tr>
+			</table>
+		</li>
+	</ul>
+	
+	<div class="bigImg" id="bigBox" ng-click="hide()">
+		<table class="imgTab">
+			<tr>
+				<td class="tdH"><img src="" id="bigImg"/></td>
+			</tr>
+		</table>
+	</div>
+</section>

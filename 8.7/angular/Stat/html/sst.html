@@ -1,0 +1,69 @@
+<style type="text/css">
+    .contBox{ margin: 5px 15px; }
+    .contBox .table{ width: 100%;border-collapse: collapse;margin-top: 15px;}
+    .contBox .table li{width: 33.33%;text-align: center;display: block;float: left}
+    .contBox .table li img{ width: 70%;}
+    .promptTitle{ font-size: 17px;padding: 5px 0; }
+    .prize li{ list-style: none;line-height: 20px;}
+    .prize table{ width: 100%;line-height: 16px;}
+    .prize table td{ padding-bottom: 10px;font-size: 14px;}
+
+    .Jiao{width: 100%;height: 100%;position: fixed;background: rgba(0,0,0,0.3);top:0;left:0;}
+    .Jiao img{width:20%;height: 20%;float: right;margin-right: 10%;}
+    .Jiao p{clear: both;width: 60%;margin: 0 auto;text-align: center;font-size: 18px;}
+    .Jiao p b{font-size: 22px;color: red;}
+    .Jiao button{width: 30%;height: 35px;background: red;color: #fff;border: none;outline:none;border-radius: 3px;display: block;margin: 0 auto;margin-top: 60px;}
+
+</style>
+<section >
+    <h1>这里是第一个页面</h1>
+    <h1>这里是第一个页面</h1>
+    <hello></hello>
+    <input  ng-model="max.text"><!--双向数据绑-->
+    <p>{{max.text}}</p>
+
+   <!-- <div class="contBox">
+        <div class="goodsPrompt"></div>
+        <div id="smokeBox" class="table">
+            <ul>
+                <li>
+                    <img src="http://angularjs.cn/static/img/logo.png" /><br/>
+                    <span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+                </li>
+                <li >
+                    <img src="http://angularjs.cn/static/img/logo.png" /><br/>
+                    <span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+                </li>
+                <li >
+                    <img src="http://angularjs.cn/static/img/logo.png" /><br/>
+                    <span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+                </li>
+                <li >
+                    <img src="http://angularjs.cn/static/img/logo.png" /><br/>
+                    <span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+                </li>
+                <li >
+                    <img src="http://angularjs.cn/static/img/logo.png" /><br/>
+                    <span class="price"><font>{{a.price / 100}}元</font> / 包</span>
+                </li>
+            </ul>
+        </div>
+
+    </div>-->
+   <!-- <div class="Jiao" ng-controller="homeCtrl" ng-if="data[0].RollNo!=104" ng-hide="Jiao">
+        <div >
+            <img src="html/zhi.png">
+            <p style="">你有一个本店随机减红包<br/> <b>最高58.88元</b><br/>马上去使用</p>
+        </div>
+        <button id="button" ng-click="hide(Jiao=!jiao)">我知道了</button>
+    </div>-->
+    <div ng-controller="appl">
+       <div >
+         <span enter="gou()">你好</span>
+           <span enter="log()">小白兔</span>
+       </div>
+    </div>
+</section>
+
+
+

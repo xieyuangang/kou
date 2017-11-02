@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+    <title></title>
+    <script type="text/javascript">
+        var isclick = false;
+        function initEvent() {
+            var tableWjx = document.getElementById("tableWjx");
+            var tds = tableWjx.getElementsByTagName("td");
+            for (var i = 0; i < tds.length; i++) {
+                var td = tds[i];
+                td.onmouseover = change;
+                td.onmouseout = repeal;
+                td.onclick = change1;
+            }
+        }
+        function change() {
+            var Cycle="";
+            if (!isclick) {
+                var tableWjx = document.getElementById("tableWjx");
+                var tds = tableWjx.getElementsByTagName("td");
+                var index = indexof(tds, this);
+                for (var i = 0; i < index + 1; i++) {
+                    var td = tds[i];
+
+
+                }
+            }
+        }
+        function repeal() {
+            if (!isclick) {
+                var tableWjx = document.getElementById("tableWjx");
+                var tds = tableWjx.getElementsByTagName("td");
+                var index = indexof(tds, this);
+                for (var i = 0; i < index + 1; i++) {
+                    var td = tds[i];
+                    td.innerText = "☆";
+                }
+            }
+        }
+        function indexof(arr, ele) {
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] == ele) {
+                    return i;
+                }
+            }
+            return -1;
+        }
+        function change1() {
+            if (!isclick) {
+                change();
+                isclick = true;
+            }
+            else {
+                alert("Sorry,You had clicked me!");
+            }
+        }
+    </script>
+</head>
+<body onload="initEvent()">
+<input type="text" >
+
+<table id="tableWjx"><tr><td><i class="iconfont icon-xiaolian"></i></td><td><i class="iconfont icon-xiaolian"></i></td><td><i class="iconfont icon-xiaolian"></i></td><td><i class="iconfont icon-xiaolian"></i></td><td><i class="iconfont icon-xiaolian"></i></td></tr></table>
+</body>
+</html>

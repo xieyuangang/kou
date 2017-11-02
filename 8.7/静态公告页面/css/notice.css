@@ -1,0 +1,7 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑";background:#FFFFCC;}
+.nav{width:100%;box-sizing: border-box;font-size:0.95rem;padding: 0 .65rem;color: #691842; }
+.nav .txt{padding-top:1rem }
+.nav p{margin: 1rem 0;line-height: 1.5rem}
+.nav p i{color: #ff1d11;text-shadow: 5px 2px 6px #000;}
+.nav dl dt{line-height: 1.8rem}
+.nav dl dd{line-height: 1.5rem; }

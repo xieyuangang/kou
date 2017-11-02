@@ -1,0 +1,12 @@
+<section ng-controller="activityCtrl">
+	<div class="inputMoneyBox">
+		<div class="text">您选购的商品是：<span ng-bind="somkeName"></span></div>
+		<div class="text" style="margin-bottom: 20px;">商品单价：<span ng-bind="amount"></span>元</div>
+		<div class="text">请输入数量</div>
+		<input type="tel" ng-model="num"/>
+	</div>
+	<div class="activityBtn">
+		<input type="button" value="马上支付" ng-click="addOrder()"/>
+	</div>
+	<loading></loading>
+</section>
