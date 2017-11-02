@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="format-detection" content="email=no"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+    <script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="./js/Shopping.js"></script>
+    <title></title>
+</head>
+<body>
+<section class="Shopping">
+    <ul class="one-shop">
+        <!--  <li class="one-goods" lay-tt="X-xiao1">
+            <div class="delete" style="width: 15%;line-height: 100px;color: red;text-align: center;">删除</div>
+            <input type="checkbox" class="GoodsCheck" style="display: none">
+            <div style="width: 30%;" class="lists">
+                <img src="./img/yan.png">
+                <p class="smoke">
+                    <b>小熊猫香烟</b><b>￥ <span class="GoodsPrice">29.99</span></b>
+                </p>
+            </div>
+            <div style="width: 26%;" class="list">
+                <a href="javascript:;" class="reduce"><input type="button" value="-"></a>
+                <span><input type="tel" value="1" class="number"></span>
+                <a href="javascript:;" class="plus"><input type="button" value="+"></a>
+            </div>
+            <div style="margin-top:35px;white-space: nowrap;width: 28%;overflow: hidden;box-sizing: border-box;padding-left:6px;">
+                总计:<br/>&nbsp &nbsp￥ <b class="single" style="">29.99</b>
+            </div>
+        </li> -->
+
+        <p class="he"><span>合计：<b class="ShopTotal">￥00.00</b>元</span></p>
+    </ul>
+    <div class="volume">
+        <span class="left">使用优惠卷</span> <span class="right">抵消 <b
+            class="Ynam">0.00</b>元
+	</span>
+    </div>
+    <div class="ment">
+        <p class="z">应支付金额</p>
+        <p class="j">
+            <span>￥<b id="AllTotal">22222.2</b>元</span>
+        </p>
+        
+    </div>
+    <button class="button" style="margin-top:18px;height:40px;;border-radius:5px">确认付款</button>
+    <p style="text-align: center; font-size:14px; width: 100%; margin: 20px auto;">本服务由英黎科技提供</p>
+</section>
+
+
+
+
+ <div class="zhuan">
+        <div class="spinner">
+            <div class="spinner-container container1">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container2">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+            <div class="spinner-container container3">
+                <div class="circle1"></div>
+                <div class="circle2"></div>
+                <div class="circle3"></div>
+                <div class="circle4"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+<form method="post" action="http://h5pay.jd.com/jdpay/customerPay" id="jdForm" style="display:none">
+    <input type="hidden" name="version" id="version"/>
+    <input type="hidden" name="merchant" id="merchant"/>
+    <input type="hidden" name="device" id="device"/>
+    <input type="hidden" name="tradeNum" id="tradeNum"/>
+    <input type="hidden" name="tradeName" id="tradeName"/>
+    <input type="hidden" name="tradeTime" id="tradeTime"/>
+    <input type="hidden" name="currency" id="currency"/>
+    <input type="hidden" name="amount" id="jdAmount"/>
+    <input type="hidden" name="callbackUrl" id="callbackUrl"/>
+    <input type="hidden" name="notifyUrl" id="notifyUrl"/>
+    <input type="hidden" name="ip" id="ip"/>
+    <input type="hidden" name="expireTime" id="expireTime"/>
+    <input type="hidden" name="orderType" id="orderType"/>
+    <input type="hidden" name="sign" id="sign"/>
+    <input type="hidden" name="payMerchant" id="payMerchant"/>
+    <input type="hidden" name="tradeType" id="tradeType"/>
+    <input type="hidden" name="riskInfo" id="riskInfo"/>
+</form>
+</body>
+</html>

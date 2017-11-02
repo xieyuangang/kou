@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+	<title>操作结果</title>
+	<link rel="stylesheet" href="./plugs/bootstrap-3.3.7/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="./plugs/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./css/page_two.css">
+</head>
+<body ng-app="myApp" ng-controller="resultCtrl">
+	<header>
+		<h5 class="text-center">操作结果</h5>
+		<div class="back-btn" ng-click="backBtn()">
+			<i class="fa fa-angle-left" aria-hidden="true"></i>
+			<span>返回</span>
+		</div>
+	</header>
+
+	<div id="box">
+		<div class="box-top">
+			<div class="img text-center" style="background-color: {{isOk? '#23C334' : '#DD5044'}}">
+				<i class="fa fa-check" aria-hidden="true" ng-if="isOk"></i>
+				<i class="fa fa-times" aria-hidden="true" ng-if="!isOk"></i>
+			</div>
+			<div class="info text-center" ng-bind="isOk ? '交易成功' : '交易失败'"></div>
+		</div>
+		<hr>
+		<div class="box-info">
+			<div class="text-center">交易信息交易信息</div>
+		</div>
+		<hr>
+		<div class="box-comment" ng-if="isOk">
+			<div class="text-center title">评价一下吧~</div>
+			<div class="logo text-center">
+				<i class="fa fa-smile-o" aria-hidden="true" style="color: #DD5044;"></i>
+				<i class="fa fa-smile-o" aria-hidden="true" style="color: #DD5044;"></i>
+				<i class="fa fa-smile-o" aria-hidden="true" style="color: #DD5044;"></i>
+				<i class="fa fa-smile-o" aria-hidden="true"></i>
+				<i class="fa fa-smile-o" aria-hidden="true"></i>
+			</div>
+			<div class="comment text-left">
+				<div>
+					说两句吧..
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="text-center" ng-if="isOk">
+		<button class="btn btn-info">完成</button>
+	</footer>
+
+	<script src="./plugs/jquery.min.js"></script>
+	<script src="./plugs/bootstrap-3.3.7/dist/js/bootstrap.min.js"></script>
+	<script src="./plugs/angularjs/angular.min.js"></script>
+	<script src="./js/resultCtrl.js"></script>
+</body>
+</html>
