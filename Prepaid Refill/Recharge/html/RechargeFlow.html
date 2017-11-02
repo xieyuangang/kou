@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>流量充值中心</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+    <script type="text/javascript" src="../js/passwordBox.min.js"></script>
+</head>
+<body>
+<p class="yin"></p>
+<div class="content">
+    <div class="inputTop">
+        <p style="height: 1.8rem;"><a onclick="ulrHtml()"><span class="textR" style="width: 100%;color:#333; ">充值记录</span></a></p>
+        <p><input type="number" placeholder="请输入手机号码" id="InputBox"><span class="move"></span></p>
+        <p class="address"></p>
+    </div>
+    <ul class="list">
+        <li><span class="text">30M</span><span>售价**元</span></li>
+        <li><span class="text">50M</span><span>售价**元</span></li>
+        <li><span class="text">80M</span><span>售价**元</span></li>
+        <li><span class="text">100M</span><span>售价**元</span></li>
+        <li><span class="text">1G</span><span>售价**元</span></li>
+        <li><span class="text">2G</span><span>售价**元</span></li>
+    </ul>
+    <ul class="flowButton"></ul>
+</div>
+<script type="text/javascript" src="../js/RechargeFlow.js"></script>
+<script>
+    function ulrHtml() {
+        var memberIdL = window.location.href;
+        var href_part = memberIdL.split('?');
+        var hoursH = href_part[1].split("=")[2];
+        var toUrl = "RechargeRecord.html?" + hoursH;
+        window.open(toUrl);
+    }
+</script>
+</body>
+</html>
