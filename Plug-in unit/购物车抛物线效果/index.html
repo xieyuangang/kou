@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="Keywords" content="关键词，关键词">
+	<meta name="description" content="描述">
+	<title>标题</title>
+	<style type="text/css">
+	*{margin:0;padding:0;}
+	#banner{width:100%;
+			height:160px;
+			background:url("images/banner.jpg") no-repeat center center;
+	}
+	#product{width:990px;
+			height:310px;
+			margin:30px auto 0;
+	}
+	#product ul li{width:220px;
+			height:300px;
+			list-style-type:none;
+			border:1px solid #ddd;
+			float:left;
+			margin:0 7px;
+			padding:5px;
+	}
+	#product ul li p.title{
+			font-size:12px;
+			font-family:"微软雅黑";
+			line-height:30px;
+			color:#666;
+	}
+	#product ul li p.price{line-height:30px;}
+	#product ul li p.price font{
+			color:red;
+			font-size:16px;
+			font-weight:600;
+			font-family:"Arial";
+	}
+	#product ul li p.price span{
+			color:#fff;
+			width:80px;
+			height:30px;
+			background:#ff0000;
+			font-size:12px;
+			font-weight:600;
+			line-height:30px;
+			text-align:center;
+			float:right;
+			border-radius:5px;
+			cursor:pointer;
+	}
+	.fly{width:50px;height:50px; border-radius:50px;}
+	#carbox{width:260px;
+			height:100%;
+			position:fixed;
+			top:0;right:-220px;
+			background:red;
+			overflow:hidden;
+	}
+	#carbox .car{width: 40px;
+			height:100%;
+			background:#000;
+			position: absolute;
+			left: 0px;
+			top: 0px;
+	}
+	#carbox .box{width: 220px;
+			  height: 100%;
+			  background: #ddd;
+			  position: absolute;
+			  top: 0px;
+			  right: 0px;
+	
+	}
+	#carbox .car span{color: #fff;
+			  width: 12px;
+			  height: 80px;
+			  font-size: 12px;
+			  background: red;
+			  display: block;
+			  padding: 10px 14px;
+			  position: absolute;
+			  top: 50%;
+			  cursor:pointer;
+	}
+	.box dl{height:60px; padding:10px; border-bottom:1px solid #fff;}
+	.box dl dt{width:60px;height:60px; background:blue;float:left;}
+	.box dl dd{width:120px;line-height:22px;float:right; font-size:12px; color:#666;}
+	.box dl dd.money{color:red;}
+	</style>
+</head>	
+<body>
+	<div id="product">
+		<ul>
+			<li>
+				<img src="images/1.jpg" width="220" height="220" alt="美女"/>
+				<p class="title">2015夏季新品海澜之家男装正品1</p>
+				<p class="price"><font>￥193.0</font><span>加入购物车</span></p>
+			</li>
+			<li>
+				<img src="images/2.jpg" width="220" height="220" alt="美女"/>
+				<p class="title">2015夏季新品海澜之家男装正品2</p>
+				<p class="price"><font>￥194.0</font><span>加入购物车</span></p>
+			</li>
+			<li>
+				<img src="images/3.jpg" width="220" height="220" alt="美女"/>
+				<p class="title">2015夏季新品海澜之家男装正品3</p>
+				<p class="price"><font>￥195.0</font><span>加入购物车</span></p>
+			</li>
+			<li>
+				<img src="images/4.jpg" width="220" height="220" alt="美女"/>
+				<p class="title">2015夏季新品海澜之家男装正品4</p>
+				<p class="price"><font>￥196.0</font><span>加入购物车</span></p>
+			</li>
+		</ul>
+	</div>
+	<div id="carbox">
+		<div class="car">
+			<span class="join">加入购物车</span>
+		</div>
+		<div class="box"></div>
+	</div>
+	<script src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/tz_fly.js"></script>
+	<script>
+	var kg = 0;//开关
+	$("#carbox .car span").click(function(){//购物车右边显示隐藏
+		if(kg == 0){
+			$("#carbox").animate({right:0},500);//自定义动画
+			kg = 1;
+		}else{
+			$("#carbox").animate({right:"-220px"},500);
+			kg = 0;
+		}
+	});
+	$("#product ul li p.price span").click(function(event){
+		//点击添加产品 
+			//获取图片
+			var _src=$(this).parent().siblings("img").attr("src");
+			var title=$(this).parent().siblings("p.title").html();
+			var money=$(this).siblings("font").html();
+			$(".box").append("<dl><dt><img src='"+_src+"' width='60' height='60' /></dt><dd class='ti'>"+title+"</dd><dd class='money'>"+money+"</dd></dl>");
+
+		//添加抛物线
+		addProduct(event);
+	});
+
+
+	// 添加抛物线
+	function addProduct(event){
+		// 设置落脚点
+		var offset = $(".join").offset();
+		// 获取当前点击的js对象
+		var _this = $(event.target);
+		var src = _this.parent().parent().find("img").attr("src");
+		var flyer = $("<img src='"+src+"' class='fly'/>");
+		flyer.fly({
+			start:{
+				left:event.clientX, // 获取点击购物车按钮的X,Y坐标 
+				top:event.clientY
+			},
+			end:{
+				left: offset.left,
+				top: offset.top,
+				width:20,
+				height:20
+			},
+			onEnd:function(){//移除显示的点
+				flyer.fadeOut("slow",function(){
+					$(this).remove();
+				});
+			}
+		});
+	}
+	</script>
+</body>
+</html>
