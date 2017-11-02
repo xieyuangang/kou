@@ -1,0 +1,13 @@
+.news_search{ padding:10px 10px; }
+.news_search .layui-inline{ margin:5px 5px 5px 0; }
+.layui-table,.layui-table th{ text-align:center; }
+.news_list .layui-btn,.news_list .layui-btn+.layui-btn{ margin:2px 5px; }
+.news_list .layui-form-switch{ margin-top:0; }
+
+
+/*照片*/
+.X-IDPhoto{width: 100%;clear: both;height: 320px;margin-top: 10px;}
+.X-IDPhoto div{width: 49%;float: left;border: 1px solid #e2e2e2;height: 300px;padding: 10px 10px;box-sizing: border-box; }
+.X-IDPhoto p{width: 100%;text-align: center;}
+.X-IDPhoto .just{margin-right:20px;}
+.X-IDPhoto .back{padding:0;}
