@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>es6 待学</title>
+</head>
+<body>
+<script>
+    //1
+    {
+        let you = '苹果'; //let定义模块化变量在外面不能用
+        // console.log(you)
+    }
+    //2
+    const map = []; //const 一旦声明，常量的值就不能改变
+    map.push("水果");
+    map.push("mm");
+    map.push("sos");
+    // console.log(map);
+
+    //3
+    function bar() {
+        return ['苹果', '梨子', '桃子']
+    }
+    //var mapp=bar();
+    //  loa=mapp[0];lob=mapp[1];loc=mapp[2];
+    //console.log(loa,lob,loc);
+    //console.log(mapp);
+    //let [loa, lob, loc] = bar();//拆分数组里面的值  解构数组
+    //console.log(loa, lob, loc);
+    //4
+    function bars() {
+        return {Apple: '苹果', Pear: '梨子', Peach: '桃子'}
+    }
+    // var past=bars();
+    //console.log(past.Pear);
+    //let{Apple:Apple,Pear:Pear,Peach:Peach}=bars();//拆分数组里面的值   解构对象
+    // console.log(Apple,Pear,Peach)
+    //5
+    let dessert='小明';
+        desserts="小芳";
+    let bate=lop`我的朋友 ${dessert}
+    与 ${desserts}`;  //字符模板
+
+    function lop(strings, ...values ) {
+       console.log(strings);
+       console.log(values)
+    }
+    //console.log(bate)
+</script>
+</body>
+</html>

@@ -21,7 +21,7 @@ $(function () {
             $(".navs").empty().append(cla);
         },
         error: function (data) {
-            alert("服务器繁忙");
+           // alert("服务器繁忙");
             console.log(data)
         }
     });
