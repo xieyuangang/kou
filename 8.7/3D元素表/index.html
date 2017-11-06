@@ -106,7 +106,6 @@
 <script src="js/tween.min.js"></script>
 <script src="js/TrackballControls.js"></script>
 <script src="js/CSS3DRenderer.js"></script>
-
 <div id="container"></div>
 <div id="info">3D-元素周期表</div>
 <div id="menu">
@@ -115,9 +114,7 @@
     <button id="helix">螺旋</button>
     <button id="grid">网格</button>
 </div>
-
 <script>
-
     var table = [
         "H", "Hydrogen", "1.00794", 1, 1,
         "He", "Helium", "4.002602", 18, 1,
@@ -238,13 +235,10 @@
         "Uus", "Ununseptium", "(294)", 17, 7,
         "Uuo", "Ununoctium", "(294)", 18, 7
     ];
-
     var camera, scene, renderer;
     var controls;
-
     var objects = [];
     var targets = {table: [], sphere: [], helix: [], grid: []};
-
     init();
     animate();
 
@@ -316,9 +310,7 @@
             object.lookAt(vector);
 
             targets.sphere.push(object);
-
         }
-
         // helix
 
         var vector = new THREE.Vector3();
@@ -466,11 +458,8 @@
     }
 
     function render() {
-
         renderer.render(scene, camera);
-
     }
-
 </script>
 </body>
 </html>

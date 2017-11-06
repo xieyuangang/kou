@@ -4,7 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/angular/Stat/style.js" line="105" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="11f22a65-2164-4148-8690-ec31a12600c6" name="默认的" comment="" />
+    <list default="true" id="11f22a65-2164-4148-8690-ec31a12600c6" name="默认的" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3D元素表/index.html" afterPath="$PROJECT_DIR$/3D元素表/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -17,14 +20,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="demo.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../2.16-转盘抽奖系统/demo.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.7/Recharge  angular/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
-              <folding>
-                <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bill.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.7/Recharge  angular/html/Bill.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/8.7/Recharge  angular/js/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -36,15 +57,13 @@
       <list>
         <option value="CSS File" />
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#gold</find>
-      <find>pay</find>
       <find>.Mask .MaskBt .ButtonS</find>
       <find>Mnumber</find>
       <find>IFRAME</find>
@@ -73,6 +92,8 @@
       <find>order</find>
       <find>name</find>
       <find>minlength</find>
+      <find>nav button</find>
+      <find>for</find>
     </findStrings>
     <replaceStrings>
       <replace>memberId</replace>
@@ -84,21 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Desktop/购物车抛物线效果/index.html" />
-        <option value="$PROJECT_DIR$/echarts/index.html" />
-        <option value="$PROJECT_DIR$/button/angular/style8.js" />
-        <option value="$PROJECT_DIR$/button/style.js" />
-        <option value="$PROJECT_DIR$/button/bootstrap-3.3.7/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/button/angular/style4.js" />
-        <option value="$PROJECT_DIR$/8.14/html/index.html" />
-        <option value="$PROJECT_DIR$/8.14/js/Shopping.js" />
-        <option value="$PROJECT_DIR$/8.14/html/payment.html" />
-        <option value="$PROJECT_DIR$/8.14/css/style.css" />
-        <option value="$PROJECT_DIR$/8.14/html/Shopping.html" />
-        <option value="$PROJECT_DIR$/button/支付dom/index.html" />
-        <option value="$PROJECT_DIR$/button/angular/style1.js" />
-        <option value="$PROJECT_DIR$/button/angular/html/name.html" />
-        <option value="$PROJECT_DIR$/button/支付dom/html/donm1.html" />
         <option value="$PROJECT_DIR$/8.14/html/interface.html" />
         <option value="$USER_HOME$/Desktop/Recharge/js/RechargeRecord.js" />
         <option value="$PROJECT_DIR$/9.7/html/Record.html" />
@@ -135,6 +141,21 @@
         <option value="$PROJECT_DIR$/8.14/js/index.js" />
         <option value="$PROJECT_DIR$/button/angular/html/style9.html" />
         <option value="$PROJECT_DIR$/../../../2.16-转盘抽奖系统/demo.html" />
+        <option value="$USER_HOME$/Desktop/简单有效的jquery瀑布流效果/index.html" />
+        <option value="$PROJECT_DIR$/jq瀑布流加载.html" />
+        <option value="$PROJECT_DIR$/8.14/html/index.html" />
+        <option value="$PROJECT_DIR$/button/style.js" />
+        <option value="$PROJECT_DIR$/button/index.html" />
+        <option value="$PROJECT_DIR$/button/style.css" />
+        <option value="D:/phpStudy/WWW/button/style.css" />
+        <option value="$PROJECT_DIR$/es6/es6.html" />
+        <option value="$PROJECT_DIR$/javascript/index1.html" />
+        <option value="D:/phpStudy/WWW/button/index.html" />
+        <option value="$PROJECT_DIR$/桃花插件/index.html" />
+        <option value="$PROJECT_DIR$/3D元素表/index.html" />
+        <option value="$PROJECT_DIR$/8.7/Recharge  angular/html/Bill.html" />
+        <option value="$PROJECT_DIR$/8.7/Recharge  angular/index.html" />
+        <option value="$PROJECT_DIR$/8.7/Recharge  angular/js/style.js" />
       </list>
     </option>
   </component>
@@ -210,7 +231,38 @@
             <path>
               <item name="8.7" type="b2602c69:ProjectViewProjectNode" />
               <item name="8.7" type="462c0819:PsiDirectoryNode" />
-              <item name="activityIntroduce" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="Recharge  angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="Recharge  angular" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="button" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="button" type="462c0819:PsiDirectoryNode" />
+              <item name="支付dom" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="8.7" type="b2602c69:ProjectViewProjectNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="button" type="462c0819:PsiDirectoryNode" />
+              <item name="支付dom" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -227,14 +279,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="D:/react-native/nodejs/node" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular" />
+      <recent name="E:\7.14\git\kou\8.7\button" />
       <recent name="E:\7.14\8.7\button\支付dom\img" />
       <recent name="E:\7.14\8.7\8.7\Recharge正本\js" />
       <recent name="E:\7.14\8.7\8.7\Recharge\css" />
-      <recent name="E:\7.14\8.7\8.7\Recharge\js" />
-      <recent name="E:\7.14\8.7\8.7" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\7.14\8.7\静态公告页面" />
@@ -332,12 +387,14 @@
       <workItem from="1508808610963" duration="39238000" />
       <workItem from="1508981588198" duration="42705000" />
       <workItem from="1509325730612" duration="67759000" />
-      <workItem from="1509587897670" duration="4963000" />
+      <workItem from="1509587897670" duration="34149000" />
+      <workItem from="1509931693619" duration="78000" />
+      <workItem from="1509931794216" duration="3654000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="992750000" />
+    <option name="totallyTimeSpent" value="1025668000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,259 +450,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/pure-css3-elephant-animation/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="650" column="1" lean-forward="true" selection-start-line="650" selection-start-column="1" selection-end-line="650" selection-end-column="1" />
-          <folding>
-            <element signature="e#491#598#0" expanded="false" />
-            <element signature="e#604#625#0" expanded="false" />
-            <element signature="e#633#656#0" expanded="false" />
-            <element signature="e#663#716#0" expanded="false" />
-            <element signature="e#733#805#0" expanded="false" />
-            <element signature="e#820#839#0" expanded="false" />
-            <element signature="e#895#930#0" expanded="false" />
-            <element signature="e#937#956#0" expanded="false" />
-            <element signature="e#1060#1081#0" expanded="false" />
-            <element signature="e#1176#1208#0" expanded="false" />
-            <element signature="e#1497#1818#0" expanded="false" />
-            <element signature="e#1829#2274#0" expanded="false" />
-            <element signature="e#2710#2849#0" expanded="false" />
-            <element signature="e#2860#3238#0" expanded="false" />
-            <element signature="e#3273#3520#0" expanded="false" />
-            <element signature="e#3536#3996#0" expanded="false" />
-            <element signature="e#4008#4057#0" expanded="false" />
-            <element signature="e#4075#4092#0" expanded="false" />
-            <element signature="e#4109#4126#0" expanded="false" />
-            <element signature="e#4137#4682#0" expanded="false" />
-            <element signature="e#4695#5099#0" expanded="false" />
-            <element signature="e#5118#5462#0" expanded="false" />
-            <element signature="e#5496#5682#0" expanded="false" />
-            <element signature="e#5700#5767#0" expanded="false" />
-            <element signature="e#5791#5922#0" expanded="false" />
-            <element signature="e#5945#6214#0" expanded="false" />
-            <element signature="e#6231#6309#0" expanded="false" />
-            <element signature="e#6332#6449#0" expanded="false" />
-            <element signature="e#6474#6564#0" expanded="false" />
-            <element signature="e#6595#6914#0" expanded="false" />
-            <element signature="e#6931#6990#0" expanded="false" />
-            <element signature="e#7016#7048#0" expanded="false" />
-            <element signature="e#7064#7108#0" expanded="false" />
-            <element signature="e#7133#7165#0" expanded="false" />
-            <element signature="e#7228#7260#0" expanded="false" />
-            <element signature="e#7273#7468#0" expanded="false" />
-            <element signature="e#7487#7682#0" expanded="false" />
-            <element signature="e#7704#7885#0" expanded="false" />
-            <element signature="e#7898#8095#0" expanded="false" />
-            <element signature="e#8114#8311#0" expanded="false" />
-            <element signature="e#8333#8516#0" expanded="false" />
-            <element signature="e#8529#8723#0" expanded="false" />
-            <element signature="e#8742#8939#0" expanded="false" />
-            <element signature="e#8961#9144#0" expanded="false" />
-            <element signature="e#9157#9350#0" expanded="false" />
-            <element signature="e#9369#9564#0" expanded="false" />
-            <element signature="e#9586#9767#0" expanded="false" />
-            <element signature="e#9802#9947#0" expanded="false" />
-            <element signature="e#9958#10244#0" expanded="false" />
-            <element signature="e#10262#10282#0" expanded="false" />
-            <element signature="e#10299#10332#0" expanded="false" />
-            <element signature="e#10333#11097#0" expanded="false" />
-            <element signature="e#11098#11854#0" expanded="false" />
-            <element signature="e#11855#12512#0" expanded="false" />
-            <element signature="e#12513#13162#0" expanded="false" />
-            <element signature="e#13163#13735#0" expanded="false" />
-            <element signature="e#13736#14300#0" expanded="false" />
-            <element signature="e#14301#14451#0" expanded="false" />
-            <element signature="e#14452#14594#0" expanded="false" />
-            <element signature="e#14595#14972#0" expanded="false" />
-            <element signature="e#14973#15342#0" expanded="false" />
-            <element signature="e#15343#15524#0" expanded="false" />
-            <element signature="e#15525#15698#0" expanded="false" />
-            <element signature="e#15699#15829#0" expanded="false" />
-            <element signature="e#15830#15952#0" expanded="false" />
-            <element signature="e#15953#16415#0" expanded="false" />
-            <element signature="e#16416#16870#0" expanded="false" />
-            <element signature="e#16871#17617#0" expanded="false" />
-            <element signature="e#17618#18356#0" expanded="false" />
-            <element signature="e#18357#18553#0" expanded="false" />
-            <element signature="e#18554#18742#0" expanded="false" />
-            <element signature="e#18743#18871#0" expanded="false" />
-            <element signature="e#18872#18992#0" expanded="false" />
-            <element signature="e#18993#19123#0" expanded="false" />
-            <element signature="e#19124#19246#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/pure-css3-elephant-animation/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="29" column="34" lean-forward="true" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/支付dom/log.html" />
-    <entry file="file://$PROJECT_DIR$/an实验/Template.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/an实验/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="18" column="20" lean-forward="false" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/扫烟机页面/html/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/扫烟机页面/html/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="40" lean-forward="false" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.14/html/interface.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.14/js/interface.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="113" column="43" lean-forward="true" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/html/style3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/支付dom/html/confirm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/ZeDie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="51" column="49" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="42" column="41" lean-forward="true" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-575">
-          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1900">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/html/name.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/html/style8.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/angular/style8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="71" column="12" lean-forward="true" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/支付dom/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/支付dom/js/style.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="209" column="0" lean-forward="true" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/扫烟机页面/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="22" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/button/扫烟机页面/style.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-250">
@@ -671,25 +475,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/ba.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/button/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-275">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -749,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.14/html/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2025">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/静态公告页面/ScEncourage/ScEncourage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-525">
@@ -791,19 +569,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.14/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/button/angular/style9.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="19" column="43" lean-forward="true" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,17 +580,267 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="15" column="49" lean-forward="false" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../2.16-转盘抽奖系统/demo.html" />
+    <entry file="file://$USER_HOME$/Desktop/简单有效的jquery瀑布流效果/index.html" />
+    <entry file="file://$PROJECT_DIR$/jq瀑布流加载.html" />
+    <entry file="file://$PROJECT_DIR$/8.14/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1726">
+          <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/ba.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="15" column="69" lean-forward="false" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <caret line="14" column="69" lean-forward="false" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+          <caret line="16" column="71" lean-forward="false" selection-start-line="16" selection-start-column="71" selection-end-line="16" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+          <caret line="33" column="26" lean-forward="false" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/es6/es6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/index1.html" />
+    <entry file="file://$PROJECT_DIR$/桃花插件/renxi/love.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/phpStudy/WWW/button/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D元素表/js/CSS3DRenderer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5001">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D元素表/js/three.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D元素表/js/TrackballControls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3525">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D元素表/js/tween.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.14/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2125">
+          <caret line="85" column="11" lean-forward="true" selection-start-line="85" selection-start-column="11" selection-end-line="85" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.14/js/interface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1300">
+          <caret line="111" column="42" lean-forward="true" selection-start-line="111" selection-start-column="42" selection-end-line="111" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../2.16-转盘抽奖系统/demo.html">
+    <entry file="file://$PROJECT_DIR$/桃花插件/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="2000">
+          <caret line="83" column="9" lean-forward="false" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3D元素表/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="458" column="0" lean-forward="true" selection-start-line="458" selection-start-column="0" selection-end-line="458" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/phpStudy/WWW/button/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="725">
+          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge/html/RechargeFlow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge正本/html/RechargeFlow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/扫烟机页面/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge正本/js/RechargeRecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="97" column="45" lean-forward="true" selection-start-line="97" selection-start-column="45" selection-end-line="97" selection-end-column="45" />
+          <folding>
+            <marker date="1509355677592" expanded="true" signature="3043:3080" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="3660:3670" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4027:4037" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4335:4345" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4419:4455" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4621:4630" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4660:4689" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4825:4834" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="4864:4897" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5033:5042" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5072:5105" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5264:5273" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5303:5336" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5494:5503" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5533:5566" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5726:5735" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5765:5798" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5951:5960" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="5990:6023" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="10942:10979" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="11546:11556" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="11886:11896" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12167:12177" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12251:12287" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12444:12453" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12483:12512" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12639:12648" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12678:12711" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12838:12847" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="12877:12910" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13056:13065" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13095:13128" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13273:13282" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13312:13345" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13492:13501" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13531:13564" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13704:13713" ph="..." />
+            <marker date="1509355677592" expanded="true" signature="13743:13776" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge正本/js/RechargePhone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1250">
+          <caret line="148" column="40" lean-forward="true" selection-start-line="148" selection-start-column="40" selection-end-line="148" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge正本/js/RechargeFlow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+          <folding>
+            <marker date="1509350335080" expanded="true" signature="4265:4275" ph="..." />
+            <marker date="1509350335080" expanded="true" signature="4447:4457" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge  angular/html/Bill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/支付dom/js/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/button/支付dom/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge  angular/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/Recharge  angular/js/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
