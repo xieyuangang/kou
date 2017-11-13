@@ -1,0 +1,35 @@
+{
+    "linksId" : "1",
+    "linksName" : "本地",
+    "linksUrl" : "33.3333",
+    "masterEmail" : "话费",
+    "linksTime" :[
+        {
+            "namet":"10",
+            "Price":"10"
+        },
+        {
+            "namet":"20",
+            "Price":"20"
+        },
+        {
+            "namet":"30",
+            "Price":"20"
+        },
+        {
+            "namet":"40",
+            "Price":"40"
+        },
+        {
+            "namet":"50",
+            "Price":"50"
+        },
+        {
+            "namet":"60",
+            "Price":"60"
+        }
+    ]
+}
+
+
+

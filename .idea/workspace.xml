@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="703cb7be-1eba-4a71-84e7-83ecda3841f0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/button/jiaoz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/button/jiaozk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/button/jiaozw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/lCalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/mescroll.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/lCalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsList.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/日期插件/index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/.idea/workspace.xml" afterPath="$PROJECT_DIR$/8.7/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/css/style.css" afterPath="$PROJECT_DIR$/8.7/8.14/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/html/style.css" afterPath="$PROJECT_DIR$/8.7/8.14/html/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/js/index.js" afterPath="$PROJECT_DIR$/8.7/8.14/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/angular/html/style9.html" afterPath="$PROJECT_DIR$/8.7/button/angular/html/style9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/index.html" afterPath="$PROJECT_DIR$/8.7/button/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/style.css" afterPath="$PROJECT_DIR$/8.7/button/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/style.js" afterPath="$PROJECT_DIR$/8.7/button/style.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="147" column="41" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="41" />
+              <folding>
+                <element signature="e#497#2332#0" expanded="false" />
+                <element signature="e#532#1606#0" expanded="false" />
+                <element signature="e#1869#2065#0" expanded="false" />
+                <element signature="e#2335#2597#0" expanded="false" />
+                <element signature="e#2672#3894#0" expanded="false" />
+                <element signature="e#2959#3148#0" expanded="false" />
+                <element signature="e#3176#3204#0" expanded="false" />
+                <element signature="e#3285#3344#0" expanded="false" />
+                <element signature="e#3405#3539#0" expanded="false" />
+                <element signature="e#3571#3827#0" expanded="false" />
+                <element signature="e#4271#4448#0" expanded="false" />
+                <element signature="e#4545#4734#0" expanded="false" />
+                <element signature="e#4762#4790#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-products-vue.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2520">
+              <caret line="140" column="30" lean-forward="false" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+              <folding>
+                <element signature="e#6389#7062#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list-mescroll-body.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4140">
+              <caret line="230" column="33" lean-forward="true" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dom.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h5#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="tsconfig.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.commodity li h5</find>
+      <find>监听</find>
+      <find>.nav button img</find>
+      <find>state</find>
+      <find>float</find>
+      <find>totalprice</find>
+      <find>年</find>
+      <find>finishMobileDate</find>
+      <find>propertychange</find>
+      <find>calendarListY</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/8.7/button/angular/html/style9.html" />
+        <option value="$PROJECT_DIR$/8.7/button/angular/style9.js" />
+        <option value="$PROJECT_DIR$/8.7/8.14/css/style.css" />
+        <option value="D:/phpStudy/WWW/新建文件夹/8.14/html/index.html" />
+        <option value="D:/phpStudy/WWW/新建文件夹/8.14/css/style.css" />
+        <option value="D:/phpStudy/WWW/新建文件夹/8.14/js/index.js" />
+        <option value="$PROJECT_DIR$/8.7/8.14/html/style.css" />
+        <option value="$PROJECT_DIR$/8.7/8.14/js/index.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/tsconfig.json" />
+        <option value="$PROJECT_DIR$/8.7/button/style.js" />
+        <option value="$PROJECT_DIR$/8.7/button/style.css" />
+        <option value="$PROJECT_DIR$/8.7/button/index.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsList.json" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/js/lCalendar.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/index.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/dom.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/lCalendar.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/app.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="830" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="Recharge  angular" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="8.7" type="462c0819:PsiDirectoryNode" />
+              <item name="Recharge  angular" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
+              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
+              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
+              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
+              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kou" type="462c0819:PsiDirectoryNode" />
+              <item name="Prepaid Refill" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\css" />
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\js" />
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\css" />
+      <recent name="E:\7.14\git\kou\8.7\8.7" />
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular" />
+      <recent name="E:\7.14\git\kou\8.7\button" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="703cb7be-1eba-4a71-84e7-83ecda3841f0" name="Default" comment="" />
+      <created>1509938854213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509938854213</updated>
+      <workItem from="1509938858373" duration="55000" />
+      <workItem from="1509949471494" duration="86049000" />
+      <workItem from="1510534248415" duration="401000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="86505000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1784203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977304" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/8.7/button/bootstrap-3.3.7/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="6522" column="1" lean-forward="false" selection-start-line="6522" selection-start-column="1" selection-end-line="6522" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/js/lCalendar.js" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/js/lCalendar.min.js" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/lCalendar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/index.html" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/ng-infinite-scroll.min.js" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/angular-pull-to-refresh.min.css" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/angular-pull-to-refresh.min.js" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/dom.html" />
+    <entry file="file://$PROJECT_DIR$/8.7/layer/MoBan/moban/page/links/linksList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/html/style3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/html/style2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/html/name.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/ZeDie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style9.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-327">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/日历插件/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/lCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7218">
+          <caret line="674" column="13" lean-forward="true" selection-start-line="674" selection-start-column="13" selection-end-line="674" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/js/RechargeFlow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1497">
+          <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/js/lCalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/html/RechargeRecord.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/js/RechargeRecord.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="216" column="85" lean-forward="true" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/ng-infinite-scroll.js" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/angular-pull-to-refresh.min.css" />
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1257">
+          <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1041">
+          <caret line="79" column="77" lean-forward="true" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/zhihu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/yabuli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234">
+          <caret line="140" column="50" lean-forward="true" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="133" column="54" lean-forward="false" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/mescroll.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="94" lean-forward="true" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1278">
+          <caret line="197" column="60" lean-forward="false" selection-start-line="197" selection-start-column="55" selection-end-line="197" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="147" column="41" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="41" />
+          <folding>
+            <element signature="e#497#2332#0" expanded="false" />
+            <element signature="e#532#1606#0" expanded="false" />
+            <element signature="e#1869#2065#0" expanded="false" />
+            <element signature="e#2335#2597#0" expanded="false" />
+            <element signature="e#2672#3894#0" expanded="false" />
+            <element signature="e#2959#3148#0" expanded="false" />
+            <element signature="e#3176#3204#0" expanded="false" />
+            <element signature="e#3285#3344#0" expanded="false" />
+            <element signature="e#3405#3539#0" expanded="false" />
+            <element signature="e#3571#3827#0" expanded="false" />
+            <element signature="e#4271#4448#0" expanded="false" />
+            <element signature="e#4545#4734#0" expanded="false" />
+            <element signature="e#4762#4790#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h5#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-full-lock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="102" column="44" lean-forward="true" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2520">
+          <caret line="140" column="30" lean-forward="false" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
+          <folding>
+            <element signature="e#6389#7062#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4140">
+          <caret line="230" column="33" lean-forward="true" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

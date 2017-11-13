@@ -1,6 +1,40 @@
-<div>
+<style>
+    .rows {border-top: 1px solid rgba(51, 51, 51, 0.48);border-bottom: 1px solid rgba(51, 51, 51, 0.48);padding: 20px 5px;box-sizing: border-box;  }
 
-
-
-
+</style>
+<div ng-controller="indeX" class="container-fluid">
+    <h5>手机号码</h5>
+    <h5 ng-click="jump()">充值记录</h5>
+    <div style="padding:10px 0;position: relative">
+        <form role="form" name="myForm">
+            <input type="text" class="form-control" name="name" ng-model='user.pattern' ng-pattern="/^1[3,4,5,7,8]\d{9}$/" ng-blur="myFunc()" required id="name"/>
+             <span ng-show="myForm.name.$dirty && myForm.name.$valid" class="glyphicon glyphicon-ok" style="position: absolute;right: 3px;top:30%;color: #0c9076;"></span>
+             <span ng-show="myForm.name.$dirty && myForm.name.$invalid" class="glyphicon glyphicon-remove" style="position: absolute;right: 3px;top:30%;color: red;"></span>
+             <span style="position: absolute;right:18px;top:35%;color:red;">{{Operate}}</span>
+        </form>
+    </div>
+    <p class="text-justify"><span>{{address}}</span><span>{{Fname}}</span></p>
+    <div class="row rows">
+        <div class="col-xs-4"  ng-repeat="a in json" ng-click="app($event,a.namet)">
+            <div style="margin:5px;border: 1px solid #eee;height:85px;" >
+                <h3 class="text-center">{{a.namet}}M</h3>
+                <p class="text-center">售价{{a.Price}}元</p>
+            </div>
+        </div>
+    </div>
+    <ul class="list-inline" ng-show="tase">
+        <li class="row" style="margin: 10px 0">
+            <div class="col-xs-10" style="">
+                <p style="margin: 0"><span><em>${{linksUrl |number:2}}元</em></span>
+                    <button type="button" style="font-size: 12px;" class="btn btn-primary btn-xs">{{linksName}}</button>
+                </p>
+                <p>
+                    本地可用，即使生效，月底生效。
+                </p>
+            </div>
+            <div class="col-xs-2" style="">
+                <button type="button" class="btn btn-primary btn-sm">充值</button>
+            </div>
+        </li>
+    </ul>
 </div>

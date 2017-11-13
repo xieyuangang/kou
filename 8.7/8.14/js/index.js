@@ -21,9 +21,12 @@ function call() {//请求函数
     })
 }
 
+
 $(function () {
     var shopQRCode = localStorage.getItem("shopQRCode");//获取shopQRCode
     var jump = "";
+
+
 
     $.ajax({//商品请求
         url: '../../activity-channel/shopgoods/list',
@@ -37,9 +40,9 @@ $(function () {
             for (var i = 0; i < data.data.length; i++) {
                 var nameS = data.data[i].price;
                 var nameM = nameS / 100;
-                cla += "<li class='' x-la='" + data.data[i].shopGoodsCode + "'><img src='" + data.data[i].actGoods.imgUrl + "'><h5>" + data.data[i].actGoods.name + "</h5><p><b>￥" + nameM + "</b></p></li>"
+                cla += "<li class='' x-la='" + data.data[i].shopGoodsCode + "'><img src='" + data.data[i].actGoods.imgUrl + "'><h5>" + data.data[i].actGoods.name + "</h5><p><b>￥" + nameM + "元/"+data.data[i].unit+"</b></p></li>"
             }
-            $(".commodity").append(cla);
+            $(".commodity").append(cla)
 
             $(".commodity").find("li").each(function (i) {//选中 取消
                 var pt = 0;
@@ -58,7 +61,7 @@ $(function () {
             if (ua.match(/bestpay/i) == "bestpay") {//翼支付
                 payWay = "03";
 
-                $(".Bomb").show();//显示弹框
+                $(".Bomb").show()//显示弹框
                 $(".Bname").click(function () {//输入手机号码
 
                     var code = $(".Bomb input").val();

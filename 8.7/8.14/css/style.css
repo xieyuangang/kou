@@ -48,8 +48,8 @@ b{font-weight: 400;}
     width: 100%;height:280px;margin-top:50px;position: relative;}
 .commodity{width: 100%;height:250px;position: relative;/*display: flex;justify-content: space-around;flex-flow: row wrap;*/box-sizing: border-box;}
 
-.commodity li{width:33.33%;height:130px;float:left;  box-sizing: border-box;position: relative;margin-bottom: 6px;overflow: hidden;}
-.commodity li img{width:85%;height:77%;margin: 0 auto;display: block;}
+.commodity li{width:30%;height:130px;float:left;border-radius: 4px;background:#fff;border:1px solid #eee;box-sizing: border-box;position: relative;margin-bottom: 6px;overflow: hidden;margin-left:3%;padding: 5px 0px;}
+.commodity li img{width:100%;height:77%;margin: 0 auto;display: block;}
 .commodity li h5{font-size:12px;line-height:18px;margin-top:0px;overflow: hidden;height: 20px;text-overflow: ellipsis;white-space: nowrap;}
 .commodity li p{font-size:16px;line-height:15px;margin-top: -5px;}
 .commodity li p b{font-size:12px;color: red;display: block;width:95%;line-height: 19px;text-align: right;}
@@ -97,7 +97,7 @@ b{font-weight: 400;}
 .one-goods div a input{-webkit-appearance:none}
 /* 选中 */
 
-.Sele:after{content:"★";position: absolute;top:-5px;right:0;color: red;font-size: 20px;}
+.Sele:after{content:"✔";position: absolute;top:-5px;;right:0;color: #00ff40;font-size: 20px;}
 
 #gold{width:70%;letter-spacing:0;display:inline-block;overflow: hidden;}
 /*-----------------弹框---------------  */

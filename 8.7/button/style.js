@@ -11,6 +11,7 @@ $(function () {
         async: false,
         success: function (data) {
             //console.log(data);
+
             var cla = '';
             for (var i = 0; i < data.result.length; i++) {
 
