@@ -56,7 +56,6 @@ function initMeScroll(mescrollId, options) {
 	var htmlContent = '<p class="downwarp-tip">↓ 下拉刷新 ↓</p>';
 	htmlContent += '<img class="downwarp-progress" src="option/mescroll-progress.png"/>';
 	htmlContent += '<img class="downwarp-slogan" src="option/mescroll-slogan.png"/>';
-	
 	//上拉加载中的布局
 	var htmlLoading = '<img class="upwarp-progress mescroll-rotate" src="option/mescroll-progress.png"/><img class="upwarp-slogan" src="option/mescroll-slogan.png"/>';
 	//无数据的布局
@@ -79,7 +78,7 @@ function initMeScroll(mescrollId, options) {
 			outOffset: function(mescroll) {
 				//下拉超过指定距离那一刻的回调
 				mescroll.downTipDom.innerHTML = "↑ 释放更新 ↑";
-			},
+			}
 //			onMoving: function(mescroll, rate, downHight) {
 //				//下拉过程中的回调,滑动过程一直在执行; rate下拉区域当前高度与指定距离的比值(inOffset: rate<1; outOffset: rate>=1); downHight当前下拉区域的高度
 //				var progress = 360 * rate;
@@ -115,11 +114,10 @@ function initMeScroll(mescrollId, options) {
 				src: "option/mescroll-totop.png" //回到顶部按钮的图片路径
 			}
 		}
-	}
+	};
 	
 	//加入自定义的默认配置
 	options=MeScroll.extend(options,myOption);
-	
 	//创建MeScroll对象
 	return new MeScroll(mescrollId,options);
 }

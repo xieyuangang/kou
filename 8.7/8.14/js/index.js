@@ -1,4 +1,3 @@
-
 function call() {//请求函数
     var data = {'code': code, 'bankType': bankType, 'payway': payWay};
     // alert(JSON.stringify(data));
@@ -10,9 +9,9 @@ function call() {//请求函数
         async: false,
         headers: {'Content-Type': 'application/json;charset=UTF-8'},
         success: function (data) {
-            if(data.code == '0000') {
+            if (data.code == '0000') {
                 localStorage.setItem("openId", data.data);
-            }else if(data.code== '3000'){
+            } else if (data.code == '3000') {
                 call();
             }
         }, error: function (data) {
@@ -27,6 +26,57 @@ $(function () {
     var jump = "";
 
 
+   /* $(".commodity").on('click','li',function () {//多选
+        $(this).toggleClass('Sele');
+    });*/
+   var single;
+    $(".commodity").on('click','li',function () {//选中 取消
+
+        /*if(single==="1"){
+            if($(this).hasClass('Sele')){
+                $(this).removeClass('Sele');
+                single=null;
+            }
+            return false
+        }*/
+       single=$(this).attr('X-single');
+       $(this).toggleClass('Sele');
+       if(single==="1"){
+           $(this).siblings().removeClass('Sele')
+       }else {
+           $(this).siblings('li[X-single!=null]').removeClass('Sele')
+       }
+    });
+
+    /*var ps = [];
+    var con;
+    function zero() {
+        for (var i = 0; i < $(".commodity").find("li").length; i++) {
+            ps[i] = 0;
+            if ($(".commodity li").eq(i).attr("X-single") != "null") {
+                con = i;
+            }
+        }
+    }
+    zero();
+    var pst = $(".commodity").find("li");
+    $(".commodity").find("li").each(function (i) {//选中 取消
+        $(this).click(function () {
+            var index = $(".commodity").find("li").index(this);
+            if (ps[index] == 0 && ps[con] != 1) {
+                pst.eq(index).addClass("Sele");
+                ps[index] = 1;
+                if (index == con) {
+                    $(this).siblings().removeClass("Sele");
+                    zero();
+                    ps[con] = 1;
+                }
+            } else {
+                pst.eq(index).removeClass("Sele");
+                ps[index] = 0;
+            }
+        })
+    });*/
 
     $.ajax({//商品请求
         url: '../../activity-channel/shopgoods/list',
@@ -37,19 +87,25 @@ $(function () {
         async: true,
         success: function (data) {
             var cla = "";
+
             for (var i = 0; i < data.data.length; i++) {
                 var nameS = data.data[i].price;
                 var nameM = nameS / 100;
-                cla += "<li class='' x-la='" + data.data[i].shopGoodsCode + "'><img src='" + data.data[i].actGoods.imgUrl + "'><h5>" + data.data[i].actGoods.name + "</h5><p><b>￥" + nameM + "元/"+data.data[i].unit+"</b></p></li>"
+
+                cla += "<li class='' x-la='" + data.data[i].shopGoodsCode + "'><img src='" + data.data[i].actGoods.imgUrl + "'><h5>" + data.data[i].actGoods.name + "</h5><p><b>￥" + nameM + "元/" + data.data[i].unit + "</b></p></li>"
             }
-            $(".commodity").append(cla)
+            $(".commodity").append(cla);
 
             $(".commodity").find("li").each(function (i) {//选中 取消
                 var pt = 0;
                 $(this).click(function () {
                     if (pt == 0) {
+                        var single = $(this).attr("X-single");
                         $(this).addClass("Sele");
                         pt = 1;
+                        if (single == '1') {
+                            $(this).siblings.addClass("Sele")
+                        }
                     } else {
                         $(this).removeClass("Sele");
                         pt = 0;
@@ -61,7 +117,7 @@ $(function () {
             if (ua.match(/bestpay/i) == "bestpay") {//翼支付
                 payWay = "03";
 
-                $(".Bomb").show()//显示弹框
+                $(".Bomb").show(); //显示弹框
                 $(".Bname").click(function () {//输入手机号码
 
                     var code = $(".Bomb input").val();

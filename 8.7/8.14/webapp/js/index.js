@@ -35,7 +35,7 @@ $(function () {
                 var nameM = nameS / 100;
                 cla += "<li class='' x-la='" + data.data[i].shopGoodsCode + "'><img src='" + data.data[i].actGoods.imgUrl + "'><h5>" + data.data[i].actGoods.name + "</h5><p><b>￥" + nameM + "</b></p></li>"
             }
-            $(".commodity").append(cla)
+            $(".commodity").append(cla);
             
             $(".commodity").find("li").each(function (i) {//选中 取消
                 var pt = 0;

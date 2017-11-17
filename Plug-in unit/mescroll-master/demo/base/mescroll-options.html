@@ -262,6 +262,7 @@
 					}
 				}
 			});
+			
 			/*初始化菜单*/
 			var pdType=0;//全部商品0; 奶粉1; 图书2;
 			$(".nav p").click(function(){
@@ -274,7 +275,7 @@
 					//重置列表数据
 					mescroll.resetUpScroll();
 				}
-			});
+			})
 			
 			/*联网加载列表数据  page = {num:1, size:10}; num:当前页 从1开始, size:每页数据条数 */
 			function getListData(page){

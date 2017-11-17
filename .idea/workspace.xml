@@ -2,33 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="703cb7be-1eba-4a71-84e7-83ecda3841f0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/button/jiaoz.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/button/jiaozk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/button/jiaozw.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/lCalendar.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/mescroll.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/lCalendar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsList.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/日期插件/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/.idea/workspace.xml" afterPath="$PROJECT_DIR$/8.7/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/css/style.css" afterPath="$PROJECT_DIR$/8.7/8.14/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/html/style.css" afterPath="$PROJECT_DIR$/8.7/8.14/html/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/pdlist1.json" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-full-lock.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-full-lock.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-more.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-more.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-one.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-one.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-news.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-news.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/beibei.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/beibei.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/img/beibei1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/img/beibei2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/img/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-bb1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-bb2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-bb3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-bb4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-option.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-option.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-slogan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/beibei/option/mescroll-totop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/jingdong/jingdong.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/meituan/meituan.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/meitunmama/meitunmama.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/mescroll-empty.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/taobao/taobao.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/img/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/img/xinlang1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/img/xinlang2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-option.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-option.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-progress1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-progress2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-progress3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-progress4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-progress5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-progress6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/option/mescroll-totop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/xinlang.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/xinlang/xinlang.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-nodata.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-option.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-option.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-progress.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-slogan.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-totop.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/yabuli.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/yabuli.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/img/zhihu1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/img/zhihu2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/img/zhihu3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/img/zhihu4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/img/zhihu5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/option/mescroll-option.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/option/mescroll-option.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/zhihu.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/zhihu.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/dist/mescroll.m.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/dist/mescroll.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/dist/mescroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/mescroll.m.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/mescroll.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/mescroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/html/index.html" afterPath="$PROJECT_DIR$/8.7/8.14/html/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/js/index.js" afterPath="$PROJECT_DIR$/8.7/8.14/js/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.14/webapp/js/index.js" afterPath="$PROJECT_DIR$/8.7/8.14/webapp/js/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/angular/html/style9.html" afterPath="$PROJECT_DIR$/8.7/button/angular/html/style9.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/index.html" afterPath="$PROJECT_DIR$/8.7/button/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/style.css" afterPath="$PROJECT_DIR$/8.7/button/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/button/style.js" afterPath="$PROJECT_DIR$/8.7/button/style.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/mescroll-totop.png" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/mescroll-totop.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd1.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd10.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd10.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd11.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd11.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd12.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd12.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd13.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd13.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd14.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd14.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd15.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd15.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd16.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd16.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd17.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd17.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd18.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd18.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd19.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd19.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd2.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd20.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd20.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd21.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd21.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd22.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd22.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd23.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd23.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd24.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd24.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd25.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd25.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd26.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd26.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd27.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd27.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd28.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd28.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd3.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd4.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd5.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd6.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd7.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd7.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd8.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd8.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/pd9.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/pd9.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/img/swiper.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/swiper.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pay-wx.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/pay-wx.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pay-zfb.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/pay-zfb.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pdlist1.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/pdlist1.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pdlist1.json" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/pdlist1.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pdlist2.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/pdlist2.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pdlist2.json" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/pdlist2.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/vue.min.js" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/vue.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/option/mescroll-empty.png" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/res/img/mescroll-empty.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/option/mescroll-progress.jpg" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/img/mescroll-progress.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/option/mescroll-totop.png" afterPath="$PROJECT_DIR$/8.7/8.7/Recharge  angular/img/mescroll-totop.png" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,58 +148,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="147" column="41" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="41" />
+            <state relative-caret-position="90">
+              <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
               <folding>
+                <element signature="e#59#435#0" expanded="false" />
                 <element signature="e#497#2332#0" expanded="false" />
                 <element signature="e#532#1606#0" expanded="false" />
                 <element signature="e#1869#2065#0" expanded="false" />
                 <element signature="e#2335#2597#0" expanded="false" />
-                <element signature="e#2672#3894#0" expanded="false" />
-                <element signature="e#2959#3148#0" expanded="false" />
-                <element signature="e#3176#3204#0" expanded="false" />
-                <element signature="e#3285#3344#0" expanded="false" />
-                <element signature="e#3405#3539#0" expanded="false" />
-                <element signature="e#3571#3827#0" expanded="false" />
-                <element signature="e#4271#4448#0" expanded="false" />
-                <element signature="e#4545#4734#0" expanded="false" />
-                <element signature="e#4762#4790#0" expanded="false" />
+                <element signature="e#2672#5889#0" expanded="false" />
+                <element signature="e#3558#4046#0" expanded="false" />
+                <element signature="e#4105#4280#0" expanded="false" />
+                <element signature="e#4445#4905#0" expanded="false" />
+                <element signature="e#5954#8372#0" expanded="false" />
+                <marker date="1510904251934" expanded="true" signature="4540:4554" ph="..." />
+                <marker date="1510904251934" expanded="true" signature="4686:4700" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-products-vue.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
-              <caret line="140" column="30" lean-forward="false" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
-              <folding>
-                <element signature="e#6389#7062#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-mescroll-body.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4140">
-              <caret line="230" column="33" lean-forward="true" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -101,13 +174,9 @@
       <file leaf-file-name="dom.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h5#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="180">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -124,17 +193,40 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.commodity li h5</find>
-      <find>监听</find>
-      <find>.nav button img</find>
-      <find>state</find>
-      <find>float</find>
+      <find>upCallback</find>
+      <find>down</find>
+      <find>nav</find>
+      <find>pdType</find>
+      <find>appendChild</find>
+      <find>&quot;pdImg&quot;: &quot;../res/img/pd1.jpg&quot;,</find>
+      <find>dataList</find>
+      <find>data-list</find>
+      <find>upcallback</find>
+      <find>setListData</find>
+      <find>dataTag</find>
+      <find>../</find>
+      <find>ov</find>
+      <find>totalpriceX</find>
+      <find>upwarp-nodata</find>
+      <find>pdlist</find>
+      <find>ptt</find>
+      <find>jump</find>
+      <find>listArray</find>
+      <find>successCallback</find>
+      <find>$state</find>
       <find>totalprice</find>
-      <find>年</find>
-      <find>finishMobileDate</find>
-      <find>propertychange</find>
-      <find>calendarListY</find>
+      <find>getListDataFromNet</find>
+      <find>getListData</find>
+      <find>indexOf</find>
+      <find>pdName</find>
+      <find>initMeScroll</find>
+      <find>options</find>
+      <find>htmlNodata</find>
+      <find>resetUpScroll</find>
     </findStrings>
+    <replaceStrings>
+      <replace>ps</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -149,7 +241,6 @@
         <option value="D:/phpStudy/WWW/新建文件夹/8.14/css/style.css" />
         <option value="D:/phpStudy/WWW/新建文件夹/8.14/js/index.js" />
         <option value="$PROJECT_DIR$/8.7/8.14/html/style.css" />
-        <option value="$PROJECT_DIR$/8.7/8.14/js/index.js" />
         <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/tsconfig.json" />
         <option value="$PROJECT_DIR$/8.7/button/style.js" />
         <option value="$PROJECT_DIR$/8.7/button/style.css" />
@@ -160,14 +251,31 @@
         <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/index.html" />
         <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/dom.html" />
         <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/lCalendar.js" />
-        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" />
-        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html" />
-        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html" />
         <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/app.js" />
-        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" />
-        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" />
-        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js" />
+        <option value="$PROJECT_DIR$/8.7/8.14/webapp/js/index.js" />
+        <option value="$PROJECT_DIR$/8.7/8.14/html/index.html" />
+        <option value="$PROJECT_DIR$/8.7/8.14/js/index.js" />
         <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/zhihu.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/option/mescroll-option.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/zhihu/zhihu.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/mescroll-master/README.md" />
+        <option value="$PROJECT_DIR$/分页/dom.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/yabuli/yabuli.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/yabuli/option/mescroll-option.js" />
+        <option value="$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-products.html" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html" />
+        <option value="$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/zhihu/option/mescroll-option.js" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/pdlist1.json" />
+        <option value="$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js" />
       </list>
     </option>
   </component>
@@ -228,34 +336,26 @@
             <path>
               <item name="kou" type="b2602c69:ProjectViewProjectNode" />
               <item name="kou" type="462c0819:PsiDirectoryNode" />
-              <item name="8.7" type="462c0819:PsiDirectoryNode" />
-              <item name="8.7" type="462c0819:PsiDirectoryNode" />
-              <item name="Recharge  angular" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kou" type="462c0819:PsiDirectoryNode" />
               <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kou" type="b2602c69:ProjectViewProjectNode" />
               <item name="kou" type="462c0819:PsiDirectoryNode" />
               <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
-              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+              <item name="mescroll-master" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kou" type="b2602c69:ProjectViewProjectNode" />
               <item name="kou" type="462c0819:PsiDirectoryNode" />
               <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
-              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+              <item name="mescroll-master" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kou" type="b2602c69:ProjectViewProjectNode" />
               <item name="kou" type="462c0819:PsiDirectoryNode" />
               <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
-              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
+              <item name="mescroll-master" type="462c0819:PsiDirectoryNode" />
               <item name="demo" type="462c0819:PsiDirectoryNode" />
               <item name="base" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -263,13 +363,9 @@
               <item name="kou" type="b2602c69:ProjectViewProjectNode" />
               <item name="kou" type="462c0819:PsiDirectoryNode" />
               <item name="Plug-in unit" type="462c0819:PsiDirectoryNode" />
-              <item name="上拉加载  下拉刷新" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kou" type="462c0819:PsiDirectoryNode" />
-              <item name="Prepaid Refill" type="462c0819:PsiDirectoryNode" />
+              <item name="mescroll-master" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="yabuli" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -282,18 +378,19 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="nodejs_interpreter_path" value="D:/react-native/nodejs/node" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\css" />
-      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\img" />
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular" />
       <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\js" />
       <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\css" />
       <recent name="E:\7.14\git\kou\8.7\8.7" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular\css" />
       <recent name="E:\7.14\git\kou\8.7\8.7\Recharge  angular" />
-      <recent name="E:\7.14\git\kou\8.7\button" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -307,6 +404,14 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.dom.html">
+    <configuration name="dom.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/kou/8.7/8.7/Recharge  angular/html/dom.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dom.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -323,26 +428,26 @@
       <updated>1509938854213</updated>
       <workItem from="1509938858373" duration="55000" />
       <workItem from="1509949471494" duration="86049000" />
-      <workItem from="1510534248415" duration="401000" />
+      <workItem from="1510534248415" duration="109267000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86505000" />
+    <option name="totallyTimeSpent" value="195371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="886" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1784203" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25246826" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919892" sideWeight="0.50282085" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919892" sideWeight="0.49717912" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -360,336 +465,442 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/8.7/button/bootstrap-3.3.7/css/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="6522" column="1" lean-forward="false" selection-start-line="6522" selection-start-column="1" selection-end-line="6522" selection-end-column="12" />
+        <state relative-caret-position="181">
+          <caret line="17" column="52" lean-forward="false" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/js/lCalendar.js" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/js/lCalendar.min.js" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/lCalendar.css">
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/vue.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/日历插件/index.html" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/ng-infinite-scroll.min.js" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/angular-pull-to-refresh.min.css" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/angular-pull-to-refresh.min.js" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsList.json">
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/res/pdlist1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/dom.html" />
-    <entry file="file://$PROJECT_DIR$/8.7/layer/MoBan/moban/page/links/linksList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1170">
-          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/html/style3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1965">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/html/style2.html">
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/html/name.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/ZeDie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="13" lean-forward="true" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style9.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style8.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style7.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style6.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style4.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/button/angular/style3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="267">
+          <caret line="210" column="18" lean-forward="false" selection-start-line="210" selection-start-column="8" selection-end-line="210" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/button/angular/style2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-327">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/button/angular/style1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="36" column="45" lean-forward="true" selection-start-line="36" selection-start-column="45" selection-end-line="36" selection-end-column="45" />
+        <state relative-caret-position="321">
+          <caret line="83" column="57" lean-forward="true" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/button/angular/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        <state relative-caret-position="270">
+          <caret line="15" column="12" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="15" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/日历插件/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/lCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7218">
-          <caret line="674" column="13" lean-forward="true" selection-start-line="674" selection-start-column="13" selection-end-line="674" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/js/RechargeFlow.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1497">
-          <caret line="94" column="52" lean-forward="false" selection-start-line="94" selection-start-column="48" selection-end-line="94" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/js/lCalendar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/html/RechargeRecord.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge正本/js/RechargeRecord.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="216" column="85" lean-forward="true" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/ng-infinite-scroll.js" />
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/angular-pull-to-refresh.min.css" />
     <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/newsLists.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1257">
-          <caret line="90" column="3" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1041">
-          <caret line="79" column="77" lean-forward="true" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/zhihu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="162" column="21" lean-forward="false" selection-start-line="162" selection-start-column="21" selection-end-line="162" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/yabuli.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234">
-          <caret line="140" column="50" lean-forward="true" selection-start-line="140" selection-start-column="50" selection-end-line="140" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="133" column="54" lean-forward="false" selection-start-line="133" selection-start-column="46" selection-end-line="133" selection-end-column="54" />
+        <state relative-caret-position="2067">
+          <caret line="138" column="3" lean-forward="false" selection-start-line="138" selection-start-column="3" selection-end-line="138" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="59">
+          <caret line="10" column="1732" lean-forward="true" selection-start-line="10" selection-start-column="1732" selection-end-line="10" selection-end-column="1734" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/css/mescroll.min.css">
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="79" column="77" lean-forward="true" selection-start-line="79" selection-start-column="77" selection-end-line="79" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/option/mescroll-option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-219">
+          <caret line="53" column="44" lean-forward="true" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/yabuli/yabuli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1709">
+          <caret line="128" column="39" lean-forward="false" selection-start-line="128" selection-start-column="33" selection-end-line="128" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/zhihu/zhihu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="721">
+          <caret line="125" column="34" lean-forward="true" selection-start-line="125" selection-start-column="34" selection-end-line="125" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/mescroll-options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="184" column="65" lean-forward="true" selection-start-line="184" selection-start-column="65" selection-end-line="184" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Bill.html">
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="94" lean-forward="true" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="94" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/app.js">
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/dist/mescroll.m.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/dist/mescroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/dist/mescroll.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/mescroll.m.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/mescroll.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/mescroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="731" column="42" lean-forward="true" selection-start-line="731" selection-start-column="42" selection-end-line="731" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1405">
+          <caret line="82" column="55" lean-forward="true" selection-start-line="82" selection-start-column="55" selection-end-line="82" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.14/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="66" column="47" lean-forward="true" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/分页/dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/Statistics.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="46" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1278">
-          <caret line="197" column="60" lean-forward="false" selection-start-line="197" selection-start-column="55" selection-end-line="197" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/mescroll.m.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="273">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="58" lean-forward="false" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        <state relative-caret-position="324">
+          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/zhihu/option/mescroll-progress.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/zhihu/option/mescroll-option.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="26" column="49" lean-forward="false" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/xinlang/option/mescroll-option.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/xinlang/option/mescroll-arrow.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/xinlang/option/mescroll-progress1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/xinlang/xinlang.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="50" lean-forward="false" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding>
+            <element signature="e#508#652#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/yabuli/option/mescroll-option.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118609">
+          <caret line="6720" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6720" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-full-lock.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="123" column="55" lean-forward="false" selection-start-line="123" selection-start-column="45" selection-end-line="123" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-mescroll-body.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="136" column="68" lean-forward="false" selection-start-line="136" selection-start-column="46" selection-end-line="136" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-mescroll-one.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-mescroll-more.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-mescroll-more.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="157" column="49" lean-forward="true" selection-start-line="157" selection-start-column="49" selection-end-line="157" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/list-products.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="117" column="47" lean-forward="false" selection-start-line="117" selection-start-column="30" selection-end-line="117" selection-end-column="47" />
+          <folding>
+            <element signature="e#3133#3452#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/zhihu/option/mescroll-option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="80" column="4" lean-forward="true" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/zhihu/zhihu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="124" column="30" lean-forward="true" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+          <folding>
+            <element signature="e#789#1099#0" expanded="false" />
+            <element signature="e#1110#1420#0" expanded="false" />
+            <element signature="e#1447#1525#0" expanded="false" />
+            <element signature="e#3799#4215#0" expanded="false" />
+            <element signature="e#4315#5301#0" expanded="false" />
+            <element signature="e#5367#5855#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/yabuli/yabuli.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="127" column="32" lean-forward="true" selection-start-line="127" selection-start-column="32" selection-end-line="127" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/yabuli/option/mescroll-option.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="94" column="23" lean-forward="false" selection-start-line="94" selection-start-column="12" selection-end-line="94" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plug-in unit/mescroll-master/demo/base/mescroll-options.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="223" column="20" lean-forward="false" selection-start-line="223" selection-start-column="20" selection-end-line="232" selection-end-column="22" />
+          <folding>
+            <element signature="n#style#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#313#457#0" expanded="false" />
+            <element signature="e#5765#5920#0" expanded="false" />
+            <element signature="e#5959#6195#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/pdlist1.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="141" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/js/style.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="147" column="41" lean-forward="false" selection-start-line="147" selection-start-column="33" selection-end-line="147" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="249" column="0" lean-forward="true" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding>
+            <element signature="e#59#435#0" expanded="false" />
             <element signature="e#497#2332#0" expanded="false" />
             <element signature="e#532#1606#0" expanded="false" />
             <element signature="e#1869#2065#0" expanded="false" />
             <element signature="e#2335#2597#0" expanded="false" />
-            <element signature="e#2672#3894#0" expanded="false" />
-            <element signature="e#2959#3148#0" expanded="false" />
-            <element signature="e#3176#3204#0" expanded="false" />
-            <element signature="e#3285#3344#0" expanded="false" />
-            <element signature="e#3405#3539#0" expanded="false" />
-            <element signature="e#3571#3827#0" expanded="false" />
-            <element signature="e#4271#4448#0" expanded="false" />
-            <element signature="e#4545#4734#0" expanded="false" />
-            <element signature="e#4762#4790#0" expanded="false" />
+            <element signature="e#2672#5889#0" expanded="false" />
+            <element signature="e#3558#4046#0" expanded="false" />
+            <element signature="e#4105#4280#0" expanded="false" />
+            <element signature="e#4445#4905#0" expanded="false" />
+            <element signature="e#5954#8372#0" expanded="false" />
+            <marker date="1510904251934" expanded="true" signature="4540:4554" ph="..." />
+            <marker date="1510904251934" expanded="true" signature="4686:4700" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/8.7/8.7/Recharge  angular/html/dom.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h5#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-full-lock.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="102" column="44" lean-forward="true" selection-start-line="102" selection-start-column="44" selection-end-line="102" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-products-vue.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="140" column="30" lean-forward="false" selection-start-line="140" selection-start-column="30" selection-end-line="140" selection-end-column="30" />
-          <folding>
-            <element signature="e#6389#7062#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Plug-in unit/上拉加载  下拉刷新/demo/base/list-mescroll-body.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4140">
-          <caret line="230" column="33" lean-forward="true" selection-start-line="230" selection-start-column="33" selection-end-line="230" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>

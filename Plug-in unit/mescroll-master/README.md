@@ -170,7 +170,8 @@ mescroll.m.js只是去掉了mescroll.min.js套的一层模块规范的代码:
     return Mescroll
 })
 ```
-###### mescroll.m.js因为没有闭包限制作用域,所以能解决某些情况下引用mescroll.min.js报'Mescroll' undefined的问题
+##### mescroll.m.js因为没有闭包限制作用域,所以能解决某些情况下引用mescroll.min.js报'Mescroll' undefined的问题
+##### 如果还有问题请参考 <a href="https://github.com/mescroll/mescroll/issues/56">https://github.com/mescroll/mescroll/issues/56</a>
 
 ## API文档 :   
 #### <a href="http://www.mescroll.com/api.html#options" target="_blank">前往官网查看 >> </a>

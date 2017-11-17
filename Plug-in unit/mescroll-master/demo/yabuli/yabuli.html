@@ -97,7 +97,6 @@
 			}
 		</style>
 	</head>
-
 	<body>
 		<!--标题-->
 		<a href="../index.html"><div class="header"></div></a>
@@ -156,7 +155,7 @@
 					//重置列表数据
 					mescroll.resetUpScroll();
 				}
-			})
+			});
 			
 			/*联网加载列表数据  page = {num:1, size:10}; num:当前页 从1开始, size:每页数据条数 */
 			function getListData(page){
@@ -214,7 +213,6 @@
 		                dataType: 'json',
 		                success: function(data){
 		                	var listData=[];
-		                	
 		                	//pdType 全部商品0; 奶粉1; 图书2;
 		                	if(pdType==0){
 		                		//全部商品 (模拟分页数据)
@@ -225,6 +223,7 @@
 								
 		                	}else if(pdType==1){
 		                		//奶粉
+
 		                		for (var i = 0; i < data.length; i++) {
 		                			if (data[i].pdName.indexOf("奶")!=-1) {
 		                				listData.push(data[i]);
@@ -239,7 +238,6 @@
 		                			}
 		                		}
 		                	}
-		                	
 		                	//回调
 		                	successCallback(listData);
 		                },
@@ -247,7 +245,6 @@
 		            });
                 },2000)
 			}
-			
 			//禁止PC浏览器拖拽图片,避免与下拉刷新冲突;如果仅在移动端使用,可删除此代码
 			document.ondragstart=function() {return false;}
 		});

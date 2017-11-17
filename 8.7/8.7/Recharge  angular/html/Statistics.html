@@ -14,36 +14,33 @@
         z-index: 999;
         background: rgba(255, 255, 255, 0)
     }
+    .mescroll {
+        position: fixed;
+        top: 50px;
+        bottom: 0;
+        height: auto;
+    }
+    .data-list li {
+        position: relative;
+        padding: 10px 0px 10px 0px;
+        border-bottom: 1px solid #eee;
+    }
 </style>
-<div ng-controller="Statistics" class="container-fluid" style="padding: 0;box-sizing: border-box; ">
+<div ng-controller="Statistics" class="container-fluid" style="padding: 0;box-sizing: border-box;">
+    <h3 ng-click="apps()">条</h3>
 
     <div style="line-height: 50px;height:50px;border-bottom: 1px solid #ccc;padding:0 10px">
         <div class="pull-left" style="width:33%;height:49px;overflow: hidden">
             <input type="button" id="demo1" data-lcalendar="2011-01,2020-12"/>
             <i class="glyphicon glyphicon-calendar pull-right" style="color: red;line-height:50px;"></i>
         </div>
-        <h3 ng-click="apps()">跳转</h3>
+
         <div class="pull-right">-{{totalprice()}}</div>
     </div>
 
+    <div id="mescroll" class="mescroll">
+        <ul class="list-unstyled data-list" id="dataList">
 
-    <ul class="list-unstyled">
-
-        <li class="row" style="margin:8px 0;border-bottom:1px solid #eee;" ng-repeat="i in data">
-
-            <div class="col-xs-2">
-                <h5 style="margin:5px 0; ">{{i.linksId}}</h5>
-                <p>{{i.linksName}}</p>
-            </div>
-            <div class="col-xs-4">
-                <h4>话费充值</h4>
-            </div>
-            <div class="col-xs-6">
-                <h5 style="margin:5px 0; ">{{i.linksUrl | number:2}}</h5>
-                <p>给{{i.masterEmail}}充值</p>
-            </div>
-        </li>
-
-    </ul>
-
+        </ul>
+    </div>
 </div>
